@@ -1,0 +1,445 @@
+/***帮助中心***/
+.HCon{
+	margin-bottom:40px;
+}
+.HCon h2{
+	color:#00afc7;
+	font-size:18px;
+	overflow:hidden;
+	margin:24px 0px 11px;
+}
+.HCon h2 i{
+	display:block;
+	width:3px;
+	height:16px;
+	background-color:#00afc7;
+	float:left;
+	margin-right:10px;
+	margin-top:6px;
+}
+.HTxt{
+	margin-left:10px;
+	color:#777;
+	font-size:12px;
+	line-height:24px;
+}
+/***导游咨询详情页***/
+.GCon01 img{
+	display:block;
+	margin:0 auto;
+	border-radius:50%;
+	margin-top:45px;
+	margin-bottom:20px;
+}
+.GCon01 span{
+	color:#00afc7;
+	font-size:18px;
+	display:block;
+	margin-bottom:8px;
+}
+.GCon01 i{
+	color:#818181;
+	font-size:12px;
+	background:url(../imgs/icons/sex_nv.png) no-repeat left center;
+	padding-left:17px;
+}
+.GCon01 p{
+	color:#818181;
+	font-size:12px;
+	margin:8px auto 25px;
+}
+.GCon02{
+	border:1px dashed #b8b8b8;
+	background-color:#f5feff;
+	border-radius:5px;
+	padding:20px 29px;
+	margin-bottom:50px;
+}
+.GCon02 li{
+	color:#333333;
+	font-size:14px;
+	line-height:30px;
+}
+.GCon02 span{
+	color:#818181;
+}
+.GCon03 h2{
+	color:#000;
+	font-size:16px;
+	margin-bottom:25px;
+}
+.GCon03 h2 i{
+	display:block;
+	width:3px;
+	height:16px;
+	background-color:#00afc7;
+	float:left;
+	margin-right:10px;
+	margin-top:4px;
+}
+.GCon03L{
+	width:864px;
+	margin-bottom:59px;
+}
+.GCon03L form textarea{
+	width:832px;
+	height:130px;
+	border:1px solid #e3e3e3;
+	padding:15px;
+	font-size:12px;
+	color:#909090;
+	line-height:18px;
+}
+.GCon03L form input{
+	float:right;
+	color:#fff;
+	font-size:18px;
+	width:110px;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	background-color:#ffc916;
+	border-radius:5px;
+	margin:15px 0px 48px;
+	cursor:pointer;
+}
+.GCon03L form{
+	overflow:hidden;
+}
+.GCon03L form ul{
+	overflow:hidden;
+	position:absolute;
+	left:10px;
+	bottom:10px;
+}
+.GCon03L form ul li{
+	margin-right:5px;
+}
+.GCon03L form ul .smile{
+	margin-right:10px;
+}
+/*大星星*/
+.star01{
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(../imgs/icons/star.png) no-repeat center;
+}
+.staron01{
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(../imgs/icons/staron.png) no-repeat center;
+}
+/*小星星*/
+.star02{
+	float:left;
+	width:15px;
+	height:13px;
+	background:url(../imgs/icons/star02.png) no-repeat center;
+	background-size:contain;
+}
+.staron02{
+	float:left;
+	width:15px;
+	height:13px;
+	background:url(../imgs/icons/staron02.png) no-repeat center;
+}
+.smile{
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(../imgs/icons/smileN.png) no-repeat center;
+}
+.Value{
+	border:1px solid #e3e3e3;
+	padding:0px 16px;
+}
+.ValueL{
+	width:90px;
+}
+.ValueR{
+	width:725px;
+}
+.Value ul .Valuein{
+	padding:27px 0px;
+	border-bottom:1px solid #e3e3e3;
+}
+.Value ol{
+	overflow:hidden;
+	margin-top:9px;
+}
+.Value ol li{
+	float:left;
+	margin-right:1px;
+}
+.ValueR01{
+	font-size:14px;
+	overflow:hidden;
+}
+.ValueR01 span{
+	color:#00afc7;
+	float:left;
+}
+.ValueR01 p{
+	color:#333333;
+	float:left;
+}
+.ValueR01 i{
+	color:#ffaa22;
+	float:right;
+}
+.ValueR02{
+	font-size:12px;
+	margin-top:20px;
+}
+.ValueR02 span{
+	color:#909090;
+}
+.ValueR02 .Btnreply{
+	color:#00afc7;
+	background:url(../imgs/icons/reply.png) no-repeat left center;
+	padding-left:23px;
+	margin-left:18px;
+	cursor:pointer;
+}
+.ReplyT{
+	margin-top:18px;
+	width:719px;
+	display:none;
+}
+.ReplyT textarea{
+	width:686px;
+	height:50px;
+	background-color:#ededed;
+	border:1px solid #e3e3e3;
+	font-size:12px;
+	color:#909090;
+	padding:15px;
+	margin:0px auto;
+}
+.ReplyT input{
+	float:right;
+	color:#fff;
+	font-size:14px;
+	width:86px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	background-color:#00afc7;
+	border-radius:5px;
+	margin-top:20px;
+	cursor:pointer;
+}
+.ReplyC{
+	margin-top:18px;
+	display:none;
+	font-size:14px;
+}
+.ReplyC img{
+	float:left;
+	margin-right:14px;
+}
+.ReplyC i{
+	color:#00afc7;
+}
+.ReplyC span{
+	color:#333333;
+}
+.GCon03R{
+	width:296px;
+}
+.GCon03R .GCon03Rin{
+	border:1px solid #e3e3e3;
+}
+.GCon03R ul{
+	padding:0px 14px;
+}
+.GCon03R li{
+	margin-top:20px;
+}
+.GCon03R span{
+	font-size:12px;
+	color:#333;
+	line-height:22px;
+	display:block;
+	margin-top:4px;
+}
+.GCon03R i{
+	font-size:12px;
+	color:#b8b8b8;
+}
+.look{
+	font-size:12px;
+	color:#b5b5b5;
+	line-height:40px;
+	height:40px;
+	text-align:center;
+	display:block;
+	width:100%;
+	background-color:#efefef;
+	margin-top:26px;
+}
+.look:hover{
+	color:#fff;
+	background-color:#00afc7;
+}
+.YImg{
+	width:266px;
+	height:147px;
+	overflow:hidden;
+}
+.YImg img{
+	transition:all .5 ease-out;
+	-o-transition:all .5 ease-out;
+	-ms-transition:all .5 ease-out;
+	-moz-transition:all .5 ease-out;
+	-webkit-transition:all .5 ease-out;
+}
+.YImg:hover img{
+	transform:matrix(1.04,0,0,1.04,0,0);
+	-o-transform:matrix(1.04,0,0,1.04,0,0);
+	-ms-transform:matrix(1.04,0,0,1.04,0,0);
+	-moz-transform:matrix(1.04,0,0,1.04,0,0);
+	-webkit-transform:matrix(1.04,0,0,1.04,0,0);
+}
+.YImg span{
+	position:absolute;
+	bottom:0px;
+	font-size:12px;
+	color:#fff;
+	line-height:30px;
+	height:30px;
+	text-align:center;
+	display:block;
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+}
+.GCon03R .YImg span:hover{
+	color:#fff;
+}
+/***风景区详情***/
+.FCon{
+	margin-top:27px;
+}
+.FConT{
+	margin-bottom:20px;
+}
+.FConT,.FConT a{
+	font-size:14px;
+	color:#333333;
+}
+.FConT span{
+	color:#30b8ab;
+}
+.FConL{
+	width:872px;
+}
+.FConL01{
+	width:831px;
+	border:1px solid #e3e3e3;
+	padding-left:39px;
+	padding-top:60px;
+}
+.FConL h3{
+	font-size:25px;
+	color:#000;
+	margin-left:-13px;
+}
+.FConL01_01{
+	width:734px;
+	overflow:hidden;
+	margin:43px 0 10px;
+}
+.FConL01 ul{
+	float:left;
+	margin-right:120px;
+}
+.FConL01_02{
+	margin-top:50px;
+	margin-bottom:40px;
+}
+.FConL01_02L{
+	margin-right:30px;
+}
+.FConL01_02L img{
+	margin-bottom:10px;
+	margin-top:0px;
+}
+.FConL01_02L span{
+	margin-bottom:4px;
+}
+.FConL01_02R{
+	width:684px;
+}
+.FConL01_02R ul{
+	margin-right:0px;
+	margin-top:15px;
+}
+.FConL01_02R span{
+	font-size:12px;
+	color:#818181;
+}
+.FConL01_02R li{
+	overflow:hidden;
+	line-height:30px;
+}
+.FConL01_02R li span{
+	width:605px;
+	font-size:14px;
+	color:#333;
+	display:block;
+	float:left;
+}
+.FConL01_02R li i{
+	font-size:14px;
+	color:#818181;
+	float:left;
+	display:block;
+}
+.FConL02{
+	width:787px;
+	border:1px solid #e3e3e3;
+	padding:40px 35px 40px 40px;
+	margin-bottom:40px;
+}
+.FConL02 h2{
+	border-bottom:1px solid #E3E3E3;
+	padding-bottom:10px;
+	margin-bottom:50px;
+	text-align:left;
+}
+.FConL02 h4{
+	font-size:16px;
+	color:#000;
+	text-align:left;
+}
+.FConL02 img{
+	display:inline-block;
+	margin:20px auto 19px;
+}
+.FConL02Txt{
+	font-size:14px;
+	color:#333;
+	line-height:24px;
+}
+.tal{
+	text-align:left;
+}
+.FConR h2{
+	margin-bottom:17px;
+}
+.FConR li span{
+	overflow:hidden;
+}
+.FConR i{
+	color:#00afc7;
+	font-size:12px;
+	float:right;
+}
+.GCon03R span:hover{
+	color:#00afc7;
+}
+
+
+

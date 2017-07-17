@@ -1,0 +1,275 @@
+/********************o2o*********************/
+.O2OTxt{
+	width: 600px;
+}
+
+.o2oCon03{
+	padding-top: 30px;
+	background: #fff;
+	width: 1050px;
+}
+.o2oCon03 h3{
+	font-size: 30px;
+	color: #2e3037;
+	text-align: center;
+}
+.o2oList{
+	margin-top: 60px;
+}
+.o2oList li{
+	text-align: center;
+	width: 80px;
+	float: left;
+	margin: 0 114px 48px 0;
+}
+.o2oList li:nth-child(6n){margin-right: 0;}
+.o2oList span{
+	color: #5B5E68;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}
+.soCon04{
+	width: 100%;
+	background: #f4f4f4;
+	padding: 40px 0 60px;
+	text-align: center;
+}
+.soCon04 h3{
+	font-size: 30px;
+	color: #2e3037;
+	margin-bottom: 40px;
+}
+.soCon05{
+	background: #fff;
+}
+.soCon06 h4{
+	font-size: 18px;
+	color: #000000;
+}
+.soCon06 div{
+	color: #5b5e68;
+	line-height: 28px;
+	padding-bottom: 40px;
+}
+
+.fullwidthbanner-container{ 
+	width: 1000px; 
+	margin: 0 auto; 
+	position: relative;
+}
+.tp-simpleresponsive .caption,
+.tp-simpleresponsive .tp-caption{
+	position:absolute;
+	visibility: hidden;
+}
+.caption h2{
+	text-align: center;
+	font-size: 30px;
+	color: #2e3037;
+	white-space: nowrap;
+}
+.tp-caption{
+	width: 48px;
+	height: 48px;
+	padding: 10px;
+	border-radius: 50%;
+	display: table;
+}
+.tp-caption span{
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+}
+.tp01{
+	background: #fa754c;
+}
+.tp02{
+	background: #ffc855;
+}
+.tp03{
+	background: #94cf63;
+}
+.tp04{
+	background: #63cfbe;
+}
+.tp05{
+	background: #ff7373;
+}
+.tp06{
+	background: #fa9a4c;
+}
+.tp07{
+	background: #3ce3ae;
+}
+.tp08{
+	background: #f1c632;
+}
+.tp09{
+	background: #5bcbe7;
+}
+.tp10{
+	background: #8763cf;
+}
+.tp11{
+	background: #7ebbff;
+}
+.tp12{
+	background: #fa4c4c;
+}
+.carCon02{
+	width: 1000px;
+	margin: 0 auto;
+}
+.carCon02 h3{
+	font-size: 24px;
+	color: #2e3037;
+	text-align: left;
+}
+.carCon02_left{
+	width: 560px;
+	float: left;
+}
+.list01 li{
+	float: left;
+	color: #5b5e68;
+	margin:0 14px 30px 0;
+}
+.carCon02_right{
+	float: left;
+}
+.carTimeline .timeline_Title{
+	color: #2e3037;
+}
+.carTimeline #cd-timeline::before,.carTimeline .cd-timeline-block:after{
+	border: none;
+	background: none;
+}
+.carTimeline .cd-timeline-img{
+	background: #5ab3e2;
+	border-color: #5ab3e2;
+}
+.carTimeline .cd-container{
+	background: url(../imgs/erji/carLine.png) no-repeat center top;
+}
+.carTimeline .cd-timeline-content h2{
+	font-size: 18px;
+	color: #2e3037;
+}
+.carTimeline .cd-timeline-content p{
+	color: #88899a;
+}
+.carTimeline .cd-timeline-block:nth-child(odd) img,.carTimeline .cd-timeline-block:nth-child(even) img{
+	position: static;
+}
+.carTimeline .cd-timeline-block{
+	margin: 0.8em 0;
+}
+.carTimeline .carLine02{
+	margin-top: -22px;
+	margin-left: -38px;
+}
+.carTimeline .carLine02 img{
+	margin: -30px 0 0 128px;
+}
+
+.carTimeline .carLine03{
+	margin-top: -97px;
+	margin-left: 101px;
+}
+.carTimeline .carLine03 img{
+	margin-top: -30px;
+	margin-left: 244px;
+}
+.carTimeline .carLine04{
+	margin-top: -48px;
+	margin-left: -37px;
+}
+.carTimeline .carLine04 img{
+	  margin-left: 285px;
+  margin-top: -10px;
+}
+.carTimeline .carLine05{
+	margin-top: -42px;
+	margin-left: -2px;
+}
+.carTimeline .carLine05 img{
+	   margin-left: 290px;
+  margin-top: -60px;
+}
+.carTimeline .carLine06{
+	margin-top: 30px;
+	margin-left: 67px;
+}
+.carTimeline .carLine06 img{
+	margin-left: 65px;
+	margin-top: -28px;
+}
+.carTimeline .carLine07{
+	  margin-top: -30px;
+  margin-left: -95px;
+}
+.carTimeline .carLine07 img{
+	  margin-left: 240px;
+  margin-top: -80px;
+}
+.carTimeline .carLine08{
+  margin-top: -44px;
+  margin-left: 59px;
+}
+.carTimeline .carLine08 img{
+  margin-left: 136px;
+  margin-top: -70px;
+}
+.carTimeline .carLine09{
+	margin-top: -8px;
+}
+.carTimeline .carLine09 img{
+	margin-left: 286px;
+	margin-top: -80px;
+}
+
+/*网站建设*/
+.webTitle{
+	color: #394b50;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	width: 225px;
+	margin: 0 auto 70px;
+	border-bottom: 2px solid #98c6e4;
+	height: 70px;
+	line-height: 70px;
+}
+.webCon01{
+	margin-bottom: 70px;
+}
+.webTxt{
+	width: 290px;
+	padding-top: 90px;
+}
+.webTxt h3{
+	color: #555;
+	font-size: 36px;
+}
+.webTxt span{
+	color: #555;
+	display: block;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

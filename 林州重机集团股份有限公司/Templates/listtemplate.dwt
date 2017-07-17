@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>林州重机列表页</title>
+<!-- TemplateEndEditable -->
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<!--header-->
+<div class="header_wrap">
+  <div class="head_t"><span><a href="javascript:;">设为首页</a> | <a href="javascript:;">加入收藏</a> | <a href="javascript:;">客户服务</a></span></div>
+    <div class="head_b">
+       <h1><img src="../img/logo.jpg" width="396" height="53" /></h1>
+       <div class="head_r">
+   		 <p><a href="javascript:;">中文版</a> | <a href="javascript:;"> ENGLISH</a></p>
+            <ul>
+            	<li><a href="javascript:;">网站首页</a></li>
+            	<li><a href="javascript:;">企业概况</a></li>
+            	<li><a href="javascript:;">企业动态</a></li>
+            	<li><a href="javascript:;">投资者关系</a></li>
+            	<li><a href="javascript:;">产品展示</a></li>
+            	<li><a href="javascript:;">人力资源</a></li>
+            	<li><a href="javascript:;">联系我们</a></li>
+            </ul>
+       </div>
+  </div>
+</div> 
+<!--s_banner-->
+<div class="banner banner_s"><img src="../img/banner_s_pic.jpg" width="980" height="180" /></div>
+<div class="list_c_wrap">
+	<div class="list_c_l">
+    	<ul>
+        	<li class="li01"><img src="../img/arrow.gif" width="7" height="4" class="arrow" />企业概况</li>
+        	<li><a href="../javascipt">集团简介</a></li>
+        	<li><a href="../javascipt">企业风采</a></li>
+        	<li><a href="../javascipt">企业理念</a></li>
+        	<li><a href="../javascipt">企业荣誉</a></li>
+            <li><a href="../javascipt">企业发展历程</a></li>
+        </ul>
+      	<div class="list_c_l_c">
+            <p>当前的股票价格:11.61</p>
+            <img src="../img/x_tp.png" width="180" height="92" /> 
+        </div>
+   		<div class="xch"><img src="../img/xuanchuan.jpg" width="180" height="135"/> </div>
+	</div>
+	<!-- TemplateBeginEditable name="EditRegion3" -->
+	<div class="list_c_r"> 
+    	<span><a href="javascript:;">首页</a> >> <a href="javascript:;">企业概况</a> >> <a href="javascript:;">集团简介</a></span> 
+    </div>
+</div>
+	<!-- TemplateEndEditable -->
+<!--foot-->
+<div class="foot_wrap">
+	<div class="foot">
+        <img src="../img/logo2.jpg" width="66" height="30" class="logo2"/> 
+        <p>Copyright 2002-2013 林州重机集团股份有限公司 All Rights Reserved 豫TCP备12027046号</p> 
+        <a href="javascript:;"><img src="../img/gs.jpg" width="30" height="30" class="gs"/></a> 
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/*css reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; font-family:Arial,"Microsoft YaHei","微软雅黑"; font-size:14px; }
+fieldset, img { border: none; }
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-weight: normal; }
+em { font-style:normal }
+a,a:hover { text-decoration: none;}
+input{ list-style: none; border: none;  outline: none; }
+textarea{ resize: none;}
+body,html{ overflow-x: hidden;}
+/*原子类*/
+.last { margin-right:0 !important; }
+
+/*****head*****/
+.head{ width: 100%;}
+.head .banner01{ width: 100%; height: 739px; overflow: hidden; position:relative;}
+.head .banner{ width: 100%;height: 600px;position:relative;}
+.head .banner01 ul li{ display: none;}
+.head .banner01 img,.head .banner img{ width: 1920px; position: absolute; left: 50%; top: 0; margin-left: -960px;}
+.head ol{ position: absolute; left: 50%; margin-left: -154px; bottom: 40px;}
+.head ol li{ float: left; width: 65px; height: 5px; background-color: #1E2C5C; margin: 0 6px; opacity: 0.8; cursor: pointer;}
+.head ol .current{ background-color: #e99e39; opacity: 1; }
+
+.head .headIn{ width: 1000px; position: absolute; left: 50%; margin-left: -500px; top: 0px; overflow: hidden;}
+.headIn .top{ width: 100px; height: 49px; float: right; overflow: hidden; margin-right: 20px;}
+.headIn .top li{ float: left; width: 20px; height: 16px; margin:15px 8px; cursor: pointer;}
+.headIn .top .top01{ background: url(../img/icon.png) no-repeat -317px -213px;}
+.headIn .top .top02{ background: url(../img/icon.png) no-repeat -369px -213px;}
+.headIn .top .top03{ background: url(../img/icon.png) no-repeat -417px -213px;}
+.headIn .ewm{display: none; position: absolute; left: 865px; top: 40px;}
+.headIn .logo{ clear: both; width: 215px; height:39px; margin: 0 auto 39px; overflow: hidden;}
+.headIn .logo img{ width: 215px; height: 39px;}
+.headIn .nav{ width: 657px; height: 71px; padding-left: 13px; margin: 0 auto; background: url(../img/navBG.png) no-repeat; overflow: hidden; text-align: center;}
+.headIn .nav li{ float: left; margin:0 14px; line-height: 42px; font-size:20px; color: #dedede;}
+.headIn .nav li a{color: #1e2c5c;font-size:14px;}
+.headIn .nav .current{ line-height: 40px; border-bottom: 3px solid #e99e39;}
+.headIn .nav .current a{color: #e99e39;}
+
+/*****foot*****/
+.foot { width:100%; height:122px; background: #788396; font-size: 12px; position: relative;}
+.footIn { width:1000px; height:82px; margin: 0 auto; padding-top:40px; position: relative;}
+.footIn_L { float:left; overflow: hidden;}
+.footIn_L a { color:#e2e4e8; }
+.footIn_L span { margin:0 13px; color:#e2e4e8; }
+.footIn_L p {color:#e2e4e8; height:44px; line-height: 44px;}
+.footIn_R { float:right; overflow: hidden;}
+.footIn_R li { cursor:pointer; margin-right:12px; width: 36px; height: 36px; float: left; background: url(../img/icon.png) no-repeat -38px -166px; border: 1px solid #FFFFFF; border-radius: 50%; }
+.footIn_R  .footIn_R02 { background-position-x: -108px; }
+.footIn_R  .footIn_R03 { background-position-x: -170px; }
+.footIn_R  .footIn_R04 { background-position-x: -230px; }
+.eWm { position: absolute; bottom: 91px; right: 103px; display: none; }
+.headIn .nav li a:hover,.footIn_L a:hover { color: #e99e39; }
+/*****竖导航*****/
+.rig_nav{ width: 70px; position: fixed; right: 2%; bottom: 20%; display: none;}
+.rig_nav .rig_list,.rig_nav .rig_list01,.rig_nav .rig_last{ width: 70px;background-color: #1f2c5c; text-align: center; margin-bottom: 1px;}
+.rig_nav .rig_last{ background-color: #e99e39;}
+.rig_nav .rig_list .list01,.rig_nav .rig_list01 .list02,.rig_nav .rig_list .list03,.rig_nav .rig_list .list04,.rig_nav .rig_last .list05{ display: block;color: #fff; width: 70px; height:24px; padding-top:45px;background-image: url(../img/icon.png);}
+.rig_nav .rig_list .list01{background-position:-88px -253px;}
+.rig_nav .rig_list01 .list02{background-position:-12px -253px;}
+.rig_nav .rig_list .list03{background-position:-158px -253px;}
+.rig_nav .rig_list .list04{background-position:-239px -253px;}
+.rig_nav .rig_last .list05{background-position:-319px -265px;  height:34px; padding-top:35px;}
+.rig_nav .rig_list .list02{ position: relative;}
+.rig_nav .rig_list01 .list_content{ display: none; position: absolute; top: 69px; right: 62px; width:183px; height: 71px; text-align: center; line-height: 80px; background-image: url(../img/yellow02.png); z-index: 300;}
+.rig_nav .rig_list .list01:hover,.rig_nav .rig_list01 .list02:hover,.rig_nav .rig_list .list03:hover,.rig_nav .rig_list .list04:hover{background-color: #e99e39;}
+

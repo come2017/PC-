@@ -1,0 +1,524 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>龙泉春电商</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/tingyun.form-check.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/index_tab.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<script type="text/javascript">
+$().ready(function(e) {
+	var sliders = $('.flexslider');
+	sliders.eq(0).flexslider({
+		animation: "slide",
+		directionNav: false, 
+		easing:"easeInOutExpo", 
+		slideshowSpeed : 8000,
+		animationSpeed : 1000,
+	 	controlNav: true,
+		prevText: "　 ",
+		nextText: "　 "
+	});
+		
+	//右侧菜单
+	$(".close_btn").click(function(){
+	  $(".index_leftmenu").toggle();
+	});	
+});
+function gotop(){
+	$("html,body").animate({"scrollTop":0},300,"swing");
+}
+
+</script>
+
+<body>
+<!--头部 new-->
+<div class="shop_top">
+	<!-- 顶部导航 -->
+	<div class="nav-top nav_top2">
+		<div class="section">
+			<label>HI,欢迎来到龙泉春商城！</label>
+			<div class="login2">
+				<!-- 未登录 -->
+				<a href="javascript:">请登录</a>
+				<a href="javascript:">免费注册</a>
+				<!-- 已登录 -->
+				<!--<font>hi!</font><a class="javascript:">龙泉春</a>	
+				<a class="javascript:">免费注册</a>	-->
+			</div>
+			<div class="weixin_pr">
+				<a href="javascript:" class="ml40">会员中心</a>
+				<i></i>
+				<a href="javascript:" class="DC_weixin">微信</a>
+				<img src="imgs/imgs2.0/dc-weixin.png" class="DC_weixin_img"/>
+			</div>
+		</div>
+	</div>
+	<!-- 网站头部 -->
+	<div class="header">
+		<div class="section">
+			<a href="javascript:" class="logo">
+				<img src="imgs/logo.png" />
+			</a>
+			<div class="center">
+				<div class="search2 fix">
+					<img class="head_pic01" src="imgs/imgs2.0/head_pic01.png"/>
+					<form action="">
+						<input type="text" name="keyword" value="龙泉春" onKeyUp="topSearchTip(this)" onMouseUp="topSearchTip(this)" />
+						<input type="submit" value="搜索" />
+					</form>
+					<img src="imgs/imgs2.0/head_pic02.png"/>
+				</div>
+				<div class="menu">
+					<a class="cur" href="javascript:;">首页　</a>
+					<a href="list.html">所有产品</a>
+					<a href="javascript:;">洞装酒藏</a>
+					<a href="DZ.html">私人订制</a>
+					<a class="cur" href="javascript:;">金猴宝</a>
+					<a href="javascript:;">龙泉旅游</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 网站横幅 -->
+<div class="slider slider02">
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<!--<img src="imgs/banner_Bg01.jpg"/>-->
+				<a><img src="imgs/wbanner01.jpg" ></a>
+			</li>
+			<li>
+				<!--<img src="imgs/banner_Bg02.jpg"/>-->
+				<a><img src="imgs/wbanner01.jpg" ></a>
+			</li>
+			<li>
+				<!--<img src="imgs/banner_Bg03.jpg"/>-->
+				<a><img src="imgs/banner_Bg03.jpg" ></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--con01-->
+<div class="idx_con01 w1200 fix ma">
+	<div class="con01_L fl">
+		<div class="con01_t">
+			<img src="imgs/imgs2.0/hot_T.png" />
+		</div>
+		<div class="slideBox" id="slideBox">
+			<div class="bd">
+				<ul>
+					<li>
+						<a href="javascript:;">
+							<img src="imgs/imgs2.0/hot_pic.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="imgs/imgs2.0/hot_pic.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="imgs/imgs2.0/hot_pic.jpg" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<a href="javascript:;" class="prev"></a>
+			<a href="javascript:;" class="next"></a>
+			<span class="pageState con01_page"><span></span>/</span>
+		</div>
+	</div>
+	<div class="con01_R fr">
+		<div class="con01_R_t">
+			<i></i>
+			<h2>私人定制</h2>
+		</div>
+		<div class="scrollBox">
+			<div class="ohbox">
+				<div class="tempWrap">
+					<ul class="piclist">
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen01.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen02.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen03.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li><li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen01.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen02.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen03.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen01.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen02.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="imgs/imgs2.0/siRen03.png" />
+								<div class="con01_txt">
+									<span>洞藏大坛-喜宴</span>
+									<i>￥10,000</i>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="pageBtn">
+				<span class="prev"></span>
+				<span class="next"></span>
+				<ul class="list">
+					<li class="on"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--con02-->
+<div class="idx_con02 fix w100">
+	<div class="con02_t w1200 ma fix">
+		<div class="fl">
+			<i></i>
+			<h2>酒品系列</h2>
+		</div>
+		<ul>
+			<li>
+				<a href="javascript:;">洞藏系列　/　</a>
+			</li>
+			<li>
+				<a href="javascript:;">龙抬头系列　/　</a>
+			</li>
+			<li>
+				<a href="javascript:;">锁龙井系列　/　</a>
+			</li>
+			<li>
+				<a href="javascript:;">红酒系列　/　</a>
+			</li>
+			<li>
+				<a href="javascript:;">更多</a>
+			</li>
+		</ul>
+	</div>
+	<div class="con02_line fix w100"></div>
+	<div class="focusBox">
+		<div class="tempWrap">
+			<ul class="pic">
+				<li>
+					<a href="javascript:;">
+						<img src="imgs/imgs2.0/jp_ban01.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="imgs/imgs2.0/jp_ban01.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="imgs/imgs2.0/jp_ban01.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="imgs/imgs2.0/jp_ban01.jpg" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		<a href="javascript:" class="prev"></a>
+		<a href="javascript:" class="next"></a>
+		<ul class="hd">
+			<li class="on"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</div>	
+<!--con03-->
+<ul class="xl_list fix">
+	<li>
+		<a href="javascript:;">
+			<img src="imgs/imgs2.0/yuan01.png" width="216" height="216"/>
+			<h5><i>洞藏系列</i></h5>
+			<i>酒庄洞藏 真情巨献</i>
+		</a>
+	</li>
+	<li>
+		<a href="javascript:;">
+			<img src="imgs/imgs2.0/yuan02.png" width="216" height="216"/>
+			<h5><i>洞藏系列</i></h5>
+			<i>酒庄洞藏 真情巨献</i>
+		</a>
+	</li>
+	<li>
+		<a href="javascript:;">
+			<img src="imgs/imgs2.0/yuan03.png" width="216" height="216"/>
+			<h5><i>洞藏系列</i></h5>
+			<i>酒庄洞藏 真情巨献</i>
+		</a>
+	</li>
+	<li>
+		<a href="javascript:;">
+			<img src="imgs/imgs2.0/yuan04.png" width="216" height="216"/>
+			<h5><i>洞藏系列</i></h5>
+			<i>酒庄洞藏 真情巨献</i>
+		</a>
+	</li>
+</ul>
+<!--小banner-->
+<div class="s_banner01">
+	<img src="imgs/imgs2.0/s_banner01.jpg"/>
+</div>
+
+<!--con04-->
+<div class="idx_con04">
+	<h6 class="tj_title">
+		<i></i><span>精品推荐</span><i></i>
+	</h6>
+	<ul class="tj_list01 fix">
+		<li>
+			<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic01.jpg"/></a>
+		</li>
+		<li>
+			<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic02.jpg"/></a>
+		</li>
+	</ul>
+	<table width="100%" border="0"  class="tj_list02">
+		<tr>
+			<td rowspan="2">
+				<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic03.jpg"/></a>
+			</td>
+			<td>
+				<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic04.jpg"/></a>
+			</td>
+			<td>
+				<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic06.jpg"/></a>
+			</td>
+			<td>
+				<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic05.jpg"/></a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic07.jpg"/></a>
+			</td>
+			<td>
+				<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic08.jpg"/></a>
+			</td>
+			<td>
+				<a href="javascript:;"><img src="imgs/imgs2.0/tj_pic09.jpg"/></a>
+			</td>
+		</tr>
+	</table>
+
+</div>
+<!-- 底部保障 -->
+<div class="security DC_security">
+	<div class="section">
+		<div>
+			<img src="imgs/imgs2.0/foot_img01.png" />
+			<i>天下第一洞藏</i>
+		</div>
+		<div>
+			<img src="imgs/imgs2.0/foot_img02.png" />
+			<i>7天无条件退货</i>
+		</div>
+		<div>
+			<img src="imgs/imgs2.0/foot_img03.png" />
+			<i>正品保障</i>
+		</div>
+		<div>
+			<img src="imgs/imgs2.0/foot_img04.png" />
+			<i>媒体报道</i>
+		</div>
+		<div>
+			<img src="imgs/imgs2.0/foot_img05.png" />
+			<i>7*24小时服务</i>
+		</div>
+	</div>
+</div>
+<!-- 底部导航 -->
+<div class="nav-footer DC_nav-footer">
+	<div class="section">
+		<dl>
+			<dd>订单服务</dd>
+			<dd><a>购买指南</a></dd>
+			<dd><a>支付方式</a></dd>
+			<dd><a>送货政策</a></dd>
+		</dl>
+		<dl>
+			<dd>服务与支持</dd>
+			<dd><a>售后服务</a></dd>
+			<dd><a>常见问题</a></dd>
+			<dd><a>联系客服</a></dd>
+		</dl>
+		<dl>
+			<dd>关于公司</dd>
+			<dd><a>公司简介</a></dd>
+			<dd><a>品牌介绍</a></dd>
+			<dd><a>加入我们</a></dd>
+		</dl>
+		<dl>
+			<dd>配送方式</dd>
+			<dd><a>包邮政策</a></dd>
+			<dd><a>配送声明</a></dd>
+			<dd><a>发货时间</a></dd>
+			<dd><a>验收签收</a></dd>
+		</dl>
+		<dl>
+			<dd>售后服务</dd>
+			<dd><a>正品承诺</a></dd>
+			<dd><a>售后咨询</a></dd>
+			<dd><a>退货政策</a></dd>
+			<dd><a>退货流程</a></dd>
+			<dd><a>退款方式</a></dd>
+		</dl>
+		<div class="right DC_right">
+			<div class="title">关注龙泉春微信</div>
+			<div class="info">
+				<i><img src="imgs/app_logo.jpg" /></i>
+			</div>
+		</div>
+	</div>
+	<div class="DC_copyRightbg">
+		<div class="copyRight">
+			<p class="copyRight_Top">
+				<a href="javascrpt:;">官方网站　丨</a>
+				<a href="javascrpt:;">感受龙泉　丨</a>
+				<a href="javascrpt:;">酒庄洞藏　丨</a>
+				<a href="javascrpt:;">招商加盟　丨</a>
+				<a href="javascrpt:;">关于我们　丨</a>
+				<a href="javascrpt:;">招贤纳士</a>
+			</p>
+			<p class="DC_footP">
+				longquanmall.com龙泉商城 ©All Rights Reserved 北京英菲蒂克国际贸易有限公司 京ICP备15034420号-1<br />
+				购买前请确认达到法定饮酒年龄！龙泉商城不销售任何含酒精产品给18岁以下人士！
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--侧导航-->
+<div class="rig_nav">
+	<div class="rig_top">
+		<img src="imgs/imgs2.0/DL_top.png" />
+	</div>
+	<ul>
+		<li class="nav_zhuan">
+			<a href="javascript:;" class="libg">
+				<i class="i01"></i>
+			</a>
+			<a href="javascript:;" class="libg_on">
+				购物车
+			</a>
+		<li class="nav_zhuan">
+			<a href="javascript:;" class="libg">
+				<i class="i02"></i>
+			</a>
+			<a href="javascript:;" class="libg_on">
+				VIP
+			</a>
+		</li>
+		<li class="nav_zhuan">
+			<a href="javascript:;" class="libg">
+				<i class="i03"></i>
+			</a>
+			<a href="javascript:;" class="libg_on">
+				在线咨询
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;" class="list_04 libg">
+				<i class="i04"></i>
+			</a>
+			<div class="list_04_ma">
+				<img src="imgs/app_logo.jpg" />
+			</div>
+		</li>
+		<li class="nav_zhuan">
+			<a href="javascript:;" class="libg">
+				<i class="i05"></i>
+			</a>
+			<a href="javascript:;" class="libg_on">
+				联系我们
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;" class="nav_top libg">
+				<i class="i06"></i>
+			</a>
+		</li>
+	</ul>
+	<div class="rig_bot">
+		<img src="imgs/imgs2.0/DL_bot.png" />
+	</div>
+</div>
+</body>
+</html>

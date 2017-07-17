@@ -1,0 +1,1091 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8,9,10,11,12" />
+<meta name="renderer" content="webkit" />
+<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/Yform.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.jscrollpane.min.js"></script>
+<script src="js/Yform.js"></script>
+<script src="js/jsdy.js"></script>
+<script src="js/js.js"></script>
+<title>临沂商城</title>
+<script type="text/javascript">
+			 $(function(){
+				//baner轮播
+					$('.banner ul li:first').css('z-index','1');
+						var myIndex = 0;
+					$('.banner ol li').click(function(e) {
+						myIndex ++; 
+						$('.banner ul li').eq($(this).index()).fadeIn(2000).siblings().fadeOut(2000);
+						$(this).addClass('current').siblings().removeClass('current');
+					});
+					
+					var timer01 = null;
+					var num = 0;
+					var timerFn = function(){
+						num++
+						if(num > 2){
+							num = 0;
+						};
+									
+						$('.banner ul li').eq(num).fadeIn(2000).siblings().fadeOut(2000);
+						$('.banner ol li').eq(num).addClass('current').siblings().removeClass('current');
+
+
+					};
+					
+					//自动播放
+					timer01 = setInterval(timerFn,4000);
+					
+					$('.banner').hover(function(){
+						clearInterval(timer01);
+						timer01 = null;
+						
+					},function(){
+						timer01 = setInterval(timerFn,4000);
+						
+					});	
+					$("div[data-value]").click(function(){
+						window.open();
+					});
+				//2F切换	
+				$(".mr_frbox").slide({
+					mainCell:".mr_frUl ul",
+					effect:"leftMarquee",
+					autoPlay:true,
+					vis:4,
+					interTime:15,
+					trigger:"click"
+				});
+			})
+		</script>
+</head>
+<body>
+
+<!--头部-->
+<div class="yy_toptiao">
+	<div class="yy_toptiaoa">
+    	<div class="yy_toptiaoa_L"><img src="images/yy_index_01.png">临沂商城欢迎您</div>
+        <div class="yy_toptiaoa_R"><span><a href="#">登录</a><a href="#">注册</a></span><a href="#">个人中心</a>|<a href="#">微博</a>|<a href="#">微信</a>|<a href="#">移动版</a>|<a href="#">English</a></div>
+    </div>
+</div>
+<div class="yy_header">
+    <a href="#"><img src="images/yy_logo.png" class="yy_logo"></a>
+    <div class="yy_sousuo"><input placeholder="小家电" type="text" class="txt"><select class="yselect"><option>产品</option><option>新闻</option></select><input value="搜索" class="btn" type="submit"></div>
+    <div class="yy_LinkheadBtn"><a href="#">发布转租/求租信息</a><a href="#">发布供求信息</a></div>
+</div>
+<div class="yy_navdiv">
+	<ul class="yy_navdiva">
+    	<li class="cureyntsnav"><a href="#">首页</a></li>
+        <li><a href="#">关于临沂</a></li>
+        <li><a href="#">政务</a></li>
+        <li><a href="#">临沂商城</a></li>
+        <li><a href="#">商城在线</a></li>
+        <li ><a href="#">商城国际</a></li>
+        <li><a href="#">会展服务</a></li>
+        <li><a href="#">便民服务</a></li>
+        <li><a href="#">物流园区</a></li>
+        <li style="margin-right:0px;"><a href="#">其他</a></li>
+    </ul>
+</div>
+<!--头部****-->
+<!--漂浮类别导航-->
+<!--<div class="yy_leibieNav">
+	<a href="#" class="currentna">全部</a>
+    <a href="#">食品</a>
+    <a href="#">衣服</a>
+    <a href="#">母婴</a>
+    <a href="#">日用品</a>
+    <a href="#">美妆</a>
+    <a href="#">奢侈品</a>
+    <span>回到顶部</span>
+</div>-->
+<!--漂浮类别导航***-->
+<!--面包屑导航-->
+<!--------------------首页-------------------------->
+<!--banner-->
+<div class="index-banner">
+	<div class="banner">
+			<ul>
+				<li><img src="images/index-banner01.jpg"/></li>
+				<li><img src="images/index-banner01.jpg"/></li>
+				<li><img src="images/index-banner01.jpg"/></li>
+			</ul>
+			<ol>
+				<li class="current"></li>
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+</div>
+<!--banner-over>
+<!--1F-->
+<div class="index-one">
+	<div class="index-title">
+		<i>1F</i>
+		<h2>政务</h2>
+		<a href="javascript:;">更多</a>
+	</div>
+	<div class="yy_banner800">
+    	<div class="yy_banner800L">
+        	<ul>
+            	<li><img src="images/index-b01.png"><span>市国资委系统全面学习贯彻市委十二届八次全体</span></li>
+                <li><img src="images/index-b01.png"><span>市国资委系统全面学习贯彻市委十二届八次全体</span></li>
+                <li><img src="images/index-b01.png"><span>河东华阳物流分公司</span></li>
+                <li><img src="images/index-b01.png"><span>河东华阳物流分公司</span></li>
+            </ul>
+            <p><i></i><i></i><i></i><i></i></p>
+        </div>
+        <div class="index_oneR">
+        	<div class="index_oneRTOP">
+        		<ul>
+        			<li class="index_oneR_current"><a href="javascript:;">政策法规</a></li>
+        			<li><a href="javascript:;">政务信息</a></li>
+        			<li><a href="javascript:;">政策服务</a></li>
+        		</ul>
+        	</div>
+        	<div class="index_oneRCON">
+        		<ul>
+        			<li>
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+        				<a href="javascript:;" class="borBN">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+					</li>
+					
+        			<li class="dn">
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+					</li>
+        			<li class="dn">
+        				<a href="javascript:;">
+        					<p>市国资委系统全面学习贯彻市委十二届八次着……</p>
+        					<span class="Onetime">
+        						<i>2015-05-19</i>
+        						<em> 查看详情>> </em>
+        					</span>
+        				</a>
+					</li>
+        		</ul>
+        	</div>
+        	<script type="text/javascript">
+				$(function(){  
+					$('.index_oneRTOP ul li').click(function(){ 
+					$(this).addClass("index_oneR_current").siblings().removeClass();
+					$(".index_oneRCON > ul li").hide().eq($('.index_oneRTOP ul li').index(this)).show(); 
+				});
+				})
+        	</script>
+        </div>
+    </div>
+     <script>
+    $(function(){
+		yy_jsdy.animat_banner(".yy_banner800L ul",".yy_banner800L ul li",".yy_banner800L p i","","","curyyenb",7000,0);
+	})
+    </script>
+</div>
+<!--1F--over>
+<!--2F-->
+<div class="index-two">
+	<div class="index-title">
+		<i>2F</i>
+		<h2><b>关于</b>临沂</h2>
+		<a href="javascript:;">更多</a>
+		<p>临沂历史悠久，是中华文明的重要发祥地之一</p>
+	</div>
+	<div class="index-twoCON">
+		<p>
+			<i>◆</i>临沂港作为“中国物流之都”,临沂的物流网络辐射全国30个省、市,覆盖全国1800个县级以上网点,形成了“辐射全国、周转快捷、成本低廉、方式灵活”的庞大物流体系<br/>
+临沂市旅游资源分布广泛，类型众多，主要包括山水生态、乡村田园、民风民俗、红色遗迹、历史文化、地质地貌、地热温泉、商贸物流等几个方面，以这些资源为基础，我市积极开发<br/>
+			<i>◆</i>培育旅游精品项目，精心打造特色线路产品，逐步构建了“绿色沂蒙、红色风情、文韬武略、地质奇观、水城商都、温泉养生”六大主题旅游产品体系。<br />
+			<i>◆</i>临沂品牌丰富
+		</p>
+		<div class="mr_frbox">
+					<div class="mr_frUl oh">
+						<ul>
+							<li>
+								<a href="javascript:;">
+									<dl>
+										<dt>
+											<img src="images/index03.png" />
+										</dt>
+										<dt class="dt-tit">临沂简介</dt>
+										<dt class="dt-tit-en">Linyi Introduction</dt>
+									</dl>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<dl>
+										<dt>
+											<img src="images/index04.png" />
+										</dt>
+										<dt class="dt-tit">市长寄语</dt>
+										<dt class="dt-tit-en">Commander Message</dt>
+									</dl>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<dl>
+										<dt>
+											<img src="images/index05.png" />
+										</dt>
+										<dt class="dt-tit">品牌展示</dt>
+										<dt class="dt-tit-en">Brand Show</dt>
+									</dl>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<dl>
+										<dt>
+											<img src="images/index06.png" />
+										</dt>
+										<dt class="dt-tit">旅游文化</dt>
+										<dt class="dt-tit-en">Tourism and Culture</dt>
+									</dl>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a class="mr_frBtnL next"></a>
+					<a class="mr_frBtnR prev"></a>
+				</div>
+	</div>
+</div>
+<!--2F--over>
+<!--3F-->
+<div class="index-three fix">
+	<div class="index-title">
+		<i>3F</i>
+		<h2><b>临沂</b>商城</h2>
+		<a href="javascript:;">更多</a>
+		<p>临沂历史悠久，是中华文明的重要发祥地之一</p>
+	</div>
+	<div class="index-threeCON">
+		<div class="index-threeL">
+			<dl>
+				<dt><a href="javascript:;">转租转让</a></dt>
+				<dt><a href="javascript:;">供求信息</a></dt>
+			</dl>
+			<div class="index3-list">
+				<ul>
+					<li><a href="javascript:;">电子科技</a></li>
+					<li><a href="javascript:;">服饰鞋包</a></li>
+					<li><a href="javascript:;">家居家装</a></li>
+					<li><a href="javascript:;">酒店用品</a></li>
+					<li><a href="javascript:;">汽车用品</a></li>
+					<li><a href="javascript:;">日用百货</a></li>
+					<li><a href="javascript:;">五金劳保</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="index-threeR">
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+			<div class="cont-02-Top">
+	            <div class="cont-02-Top-inner">
+	            	<h3>华丰国际服装城</h3>
+	            	<p>产品：178</p>
+	            	<p>店铺：231</p>
+	            	<a href="javascript:;">查看</a>
+	            </div>
+	            <a href="javascript:;">
+	            	<img src="images/index3-02.jpg" width="206" height="205"/>
+	            </a>
+            	<span class="cont-02-Top-span">华丰国际服装城</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--3F--over>
+<!--4F-->
+<div class="index-four fix">
+	<div class="index-title">
+		<i>4F</i>
+		<h2><b>会展</b>服务</h2>
+		<a href="javascript:;">更多</a>
+		<p>临沂历史悠久，是中华文明的重要发祥地之一</p>
+	</div>
+	<div class="index-fourCON">
+			<div class="mr_frUl4">
+				<ul class="mr_frUl01">
+					<li>
+						<a href="javascript:;" target="_blank">
+							<ul class="mr_frUl02">
+								<li>
+									<img src="images/pic01.jpg"/>
+									<img src="images/pic02.jpg"/>
+								</li>
+							</ul>
+							<p>2015年山东临沂中国传统文化博览会正式启动</p>
+							<span  href="javascript:;">查看展会</span>
+						</a>
+						<div class="index-data">2015-05-19</div>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank">
+							<ul class="mr_frUl02">
+								<li>
+									<img src="images/pic01.jpg"/>
+									<img src="images/pic02.jpg"/>
+								</li>
+							</ul>
+							<p>2015年山东临沂中国传统文化博览会正式启动</p>
+							<span  href="javascript:;">查看展会</span>
+						</a>
+						<div class="index-data">2015-05-19</div>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank">
+							<ul class="mr_frUl02">
+								<li>
+									<img src="images/pic01.jpg"/>
+									<img src="images/pic02.jpg"/>
+								</li>
+							</ul>
+							<p>2015年山东临沂中国传统文化博览会正式启动</p>
+							<span  href="javascript:;">查看展会</span>
+						</a>
+						<div class="index-data">2015-05-19</div>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank">
+							<ul class="mr_frUl02">
+								<li>
+									<img src="images/pic01.jpg"/>
+									<img src="images/pic02.jpg"/>
+								</li>
+							</ul>
+							<p>2015年山东临沂中国传统文化博览会正式启动</p>
+							<span  href="javascript:;">查看展会</span>
+						</a>
+						<div class="index-data">2015-05-19</div>
+					</li>
+					
+				</ul>
+			</div>
+	</div>
+</div>
+<!--4F--over-->	
+<!--5F-->
+<div class="index-five fix">
+	<div class="index-title">
+		<i>5F</i>
+		<h2><b>商城</b>国际</h2>
+		<a href="javascript:;">更多</a>
+		<p>临沂历史悠久，是中华文明的重要发祥地之一</p>
+	</div>
+	<div class="index-fiveCON">
+		<div class="index-fiveL">
+			<div class="index3-list">
+				<ul>
+					<li><a href="javascript:;">美国</a></li>
+					<li><a href="javascript:;">加拿大</a></li>
+					<li><a href="javascript:;">法国</a></li>
+					<li><a href="javascript:;">德国</a></li>
+					<li><a href="javascript:;">澳大利亚</a></li>
+					<li><a href="javascript:;">新西兰</a></li>
+					<li><a href="javascript:;">新加坡</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="index-fiveR">
+			<ul>
+				<li>
+					<a href="#" class="S"><img src="images/index4-02.jpg"></a>
+					<div class="X">
+		            	<b><a href="#">超柔绒布艺单人沙发</a></b>
+		                <div><span><font>￥</font>1080.00 </span><u>￥2080.00</u></div>
+            		</div>
+				</li>
+				<li>
+					<a href="#" class="S"><img src="images/index4-02.jpg"></a>
+					<div class="X">
+		            	<b><a href="#">超柔绒布艺单人沙发</a></b>
+		                <div><span><font>￥</font>1080.00 </span><u>￥2080.00</u></div>
+            		</div>
+				</li>
+				<li>
+					<a href="#" class="S"><img src="images/index4-02.jpg"></a>
+					<div class="X">
+		            	<b><a href="#">超柔绒布艺单人沙发</a></b>
+		                <div><span><font>￥</font>1080.00 </span><u>￥2080.00</u></div>
+            		</div>
+				</li>
+				<li>
+					<a href="#" class="S"><img src="images/index4-02.jpg"></a>
+					<div class="X">
+		            	<b><a href="#">超柔绒布艺单人沙发</a></b>
+		                <div><span><font>￥</font>1080.00 </span><u>￥2080.00</u></div>
+            		</div>
+				</li>
+				<li>
+					<a href="#" class="S"><img src="images/index4-02.jpg"></a>
+					<div class="X">
+		            	<b><a href="#">超柔绒布艺单人沙发</a></b>
+		                <div><span><font>￥</font>1080.00 </span><u>￥2080.00</u></div>
+            		</div>
+				</li>
+				<li>
+					<a href="#" class="S"><img src="images/index4-02.jpg"></a>
+					<div class="X">
+		            	<b><a href="#">超柔绒布艺单人沙发</a></b>
+		                <div><span><font>￥</font>1080.00 </span><u>￥2080.00</u></div>
+            		</div>
+				</li>
+				<li>
+					<a href="javascript:;"><img src="images/index5-02.jpg"></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img src="images/index5-03.png"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--5F--over>
+<!--5F-->
+<div class="index-six fix">
+	<div class="index-title">
+		<i>6F</i>
+		<h2><b>便民</b>服务</h2>
+		<a href="javascript:;">更多</a>
+		<p>临沂历史悠久，是中华文明的重要发祥地之一</p>
+	</div>
+	<div class="index-sixCON">
+		<div class="index-sixL">
+			<dl>
+				<dt class="sixL-cur"><a href="javascript:;" >便民<br/>服务</a></dt>
+				<dt><a href="javascript:;">娱乐</a></dt>
+			</dl>
+			<ul>
+				<li class="six-cur"><a href="javascript:;" >吃</a></li>
+				<li><a href="javascript:;">住</a></li>
+				<li><a href="javascript:;">行</a></li>
+				<li><a href="javascript:;">游</a></li>
+			</ul>
+		</div>
+		<div class="index-sixR">
+			<ul class="six-tab">
+				<li>
+					<div class="six-left">
+				<ul>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+				</ul>
+			</div>
+			<div class="six-right">
+				<ul>
+					<li class="six-li1">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>好伦哥</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="six-li2">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>九头鹰酒家</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>虾吃虾涮</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+				</li>
+				<li class="dn">
+					<div class="six-left">
+				<ul>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="six-right">
+				<ul>
+					<li class="six-li1">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>好伦哥</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="six-li2">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>九头鹰酒家</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>虾吃虾涮</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+				</li>
+				<li class="dn">
+					<div class="six-left">
+				<ul>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+				</ul>
+			</div>
+			<div class="six-right">
+				<ul>
+					<li class="six-li1">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>好伦哥</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="six-li2">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>九头鹰酒家</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>虾吃虾涮</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+				</li>
+				<li class="dn">
+					<div class="six-left">
+				<ul>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					<li>
+						<a href="#" class="S"><img src="images/index08.jpg"></a>
+						<div class="X">
+			            	<b><a href="#">蓝钻国际</a></b>
+			                <div><span><font>￥</font>52.00 </span><u>￥56.00</u></div>
+	            		</div>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="six-right">
+				<ul>
+					<li class="six-li1">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>好伦哥</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="six-li2">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>九头鹰酒家</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+					<li class="">
+						<a href="javascript:;">
+							<img src="images/index09.jpg" />
+							<dl>
+								<dd>虾吃虾涮</dd>
+								<dt style="margin: 8px 0;">单人自助餐</dt>
+								<dt>
+									<span><font>￥</font>52.00 </span>
+								</dt>
+								<dt>
+									<u>￥56.00</u>
+								</dt>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+</div>
+<!--6F--over>
+<!--底部-->
+<div class="yy_footerbg">
+	<div class="yy_footer">
+		<div class="yy_footera"><a href="#">网站首页</a>|<a href="#">政务</a>|<a href="#">商城动态</a>|<a href="#">批发市场</a>|<a href="#">物流园区</a>|<a href="#">商城在心</a>|<a href="#">商城国际</a>|<a href="#">辨明服务</a>|<a href="#">会展服务</a></div>
+	    2014中国临沂商城 版权所有：中国临沂商城 未经许可，不得复制、转载<br>
+	Copyright 2015 鲁ICP备140.6178号
+	</div>
+</div>
+<!--底部***-->
+<!--返回顶部-->
+<a href="javascript:;" class="di back">
+	<img src="images/back.png" width="58px" height="58px"/>
+</a>
+</body>
+</html>

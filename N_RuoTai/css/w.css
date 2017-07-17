@@ -1,0 +1,614 @@
+
+
+/***********网联网**************/
+.title h1{
+	font-size:24px;
+	color:#ffae00;
+	line-height:30px;
+	font-weight:bold;
+}
+.title h2{
+	font-size:18px;
+	color:#2a2a2a;
+	font-weight:bold;
+	line-height:30px;
+}
+.title_nav{
+	margin-top:-20px;;
+	padding-bottom:24px;
+	border-bottom:1px dashed #c6c6c6;
+}
+.title_nav a:hover,.pro_nav a:hover{color:#ffae00;}
+.wu_example dl{
+	margin-top:35px;
+	width:582px;
+	background-color:#fff;
+}
+.wu_example dd{
+	padding:18px;
+}
+.wu_example h3{
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+	text-align:center;
+	border-bottom:1px dashed #c6c6c6;
+	padding-bottom:18px;
+}
+.wu_example p{
+	color:#575757;
+	line-height:24px;
+	margin-top:18px;
+	height:48px;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	display:-webkit-box;
+	word-wrap:break-word;
+}
+.wu_example p:hover,.wu_example span:hover{
+	color:#ffae00;
+}
+/*********公司简介*********/
+.Con h1{
+	font-size:18px;
+	color:#2a2a2a;
+	line-height:30px;
+	font-weight:bold;
+}
+.pro{
+	padding:35px 30px;
+}
+.pro img{
+	display:inherit;
+	margin:30px auto;
+}
+.pro_tit{
+	border-bottom:1px dashed #e4e4e4;
+	padding-bottom:15px;
+	margin-bottom:10px;
+}
+.pro_tit h2{
+	font-size:16px;
+	color:#333333;
+	font-weight:bold;
+	line-height:30px;
+}
+.pro_tit span{
+	display:block;
+	color:#333333;
+	line-height:30px;
+}
+.pro_con{
+	color:#555;
+	line-height:30px;
+}
+.pro_con em{
+	color:#ff8400;
+}
+/*****加入我们*******/
+.join dl{
+	width:1140px;
+	margin:0 auto;
+	margin-bottom:12px;
+}
+.join dt{
+	padding:0px 20px;
+	height:48px;
+	line-height:48px;
+	font-size:16px;
+	color:#003686;
+	border:1px solid #c1c1c1;
+	overflow:hidden;
+	cursor:pointer;
+}
+.join dd{
+	border:1px solid #c1c1c1;
+	padding:20px;
+	border-top:none;
+	background-color:#f7f8f9;
+	display:none;
+}
+.join dl:first-child dd{
+	display:block;
+}
+.join_text{
+	line-height:24px;
+	color:#545454;
+}
+.join u{
+	float:right;
+	font-size:12px;
+	color:#003686;
+	text-decoration:none;
+	padding-right:20px;
+}
+.join i{
+	font-size:28px;
+	vertical-align: middle;
+}
+.W_click_show{
+	background-color:#d7e6fd;
+}
+.W_click_show u{
+	background:url(../imgs/neiye/shou.png) no-repeat right center;
+}
+.W_click_hide u{
+	background-color:#f7f8f9;
+}
+.W_click_hide u{
+	background:url(../imgs/neiye/zhan.png) no-repeat right center;
+}
+/**********人文环境*********/
+.ren_tit{
+	padding-bottom:25px;
+	margin-bottom:25px;
+	border-bottom:1px dashed #e4e4e4;
+	font-size:16px;
+	color:#333333;
+	font-weight:bold;
+	line-height:30px;
+}
+.ren_con li{
+	line-height:30px;
+}
+.ren_con span{
+	display:inline-block;
+	width:69px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	color:#fff;
+	background-color:#ffae00;
+	margin-right:10px;
+}
+.ren_con em{
+	color:#333;
+}
+.ren_img img{
+	display:block;
+	margin-top:60px;
+}
+/*******资质荣誉********/
+.rongyu{
+	padding:44px 22px 0px;
+}
+.ro_example{
+	float:left;
+	margin:20px 9px 0px;
+	border:1px solid #ececec;
+	text-align:center;
+}
+.ro_example:hover{
+	border:1px solid #ff8400;
+}
+.ro_example dt{
+	margin:16px;
+	margin-bottom:5px;
+}
+.ro_example dd{
+	font-size:12px;
+	color:#575757;
+	line-height:35px;
+}
+/**********分页*************/
+.paging{padding:53px 0; text-align:center;background-color:#fff;}
+.paging a {padding:0px 16px;height:38px;line-height:38px;font-size:14px; border:1px solid #e5e5e5;color:#8d8d8d; display: inline-block;}
+.paging a.prev{padding:0 20px;}
+.paging a:hover {background-color:#efefef;color:#ff8400;}
+.paging a.selected {background-color:#efefef;color:#ff8400;}
+.paging span{line-height:38px;font-size:14px;color:#8d8d8d;}
+.paging i {vertical-align:middle;margin-right:5px;height:38px;line-height:26px;display:inline-block;font-size:22px;}
+
+/******荣誉资质弹出层********/
+.bg{
+	display:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	z-index:999;
+}
+.rongyucon{
+	position:absolute;
+	left:50%;
+	margin-left:-317px;
+	top:50%;
+	margin-top:-257px;
+	background-color:#fff;
+}
+.rongyucon dt{
+	padding:30px;
+	border-bottom:1px solid #E5E5E5;
+}
+.rongyucon dd{
+	text-align:left;
+	padding:15px 20px;
+	line-height:36px;
+}
+
+/********项目展示***********/
+.xm{
+	padding:8px 31px 0px;
+}
+.xm_example dl{
+	float:left;
+	margin:45px 25px 0px;
+	text-align:center;
+	background-color:#f7f7f7;
+}
+.xm_example dd{
+	margin:5px 0px;
+}
+.xm_example h2{
+	font-size:16px;
+	color:#333333;
+}
+.xm_example span{
+	font-size:12px;
+	color:#606060;
+	line-height:30px;
+}
+.xm_example dl:hover h2,.xm_example dl:hover span{
+	color: #ff7200;
+}
+
+/******致臻服务——咨询规划******/
+.S-zi{
+	padding:134px 140px 0px;
+	background:url(../imgs/neiye/z_bg.png) no-repeat center;
+	background:contain;
+	height:622px;
+}
+.zi_con{
+	text-align:center;
+}
+.zi_con h2{
+	font-size:18px;
+	color:#333;
+	font-weight:bold;
+	line-height:30px;
+}
+.zi_con span{
+	display:inline-block;
+	padding:3px 7px;
+	background-color:#ffae00;
+	margin:0 6px;
+	color:#fff;
+	font-size:16px;
+}
+.text01{
+	margin:38px auto 10px;
+	font-size:16px;
+	color:#333;
+}
+.text03{
+	font-size:16px;
+	color:#333;
+	margin:10px auto 10px;
+}
+.text04{
+	font-size:16px;
+	color:#555555;
+}
+.zi_dl {
+	margin-top:69px;
+}
+.zi_dl dl{
+	text-align:center;
+}
+.zi_dl dt{
+	height:105px;
+}
+.zi_one{
+	background:url(../imgs/neiye/z_user.png) no-repeat center;
+}
+.zi_two{
+	background:url(../imgs/neiye/z_telephone.png) no-repeat center;
+}
+.zi_three{
+	background:url(../imgs/neiye/z_email.png) no-repeat center;
+}
+.zi_dl dd{
+	font-size:16px;
+	color:#555;
+	line-height:30px;
+}
+
+/******物联网——智慧安居********/
+.zhi_con01{
+	text-align:center;
+	color:#2b2883;
+	font-size:16px;
+	font-weight:bold;
+	line-height:36px;
+	margin:30px 0px;
+}
+.zhi_con02{
+	padding:0px 45px;
+}
+.zhi_con02 .first{
+	color:#ed093f;
+	font-size:16px;
+	font-weight:bold;
+	line-height:36px;
+}
+.zhi_text01{
+	margin:135px 54px 35px;
+}
+.zhi_text02{
+	margin:35px 54px 0px;
+}
+.zhi_text03{
+	margin:220px 0px 0px;
+}
+.zhi_con02 li{
+	color:#333333;
+	line-height:24px;
+}
+.map{
+	width:541px;
+	height:541px;
+	border-radius:50%;
+	background-color:red;
+}
+.zhi_con03{
+	margin:50px 12px 0px;
+}
+.zhi_con03 dl{
+	float:left;
+	text-align:center;
+	margin:0 25px;
+}
+.zhi_con03 dt{
+	width:136px;
+	height:136px;
+	border-radius:50%;
+	margin-bottom:10px;
+}
+.zhi_con03 dt img{
+	border-radius:50%;
+}
+.zhi_con03 dd{
+	color:#333;
+	font-size:16px;
+	font-weight:bold;
+	line-height:36px;
+}
+/*******移动互联网—移动政务********/
+.zheng_img{
+	margin-left:160px;
+}
+.zheng_img span{
+	display:inline-block;
+}
+.img01{
+	margin-top:115px;
+}
+.img02{
+	margin-left:25px;
+	margin-top:92px;
+}
+.img03{
+	margin-left:-25px;
+	margin-top:92px;
+}
+.img04{
+	margin-left:-385px;
+	margin-top:40px;
+}
+/*******智慧校园——实验室管理********/
+.shi_ul01 span{
+	display:inline-block;
+	background-color:#00c0ff;
+	width:280px;
+	height:41px;
+	line-height:41px;
+	text-align:center;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	margin:69px 20px 28px;
+	border-radius:22px;
+}
+.shi_ul02 span{
+	background-color:#ffae00;
+	margin:28px 20px;
+}
+.shi_dl01{
+	width:907px;
+	margin:0 auto;
+}
+.shi_dl01 dl{
+	float:left;
+	text-align:center;
+	margin:0px 18px;
+}
+.shi_dl01 dt{
+	background-color:#f5f5f5;
+	width:115px;
+	height:115px;
+	border-radius:50%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.shi_dl01 dd{
+	color:#555555;
+	font-size:18px;
+	font-weight:bold;
+	line-height:30px;
+}
+.shi_tu01{
+	background-image:url(../imgs/neiye/shi_pic01.png);
+}
+.shi_tu02{
+	background-image:url(../imgs/neiye/shi_pic02.png);
+}
+.shi_tu03{
+	background-image:url(../imgs/neiye/shi_pic03.png);
+}
+.shi_tu04{
+	background-image:url(../imgs/neiye/shi_pic04.png);
+}
+.shi_tu05{
+	background-image:url(../imgs/neiye/shi_pic05.png);
+}
+.shi_tu06 dt{
+	line-height:115px;
+	font-size:30px;
+	color:#ffae00;
+	font-weight:bold;
+}
+.shi_01{
+	text-align:center;
+}
+.shi_01 span{
+	text-align:center;
+	display:inline-block;
+	background-color:#f5f5f5;
+	width:115px;
+	height:115px;
+	border-radius:50%;
+	line-height:115px;
+	font-size:18px;
+	color:#555555;
+	font-weight:bold;
+	margin:0px 18px;
+}
+.shi_01 .sp_first{
+	background-color:#ebebeb;
+}
+.shi_img{
+	margin:57px auto 0px;
+}
+/********智慧应急—指挥中心—10—20********/
+.zhihui-two{
+	margin:44px auto 0px;
+}
+.zhihui-two table{
+	text-align:center;
+	color:#333;
+}
+.zhihui-two table ,.zhihui-five table{ table-layout:fixed; }
+.zhihui-two table td ,.zhihui-five table td{
+	text-overflow: ellipsis;
+	word-berak:break-all; 
+	word-wrap:break-word; 
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.w1010{width:1010px;}
+.w1030{width:1030px;}
+.fs16{font-size:16px;}
+.cblue{background-color:#00c0ff;color:#fff;}
+.cbb{background-color:#bbbbbb;color:#fff;}
+.c90{background-color:#909090;color:#fff;line-height:15px;}
+.cf2{background-color:#f2f2f2;}
+.cea{color:#ea3535;}
+/*table { border-collapse:collapse }*/
+
+.zhihui-two td,.zhihui-five td{
+	height:52px;
+}
+.zhihui-three{
+	margin:30px auto 20px;
+}
+.zhihui-three img{
+	margin:0 auto;
+}
+.zhihui-three span{
+	margin:0 5px;
+	display:inline-block;
+	width:330px;
+	height:52px;
+	line-height:52px;
+	text-align:center;
+}
+.zhihui-five td{
+	padding-left:15px;
+}
+.zhihui-four_d{
+	width:810px;
+}
+.zhihui-four h5{
+	height:52px;
+	line-height:52px;
+	color:#fff;
+	font-size:16px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.zhihui01 li{
+	width:191px;
+	height:52px;
+	line-height:52px;
+	color:#fff;
+	font-size:16px;
+	margin-top:10px;
+	margin-right:9px;
+}
+.zhihui02 li{
+	width:195px;
+	height:52px;
+	line-height:52px;
+	text-align:center;
+	float:left;
+	margin-right:10px;
+	border-radius:4px;
+}
+.zhihui03{
+	margin:10px 0px;
+}
+.zhihui03 li{
+	width:263px;
+}
+.zhihui04 li{
+	width:252px;
+}
+.zhihui04 .zhihui05{
+	width:548px;
+}
+.zhihui06 {
+	margin-top:10px;
+}
+.zhihui06 li{
+	float:left;
+	width:129px;
+	height:176px;
+	position:relative;
+	margin-right:10px;
+}
+.zhihui06 span{
+	width:100%;
+	display:block;
+	background-color:rgba(0,0,0,0.8);
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.zhihui06 .zhihui07{
+	width:252px;
+}
+.zhihui06 img{
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

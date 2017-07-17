@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>品牌故事</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/site.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="shortcut icon" href="puda.ico" />
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				/* 使用js分组，每6个li放到一个ul里面 */
+				jQuery("#multipleColumn .bd li").each(function(i){ 
+					jQuery("#multipleColumn .bd li").slice(i*10,i*10+10).wrapAll("<ul></ul>");
+				});
+				/* 调用SuperSlide，每次滚动一个ul，相当于每次滚动6个li */
+				jQuery("#multipleColumn").slide({
+					titCell:".hd ul",
+					mainCell:".bd .picList",
+					autoPage:true,
+					effect:"leftLoop",
+					autoPlay:true
+				});
+					
+			})
+		</script>
+	</head>
+	<body>
+		<!--头部开始-->
+		<div id="head" class="head">
+			<div class="banner">
+				<img src="img/erji/banner02.jpg"/>
+			</div>
+			<div class="headIn">
+				<ul class="top">
+					<li class="top01"></li>
+					<li class="top02"></li>
+					<li class="top03 last"></li>
+				</ul>
+				<div class="ewm">
+					<img src="img/erweima_top.png"/>
+				</div>
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.png" alt="图片加载中"/>普达财务</a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html" target="_blank">首页</a></li>
+						<li>|</li>
+						<li class="current"><a href="brand_story.html" target="_blank">品牌故事</a></li>
+						<li>|</li>
+						<li><a href="service01.html" target="_blank">普达服务</a></li>
+						<li>|</li>
+						<li><a href="solution_BJ.html" target="_blank">解决方案</a></li>
+						<li>|</li>
+						<li><a href="news.html" target="_blank">最新资讯</a></li>
+						<li>|</li>
+						<li><a href="contact.html" target="_blank">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--头部结束-->
+		<!--con开始-->
+		<div class="con01 pin02 pb65">
+			<div class="con01In">
+				<div class="con01_title">
+					<img src="img/story_title.png"/>
+				</div>
+				<h1 class="c28 mt65 tac">普达财务，一家专业的财务外包服务机构</h1>
+				<p class=" tac c6c fs14 lh24 mt30 mb30">普达财务是一家专业从事第三方综合财务外包服务的机构，整合财务顾问公司、会计会计师事务所和投资公司等子公司，搭建企业综合外包服务平台，提供<br />工商册、社保代理、纳税筹划、审计鉴证、贷款融资等多元化业务品种，专注为广大客户提供最集中、最专业、最优质的外包服务。<br /><br />
+总部位于北京朝阳区的普达财务顾问有限公司成立于2009年，其总部和分公司是专注于企业外包服务的顾问公司，现在拥有两家异地分公司和两家同城分公<br />司，现有员工近300人，年营业额约xx，是最具发展潜力的财务公司之一。
+</p>
+				<ul class="pin01 oh ma">
+					<li><img src="img/erji/pin01.jpg"/></li>
+					<li><img src="img/erji/pin02.jpg"/></li>
+					<li><img src="img/erji/pin03.jpg"/></li>
+					<li><img src="img/erji/pin04.jpg"/></li>
+					<li><img src="img/erji/pin05.jpg"/></li>
+					<li><img src="img/erji/pin06.jpg"/></li>
+				</ul>
+			</div>
+		
+			<div class="w1000 ma tac mt40">
+				<img src="img/erji/pin07.png"/>
+				<h1 class="ce9 mtb20">普达财务的理念</h1>
+				<p class="fs14 c26">我们做的不止是专业的财务代理，我们要做的更是服务品质，多年以后，我们还服务在您身边</p>
+				<a class="db cf fs14 bg2c bdf br20 cp">联系我们</a>
+				<p class="fs14 c6c lh24">在6年前，普达财务的创始者李总意识到：对于很多中小微企业来说，不论是公司注册还是财务记账，对于这样规模的企业来说都是一个很大的压力。于是<br />在2009年，普达财务便应运而生了。我们以树行业标准，助企业发展为宗旨，以人为本、追求卓越。<br /><br />从2009年公司成立，普达财务一直致力于企业外包服务，依托强大的人才优势，从专业到服务，成为业内服务的标杆。
+<br />自始至终，我们一直在做和财务有关的事......</p>
+			</div>
+			<!--合作伙伴-->
+			<div class="con01In Partner items">
+				<div class="con01_title">
+					<img src="img/erji/Partners_T.png"/>
+				</div>
+				<div class="ptn_con" id="multipleColumn">
+					<div class="hd">
+						<a href="javascript:;" class="next"></a>
+						<a href="javascript:;" class="prev"></a>
+					</div>
+					<div class="bd">
+						<div class="picList">
+							<li><img src="img/erji/partners01.jpg"/></li>
+							<li><img src="img/erji/partners02.jpg"/></li>
+							<li><img src="img/erji/partners03.jpg"/></li>
+							<li><img src="img/erji/partners04.jpg"/></li>
+							<li><img src="img/erji/partners05.jpg"/></li>
+							<li><img src="img/erji/partners06.jpg"/></li>
+							<li><img src="img/erji/partners07.jpg"/></li>
+							<li><img src="img/erji/partners08.jpg"/></li>
+							<li><img src="img/erji/partners09.jpg"/></li>
+							<li><img src="img/erji/partners10.jpg"/></li>
+							<li><img src="img/erji/partners11.jpg"/></li>
+							<li><img src="img/erji/partners12.jpg"/></li>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="iCon05">
+			<div class="iCon05_Bg">
+				<img src="img/banner03.png"/>
+			</div>
+			<div class="iCon05_In">
+				<h2><img src="img/contact_title.png"/></h2>
+				<div class="iCon05_In_L">
+					<div class="iCon05_In_L_Top">
+						<a class="current" href="javascript:;">北京总部</a>
+						<a href="javascript:;">武汉分公司</a>
+					</div>
+					<ul class="iCon05_In_L_Bottom">
+						<li class="current">
+							<div>
+								<h6>普达财务顾问有限公司</h6>
+								<p>朝阳区三元桥霄云路27号中国庆安大厦411室<br />海淀区苏州街49号盈智大厦307</p><br />
+								<h6>北京普达会计师事务所</h6>
+								<p>朝阳区三元桥霄云路27号中国庆安大厦417室</p>						
+							</div>
+							<div class="iCon05_In_L_B_R">
+								<h6>北京普达管理咨询有限公司</h6>
+								<p>朝阳区三元桥霄云路27号中国庆安大厦418室</p><br />
+								<p class="iCon05_Icon"><span></span>业务合作：010-52833833</p>
+								<p class="iCon05_Icon"><span class="iCon05_Icon02"></span>求职招聘：010-52428629</p>
+								<p class="iCon05_Icon"><span class="iCon05_Icon03"></span>企业Q Q： 4007068690</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h6>武汉</h6>
+								<p>朝阳区三元桥霄云路27号中国庆安大厦411室<br />海淀区苏州街49号盈智大厦307</p><br />
+								<h6>北京普达会计师事务所</h6>
+								<p>朝阳区三元桥霄云路27号中国庆安大厦417室</p>						
+							</div>
+							<div class="iCon05_In_L_B_R">
+								<h6>北京普达管理咨询有限公司</h6>
+								<p>朝阳区三元桥霄云路27号中国庆安大厦418室</p><br />
+								<p class="iCon05_Icon"><span></span>业务合作：010-52833833</p>
+								<p class="iCon05_Icon"><span class="iCon05_Icon02"></span>求职招聘：010-52428629</p>
+								<p class="iCon05_Icon"><span class="iCon05_Icon03"></span>企业Q Q： 4007068690</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="iCon05_In_R">
+					<h6>北京普达财务顾问有限公司</h6>
+					<p>普达财务北京总部办公地址邻近朝阳工商局，如果您在公司工商注册、财务管理等方面需要帮助请随时光临公司，我们会安排客户经理详细沟通为您排忧解难。</p>
+					<a href="javascript:;">在线沟通</a>
+					<span>全国服务热线：400-609-7890</span>
+				</div>
+			</div>
+		</div>
+		<!--foot开始-->
+		<div class="foot">
+			<div class="footIn">
+				<div class="footIn_L">
+					<a href="javascript:;">招贤纳士</a><span>|</span><a href="javascript:;">关于我们</a><span>|</span><a href="javascript:;">联系我们</a><span>|</span><a href="javascript:;">网站地图</a>
+					<p>北京普达财务顾问有限公司版权所有 京ICP备10010930号-2</p>
+				</div>
+				<ul class="footIn_R">
+					<li></li>
+					<li class="footIn_R02"></li>
+					<li class="footIn_R03"></li>
+					<li class="last footIn_R04"></li>
+				</ul>
+				<div class="eWm">
+					<img src="img/erweima.png"/>				
+				</div>
+			</div>
+		</div>	
+		<!--foot结束-->
+		<!--竖导航开始-->
+		<div class="rig_nav">
+				<div class="rig_list"><a class="list01" href="javascript:" target="_blank">分享</a></div>
+				<div class="rig_list01">
+					<a class="list02" href="javascript:" target="_blank">电话</a>
+					<div class="list_content">
+						<a href="javascript:"><img src="img/tel_number.png"/></a>
+					</div>
+				</div>
+				<div class="rig_list"><a class="list03" href="javascript:" target="_blank">QQ</a></div>
+				<div class="rig_list"><a class="list04" href="javascript:" target="_blank">商桥</a></div>
+				<div class="rig_last"><a class="list05" href="#head">TOP</a></div>
+		</div>
+		<!--竖导航结束-->		
+	</body>
+</html>

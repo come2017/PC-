@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>我和你</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/w.css"/>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/select-widget-min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/laydate.js"></script>
+<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/faBu.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	//下拉样式
+	$(document).ready(function(){
+		//下拉框样式
+		$(".ui-select").selectWidget({
+			change       : function (changes) {
+				return changes;
+			},
+			effect       : "slide",
+			keyControl   : true,
+			speed        : 200,
+			scrollHeight : 200
+		});
+		
+	})
+</script>
+
+</head>
+<body style="background: #f2f2f2;">
+<!---头部开始--->
+<div class="header">
+	<div class="head w1000 ma">
+		<div class="logo">
+			<a href="javascript:;">
+				<img src="imgs/logo.png" width="224" height="66" />
+			</a>
+		</div>
+		<div class="navBar">
+			<ul class="nav fix">
+				<li class="nav_m on">
+					<a target="_blank" href="javascript:;">团体活动</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="javascript:;">兴趣沙龙</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="javascript:;">活动日历</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="javascript:;">心理咨询</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="javascript:;">活动墙</a>
+				</li>
+			</ul>
+			<ul class="subNav">
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">亚隆人际</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">兴趣沙龙</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li2">
+						<div class="li2_data">
+							<dl class="fix li2_data_bor">
+								<dd class="first_li"><a href="javascript:;"><i class="nav-icon"></i>按时间</a></dd>
+								<dd><a href="javascript:;">全部</a></dd>
+								<dd><a href="javascript:;">最近一周</a></dd>
+								<dd><a href="javascript:;">今天</a></dd>
+								<dd><a href="javascript:;">明天</a></dd>
+								<dd><a href="javascript:;">周末</a></dd>
+							</dl>
+							<dl class="fix">
+								<dd class="first_li"><a href="javascript:;"><i class="nav-icon nav-icon1"></i>按地区</a></dd>
+								<dd><a href="javascript:;">全部</a></dd>
+								<dd><a href="javascript:;">北京</a></dd>
+								<dd><a href="javascript:;">上海</a></dd>
+								<dd><a href="javascript:;">广州</a></dd>
+								<dd><a href="javascript:;">深圳</a></dd>
+								<dd><a href="javascript:;">杭州</a></dd>
+								<dd><a href="javascript:;">天津</a></dd>
+								<dd><a href="javascript:;">南京</a></dd>
+								<dd><a href="javascript:;">成都</a></dd>
+								<dd><a href="javascript:;">厦门</a></dd>
+								<dd><a href="javascript:;">宁波</a></dd>
+								<dd><a href="javascript:;">苏州</a></dd>
+								<dd><a href="javascript:;">武汉</a></dd>
+								<dd><a href="javascript:;">西安</a></dd>
+							</dl>
+						</div>
+						<!--<div class="li2_quyu">
+							
+						</div>-->
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">心理咨询</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">活动墙</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!---头部结束--->		
+<!---中间内容--->
+<div class="fbcon">
+	<h2 class="conTitle">发布活动</h2>
+	<!--基本信息-->
+	<div class="fb_con01">
+		<span class="fb_title">填写基本信息</span>
+		<ul class="fbList">
+			<li>
+				<span class="fb_xx"><i class="red_m">*</i>填写姓名</span>
+				<input type="text" name="" id="" value="" placeholder="活动标题（不少于5个字）"/>
+			</li>
+			<li class="fix">
+				<span class="fb_xx fl"><i class="red_m">*</i>选择地点</span>
+				<div class="fb_select01 fl">
+					<select id="select_c" name="drop2" class="ui-select">
+						<option value="">省份/直辖市</option>
+						<option value="1">北京</option>
+						<option value="2">北京</option>
+						<option value="3">北京</option>
+					</select>
+				</div>
+				<div class="fb_select01 fl">
+					<select id="select_c" name="drop2" class="ui-select">
+						<option value="">请选择省份直辖市</option>
+						<option value="1">北京</option>
+						<option value="2">北京</option>
+						<option value="3">北京</option>
+					</select>
+				</div>
+				<input class="fl fb_ipt02" type="text" name="" id="" value="" placeholder="活动标题（不少于5个字）"/>
+			</li>
+			<!--日期选择-->
+			<li class="fix">
+				<span class="fb_xx fl"><i class="red_m">*</i>活动时间</span>
+				<div class="date_warp fl">
+					<!--<span class="laydate-icon fl" id="start" >2015-09-01</span>-->
+					<input class="laydate-icon fl date_ipt" type="" name="" id="start" value="" />
+					<div class="fb_select01 fl">
+						<select id="select_c" name="drop2" class="ui-select">
+							<option value="">00:00</option>
+							<option value="1">01:00</option>
+							<option value="2">02:00</option>
+							<option value="3">03:00</option>
+						</select>
+					</div>
+					<i class="fl">至</i>
+					<input class="laydate-icon fl date_ipt" type="" name="" id="end" value="" />
+					<!--<span class="laydate-icon fl" id="end">2015-09-01</span>-->
+					<div class="fb_select01 fb_select02 fl">
+						<select id="select_c" name="drop2" class="ui-select">
+							<option value="">00:00</option>
+							<option value="1">01:00</option>
+							<option value="2">02:00</option>
+							<option value="3">03:00</option>
+						</select>
+					</div>
+				</div>
+			</li>
+			<li>
+				<span class="fb_xx"><i class="red_m">*</i>活动人数</span>
+				<input type="text" name="" id="" value="" placeholder=""/>
+			</li>
+			<li class="pic_file fix">
+				<span class="fb_xx fl">&nbsp;&nbsp;上传海报</span>
+				<img class="fl" src="imgs/neiye/fb_file.jpg"/>
+				<div class="fil_btn fl">
+					<span>上传</span>
+					<i>一张漂亮的海报，能让你的活动锦上添花，带来更多用户报名及增加传播效果</i>
+				</div>
+			</li>
+			<!--选择主题-->
+			<li class="fix fb_zt">
+				<span class="fb_xx fl"><i class="red_m">*</i>选择主题</span>
+				<div class="fb_select01 fl">
+					<select id="select_c" name="drop2" class="ui-select">
+						<option value="">——请选择活动主题——</option>
+						<option value="1">主题 1</option>
+						<option value="2">主题 2</option>
+						<option value="3">主题 3</option>
+					</select>
+				</div>
+			</li>
+			<!--选择形式-->
+			<li class="fix fb_zt">
+				<span class="fb_xx fl"><i class="red_m">*</i>选择形式</span>
+				<div class="fb_select01 fl">
+					<select id="select_c" name="drop2" class="ui-select">
+						<option value="">——请选择活动形式——</option>
+						<option value="1">形式 1</option>
+						<option value="2">形式 2</option>
+						<option value="3">形式 3</option>
+					</select>
+				</div>
+			</li>
+			<!--添加标签-->
+			<li class="pic_file fix bq_list">
+				<span class="fb_xx fl">&nbsp;&nbsp;上传海报</span>
+				<img class="add_bq fl" src="imgs/neiye/add_btn.png"/>
+				<ul class="bq_list01 fl fix">
+					<!--<li>职业<img src="imgs/neiye/close.png"/></li>
+					<li>创业<img src="imgs/neiye/close.png"/></li>
+					<li>创新<img src="imgs/neiye/close.png"/></li>
+					<li>公寓<img src="imgs/neiye/close.png"/></li>-->
+				</ul>
+				<ul class="bq_list02 fl fix dn">
+					<li>职场</li>
+					<li>创业</li>
+					<li>创新</li>
+					<li>公益</li>
+					<li>分享会</li>
+					<li>星座</li>
+					<li>减压</li>
+					<li>瘦身</li>
+					<li>户外</li>
+					<li>教育</li>
+					<li>演讲</li>
+					<li>公开课</li>
+					<li>生活</li>
+					<li>自我管理</li>
+					<li>失眠</li>
+					<li>沙盘</li>
+					<li>免费</li>
+					<li>课程</li>
+					<li>讲座</li>
+					<li>心理剧</li>
+					<li>心理健康</li>
+					<li>游戏</li>
+					<li>沙龙</li>
+					<li>校园</li>
+					<li>休闲</li>
+					<li>时尚</li>
+					<li>手工</li>
+					<li>读书</li>
+					<li>音乐</li>
+					<li>电影</li>
+					<li>绘画</li>
+					<li>儿童</li>
+					<li>亲子</li>
+					<li>论坛</li>
+					<li>会议</li>
+					<li>其他</li>
+				</ul>
+			</li>
+			<li class="fix">
+				<span class="fb_xx fl">&nbsp;&nbsp;详细内容</span>
+				<div  class="fa_nr fl">
+					<img src="imgs/neiye/nr_pic.png"/>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!--设置表单-->
+	<div class="fb_con01">
+		<span class="fb_title">设置报名表单</span>
+		<div class="bd_warp fix">
+			<span class="bd_title">联系方式<i>（报名用户注册资料，必填）</i></span>
+			<ul class="bd_list01">
+				<li class="fix">
+					<span class="check fl"></span>
+					<i>必填　|　　</i>
+					<i>姓名</i>
+					<input class="bd_ipt fr" type="text" name="" id="" value="" placeholder="报名用户的姓名或昵称"/>
+				</li>
+				<li class="fix">
+					<span class="check fl"></span>
+					<i>必填　|　　</i>
+					<i>手机号码</i>
+					<input class="bd_ipt fr" type="text" name="" id="" value="" placeholder="报名用户的手机号"/>
+				</li>
+			</ul>
+			<!--其他信息-->
+			<span class="bd_title">其他信息</span>
+			<ul class="bd_list01 bd_list02">
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">邮箱</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+					<!--<img class="del fl" src="imgs/neiye/del.png"/>-->
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">公司</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+					<!--<img class="del fl" src="imgs/neiye/del.png"/>-->
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">年龄</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">职业</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">学历</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">月收入</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">婚姻状况</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">附件</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+				</li>
+				<li class="fix">
+					<span class="check check_n fl"></span>
+					<i class="fl">必填　|　　</i>
+					<i class="bd_nr fl">微信号</i></span>
+					<input class="bd_ipt fl" type="text" name="" id="" value="" placeholder="提示信息写在这里"/>
+				</li>
+			</ul>
+			<input class="bd_btn" type="button" name="" id="" value="保存" />
+			<a class="yl" href="javascript:;" id="Yulan">预览</a>
+		</div>
+		<i class="bd_show fr">收起表单</i>
+	</div>
+	<!--售票-->
+	<div class="fb_con01">
+		<span class="fb_title">设置售票</span>
+		<div class="sp_list fix">
+			<span class="fl">票种设置</span>
+			<ul class="sp_chose fl fix">
+				<li class="sp_cut">收费票</li>
+				<li>免费票</li>
+			</ul>
+			<ul class="sp_t01 fix">
+				<li>票种名称</li>
+				<li>价格（元）</li>
+				<li>状态</li>
+				<li>操作</li>
+			</ul>
+			<!--收费票-->
+			<div class="sp_con fix">
+				<div class="sp_conIn sf_con">
+					<ul class="sp_con_title fix">
+						<li>
+							<input class="sfIpt" type="" name="" id="sfIpt_0" placeholder="收费票" />
+						</li>
+						<li>
+							<input class="jgIpt" type="" name="" id="jgIpt_0" value="" placeholder="200" />
+						</li>
+						<li class="cb2">报名尚未开始</li>
+						<li class="sp_set">
+							<span class="set"></span>
+							<span class="sp_del_no"></span>
+						</li>
+					</ul>
+					<div class="sp_list02">
+						<i>票种说明</i>
+						<input type="text" name="" id="" value="" placeholder="限制200汉字" />
+					</div>
+					<ul class="sp_date">
+						<li class="fix">
+							<i class="fl">订购日期</i>
+							<!--<span class="check fl"></span>-->
+							<input class="check fl checkD" checked="checked" type="checkbox" name="" id="checkD_0" value="" />
+							<i class="cb2">默认为活动结束前</i>
+						</li>
+						<li class="fix">
+							<i class="fl">有效日期</i>
+							<!--<span class="check check_n fl"></span>-->
+							<input class="check fl checkY" type="checkbox" checked="checked" name="" id="checkY_0" value="" />
+							<i class="cb2">默认为活动期内有效</i>
+						</li>
+					</ul>
+					<div class="tac btn_wrap">
+						<input class="bd_btn" type="button" name="" id="bd_btn_0" value="保存" />
+						<a class="yl" href="javascript:;">关闭</a>
+					</div>
+				</div>
+				<div class="add_sf fl">
+					添加收费票
+				</div>
+				<div class="sp_list fr fix">
+					<span class="fl tui_span">退款设置</span>
+					<div class="tui_site fl">
+						<ul>
+							<li class="tui_cur">
+								<span><i></i>委托【我和你】退款</span>
+								<p>如需申请退款请于活动开始前24小时外申请。申请方式：登录活动行官网—在“我参与的”找到相应票券—点击“退票”。
+			<br />【我和你】将统一收取原票价的10%作为退票手续费，请知悉。</p>
+							</li>
+							<li>
+								<span><i></i>不接受退款</span>
+								<p>本活动票券一旦售出，恕不退还。无法参加活动，请将票券转让给其他人。</p>
+							</li>
+						</ul>
+						<input type="text" placeholder="请填写不接受退款的理由" class="input_li"/>
+						<span class="tui_i">一旦发布后不能更改退款设置</span>
+					</div>
+				</div>
+			
+			</div>
+			<!--免费票-->
+			<div class="sp_con dn fix">
+				<div class="sp_conIn">
+					<ul class="sp_con_title fix">
+						<li>
+							<input type="" name="" id="" placeholder="免费票" disabled="disabled"/>
+						</li>
+						<li>
+							<input type="" name="" id="" value="" disabled="disabled"/>
+						</li>
+						<li class="cb2">报名尚未开始</li>
+						<li class="sp_set">
+							<span class="set"></span>
+							<span class="sp_del"></span>
+						</li>
+					</ul>
+					<div class="sp_list02">
+						<i>票种说明</i>
+						<input type="text" name="" id="" value="" placeholder="限制200汉字" />
+					</div>
+					<ul class="sp_date">
+						<li class="fix">
+							<i class="fl">订购日期</i>
+							<span class="check fl"></span>
+							<i class="cb2">默认为活动结束前</i>
+						</li>
+						<li class="fix">
+							<i class="fl">有效日期</i>
+							<span class="check check_n fl"></span>
+							<i class="cb2">默认为活动期内有效</i>
+						</li>
+					</ul>
+					<div class="tac btn_wrap">
+						<input class="bd_btn" type="button" name="" id="" value="保存" />
+						<a class="yl" href="javascript:;">关闭</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p class="Fa_cen tac">
+		<a href="javascript:;">发布</a>
+		<span>预览</span>
+	</p>
+	</div>
+</div>
+<!---中间内容结束--->	
+<!---底部内容--->
+<div class="footer fix mt40">
+	<div class="foot_one w1000 ma">
+		<ul>
+			<li>
+				<dl>
+					<dt>团体活动</dt>
+					<dd><a href="javascript:;">亚隆人际</a></dd>
+					<dd><a href="javascript:;">职业生涯</a></dd>
+					<dd><a href="javascript:;">亲子关系</a></dd>
+					<dd><a href="javascript:;">深度交友</a></dd>
+					<dd><a href="javascript:;">情感婚姻</a></dd>
+					<dd><a href="javascript:;">自我心灵探索</a></dd>
+				</dl>
+			</li>
+			<li class="foot_rz">
+				<dl>
+					<dt>认证咨询师</dt>
+					<dd><a href="javascript:;">认证标准</a></dd>
+					<dd><a href="javascript:;">认证咨询师</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="javascript:;">公司介绍</a></dd>
+					<dd><a href="javascript:;">相关项目</a></dd>
+					<dd><a href="javascript:;">精彩活动</a></dd>
+					<dd><a href="javascript:;">联系方式</a></dd>
+					<dd><a href="javascript:;">招兵买马</a></dd>
+				</dl>
+			</li>
+		</ul>
+		<div class="Telphone">
+			<div class="ma_pic fl">
+				<img src="imgs/erweima.png" width="139" height="139" />
+				<p>微信公众号</p>
+			</div>
+			<ol class="fl">
+				<li class="ol-li1">服务热线</li>
+				<li class="ol-li2"><img src="imgs/tel.png"/></li>
+				<li class="ol-li3">周一至周五  09：00-18：00</li>
+			</ol>
+		</div>
+	</div>
+</div>
+<div class="foot-two-bg">
+	<div class="foot-two w1000 ma fix">
+		<dl>
+			<dt>友情链接:</dt>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-01.png" width="120" height="40"/>
+					<span>万生心语</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-02.png" width="120" height="40"/>
+					<span>清华大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-03.png" width="120" height="40"/>
+					<span>北京大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-04.png" width="120" height="40"/>
+					<span>中国人民大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-05.png" width="120" height="40"/>
+					<span>中国心理学会</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-06.png" width="120" height="40"/>
+					<span>友谊心友网</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-07.png" width="120" height="40"/>
+					<span>多伦多大学</span>
+				</a>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="foot-three-bg fix">
+	<div class="foot-three w1000 ma">
+		<span>地址：北京市海淀区中关村南大街1号 友谊宾馆苏园14单元3层 </span>
+		<p>Copyright © 2000-2015 All Rights Reserved  京ICP备08100020号</p>
+	</div>
+</div>	
+<!---底部内容结束--->
+<!--预览表单 弹出层-->
+<div class="bg"></div>
+<div class="bora5 Yulan">
+	<div class="Sign_tit">
+		<span class="fs16 cf">预览报名表单</span>
+		<a class="close" href="javascript:;"><img src="imgs/center/close.png"/></a>
+	</div>
+	<table class="Sign_table" width="100%" border="0" cellpadding="0" cellspacing="10">
+		<tbody>
+			<tr>
+				<td width="25%"><i>*</i>姓名</td>
+				<td width="75%"><input type="text" class="input02"/></td>
+			</tr>
+			<tr>
+				<td><i>*</i>手机号</td>
+				<td><input type="text" class="input02" pattern="[0-9]*"/></td>
+			</tr>
+			<tr>
+				<td><i>*</i>公司</td>
+				<td><input type="text" class="input02"/></td>
+				</tr>
+			<tr>
+			<tr>
+				<td>年龄</td>
+				<td>
+					<ul>
+						<li><i class="sex"><span></span></i>15岁以下</li>
+						<li><i class="sex sex_cur"><span></span></i>15~20岁</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>职位</td>
+				<td><input type="text" class="input02"/></td>
+			</tr>
+			<tr>
+				<td>学历</td>
+				<td>
+					<ul>
+						<li><i class="sex"><span></span></i>小学</li>
+						<li><i class="sex sex_cur"><span></span></i>中学</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>月收入</td>
+				<td>
+					<ul>
+						<li><i class="sex"><span></span></i>少于3000</li>
+						<li><i class="sex sex_cur"><span></span></i>3000~5000</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td><i>*</i>婚姻状况</td>
+				<td>
+					<ul>
+						<li><i class="sex"><span></span></i>未婚</li>
+						<li><i class="sex sex_cur"><span></span></i>已婚</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>附件</td>
+				<td class="fix">
+					<input type="text" class="input03 fl"/>
+					<div class="upload fl">
+						<span>点击上传</span>
+						<input type="file"/>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p class="Bbtn tac">
+		<a href="javascript:;" id="Bcancel">取消</a>
+	</p>
+</div>
+
+<!--日历js-->
+<script type="text/javascript">
+	!function(){
+		laydate.skin('danlan');//切换皮肤，请查看skins下面皮肤库
+		laydate({elem: '#demo'});//绑定元素
+	}();
+	
+	//日期范围限制
+	var start = {
+		elem: '#start',
+		format: 'YYYY-MM-DD',
+		min: '1099-06-16', //设定最小日期为当前日期
+		max: '2099-06-16', //最大日期
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			 end.min = datas; //开始日选好后，重置结束日的最小日期
+			 end.start = datas //将结束日的初始值设定为开始日
+		}
+	};
+	
+	var end = {
+		elem: '#end',
+		format: 'YYYY-MM-DD',
+		min: '1099-06-16',
+		max: '2099-06-16',
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			start.max = datas; //结束日选好后，充值开始日的最大日期
+		}
+	};
+	laydate(start);
+	laydate(end);
+	
+	
+	laydate({
+		choose: function(datas){ //选择日期完毕的回调
+		}
+	});
+	
+</script>
+</body>
+</html>

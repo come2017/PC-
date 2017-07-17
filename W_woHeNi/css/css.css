@@ -1,0 +1,1036 @@
+
+/********************************我和你--个人中心***********************************/
+.per_head{
+	border: 1px solid #dedede;
+	margin-top: 40px;
+	padding-bottom: 37px;
+	border-bottom: none;
+	width: 998px;
+}
+.per_headimg{
+	width: 161px;
+	height: 161px;
+	padding:8px 8px 0 7px;
+	display: inline-block;
+	background: url(../imgs/center/per_02.jpg) 0 0 no-repeat;
+	margin: -24px 0 0 12px;
+}
+.per_headtit{
+	margin-left: 24px;
+	width: 480px;
+}
+.per_tit01 h2{
+	color: #00a5eb;
+	font-size: 22px;
+	margin-right: 12px;
+}
+.per_tit01 ul{
+	margin: 7px 7px 0 0;
+}
+.per_tit01 ul li{
+	float: left;
+	margin-right: 2px;
+}
+.per_tit01 span{
+	color: #ffae00;
+	font-size: 12px;
+	margin-top: 7px;
+}
+.per_tit02{
+	color: #a6a6a6;
+	width:480px;
+}
+.tit03_wan{
+	border: 1px solid #e7e7e7;
+	width: 97px;
+	height: 27px;
+	line-height: 27px;
+}
+.C_mailer{
+	width: 16px;
+	height: 12px;
+	background: url(../imgs/center/xinfeng.png) 0 0 no-repeat;
+}
+.per_headnum{
+	border-left: 1px solid #d5d5d5;
+	width: 265px;
+	margin-left: 38px;
+}
+.per_headnum ul li{
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin: 7px 0;
+}
+.per_headnum ul li i{
+	color: #77c400;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+}
+.per_headnum ul li span{
+	color: #555;
+}
+
+.per_tab ul li{
+	float: left;
+	background-color: #52cbff;
+	height: 43px;
+	border-right: 1px solid #88dbff;
+	width: 199px;
+	line-height: 43px;
+	text-align: center;
+}
+.per_tab ul li:hover{
+	background-color:#77c400;
+}
+.per_tab ul li.per_tab_cur{
+	background-color:#77c400;
+}
+.per_tab ul li a{
+	display: block;
+}
+.per_tab ul li:last-child{
+	border-right: 1px solid #52cbff;
+}
+.per_tab ul li span{
+	font-size: 15px;
+	color: #fff;
+}
+.per_tab ul li i{
+	display: inline-block;
+	vertical-align: sub;
+	margin-right: 5px;
+}
+.per_tab ul li i.i01{
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/center/shape_01.png) 0 0 no-repeat;	
+}
+.per_tab ul li i.i02{
+	width: 22px;
+	height: 19px;
+	background: url(../imgs/center/shape_02.png) 0 0 no-repeat;
+}
+.per_tab ul li i.i03{
+	width: 18px;
+	height: 18px;
+	background: url(../imgs/center/shape_03.png) 0 0 no-repeat;
+}
+.per_tab ul li i.i04{
+	width: 14px;
+	height:18px;
+	background: url(../imgs/center/shape_04.png) 0 0 no-repeat;
+}
+.per_tab ul li i.i05{
+	width: 20px;
+	height: 16px;
+	background: url(../imgs/center/shape_05.png) 0 0 no-repeat;
+}
+
+/****
+	我和你--个人中心
+	我参与的--未完成
+****/
+.Canyu_wei{
+	width: 998px;
+	border: 1px #dedede solid;
+	margin-top: 15px;
+}
+.per_stit{
+	height: 62px;
+	line-height: 62px;
+	border-bottom: 1px #dedede solid;
+	padding:0 18px;
+}
+.per_stit i{
+	width: 6px;
+	height: 16px;
+	background-color:#00a5eb;
+	display: inline-block;
+}
+.per_stit h2{
+	font-size: 18px;
+	color: #00a5eb;
+}
+.Cwei_con{
+	padding: 20px;
+}
+.Cwei_tab{
+	border: 1px #dedede solid;
+	background-color:#f9f9f9;
+	height: 48px;
+	line-height: 48px;
+}
+.Cwei_tab ul li{
+	float:left;
+	border-right: 1px #dedede solid;
+	padding:0 25px;
+}
+.Cwei_tab ul li a{
+	display: block;
+}
+.Cwei_tab .Cwei_tab_cur{
+	background-color: #fff;
+	border-top:4px #52cbff solid;
+	height: 45px;
+}
+.Cwei_ding_big{
+	margin-top: 24px;
+}
+.Cwei_ding{
+	margin-bottom: 25px;
+}
+.Cding_list{
+	padding: 15px 12px;
+	border: 1px #dedede solid;
+}
+.Cding_img{
+	width: 111px;
+	height: 62px;
+}
+.Cding_img img{
+	width: 100%;
+	height: 100%;
+}
+.Cding_txt{
+	margin-left: 19px;
+}
+.Cding_txt h3{
+	color: #125192;
+	font-size: 16px;
+}
+.C_biao{
+	width: 15px;
+	height: 15px;
+	background:url(../imgs/dataIcon.png) 0 0 no-repeat;
+	vertical-align: sub;
+}
+.txt_time span{
+	width: 57px;
+	height: 18px;
+	line-height: 18px;
+	background-color: #ff4800;
+}
+.C_click u{
+	color: #77c400;
+	padding-right: 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.C_click_hide u{
+	background:url(../imgs/center/zhan.png) no-repeat right center;
+}
+.C_click_show u{
+	background:url(../imgs/center/show.png) no-repeat right center;
+}
+.Cding_show{
+	border: 1px #dedede solid;
+	border-top: none;
+	display: none;
+}
+.Cwei_ding_big .Cwei_ding:first-child .Cding_show{
+	display: block;
+}
+.Cding_show table tr td{
+	padding: 25px 0;
+}
+.Cding_show table .Cding_title{
+	background-color: #f9f9f9;
+	border-bottom: 1px #dedede solid;
+}
+.Cding_show table .Cding_title td{
+	color: #7b7b7b;
+	padding: 10px 0;
+}
+.ding_quxiao a{
+	color: #52cbff;
+}
+.dingIN{
+	border: 1px #dedede solid;
+}
+.dingIN table .Cding_title {
+    background-color: #f9f9f9;
+    border-bottom: 1px #dedede solid;
+}
+.dingIN table .Cding_title td {
+    color: #7b7b7b;
+    padding: 10px 0;
+}
+.dingIN table tr td {
+    padding: 25px 0;
+}
+
+/****************************我的私信*********************/
+.letter{
+	padding:0 20px;
+}
+.letter ul li{
+	border-bottom: 1px #dedede dotted;
+	padding-bottom: 30px;
+	overflow: hidden;
+	margin-top: 25px;
+}
+.let_img{
+	width: 50px;
+	height: 50px;
+}
+.let_img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.let_txt{
+	width: 890px;
+	margin-left: 15px;
+}
+.let_txt p{
+	line-height: 20px;
+	margin: 10px 0 20px 0;
+}
+.let_txt dl dt{
+	color: #999;
+	float: left;
+	margin-right: 35px;
+}
+.let_txt dl dd i{
+	background: url(../imgs/center/hui.png) 0 0 no-repeat;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	vertical-align: sub;
+}
+.let_txt dl dd a{
+	color: #00a5eb;
+}
+
+.bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+.let_huifu {
+    display: none;
+	width: 590px;
+    height: 430px;
+    position: fixed;
+    left: 50%;
+    margin-left: -295px;
+    top: 50%;
+    margin-top: -215px;
+    background-color: #fff;
+    z-index: 100;
+    padding-bottom: 0px;
+}
+.close {
+    display: block;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 7px;
+    right:13px;
+}
+.let_hf_tit{
+	height: 50px;
+	background-color: #00a5eb;
+	line-height: 50px;
+	border-radius: 5px 5px 0 0;
+	padding-left: 25px;
+}
+.let_ht_con{
+	margin: 0 21px 0 24px;
+}
+.let_huifu textarea{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:#f2f2f2;
+    width: 546px;
+    height: 198px;
+    border: none;
+    outline: none;
+    margin: 33px 0 0 0;
+    color: #999;
+    padding: 20px 0 0 20px;
+}
+.let_submit{
+	width: 97px;
+	height: 40px;
+	line-height: 40px;
+	background-color:#00a5eb;
+}
+
+/****************************我的活动*********************/
+.per_act{
+	padding: 0 16px 0 36px;
+}
+.act_tit{
+	height: 11px;
+}
+.act_tit i{
+	width: 7px;
+	height: 7px;
+	border: 2px solid #52cbff;
+	background-color: #fff;
+}
+.act_tit span{
+	font-weight: bold;
+	color: #00a5eb;
+	margin-left: 20px;
+}
+.act_con_big{
+	padding: 1px 0 30px 28px;
+	border-left: 1px solid #d5d5d5;
+	margin-left: 5px;
+}
+.act_con{
+	margin-top: 25px;
+}
+.act_img{
+	width: 255px;
+	height: 143px;
+}
+.act_img img{
+	width: 100%;
+	height: 100%;
+}
+.act_txt{
+	border: 1px solid #dedede;
+	width: 633px;
+	border-left: none;
+	padding-left: 23px;
+	height: 141px;
+}
+.act_txt h2{
+	width: 613px;
+	color: #125192;
+	font-size: 16px;
+	border-bottom: 1px #dedede dotted;
+	padding-bottom: 14px;
+	margin-top: 13px;
+}
+.act_txt dl{
+	margin-top: 15px;
+}
+.act_txt dt{
+	margin-bottom: 15px;
+}
+.act_txt dl dt i{
+	background: url(../imgs/dataIcon.png) 0 0 no-repeat;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: sub;
+	margin-right: 10px;
+}
+.act_txt dl dd i{
+	background: url(../imgs/addressIcon.png) 0 0 no-repeat;
+	width: 12px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: sub;
+	margin-right: 10px;
+}
+
+/****
+	我和你--个人中心
+	我收藏的
+****/
+/*收藏的活动*/
+.scact_con{
+	margin-top: 28px;
+}
+.SC_active {
+    padding: 20px;
+}
+.act_tab{
+    border: 1px #dedede solid;
+    background-color: #f9f9f9;
+    height: 48px;
+    line-height: 48px;
+}
+.act_tab ul li {
+    float: left;
+    border-right: 1px #dedede solid;
+    padding: 0 25px;
+}
+.act_tab ul li a {
+    display: block;
+}
+.act_tab .act_tab_cur {
+    background-color: #fff;
+    border-top: 4px #52cbff solid;
+    height: 45px;
+}
+
+.sctxt_top{
+    border-bottom: 1px #dedede dotted;
+    padding-bottom: 14px;
+    margin: 13px 18px 16px 0;
+}
+.sctxt_top h2{
+	color: #125192;
+	font-size: 16px;
+}
+.sctxt_top a i{
+	background:url(../imgs/center/share.jpg) 0 0 no-repeat;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.scAct_text {
+    border: 1px solid #dedede;
+    width: 679px;
+    border-left: none;
+    padding-left: 23px;
+    height: 141px;
+}
+.sctxt_bot{
+	margin-right: 18px;
+}
+.sctxt_bot dl dt{
+	margin-bottom: 10px;
+}
+.sctxt_bot dl dt i{
+	background:url(../imgs/center/User.png) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.sctxt_bot dl dd i{
+	background:url(../imgs/dataIcon.png) 0 0 no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.sctxt_bot dl dd p{
+	margin-right: 15px;
+}
+.span_ji {
+    width: 57px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #ff4800;
+}
+.span_zheng{
+	width: 57px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #ffa200;
+}
+.span_end{
+	width: 57px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #707070;
+}
+.per_apply{
+	width: 80px;
+	height: 29px;
+	line-height: 29px;
+	background-color:#52cbff;
+}
+
+/*关注的主办方*/
+.zbf_list{
+	padding-bottom: 24px;
+	border-bottom: 1px #e5e5e5 solid;
+	margin-top: 20px;
+}
+.zbf_img{
+	width: 73px;
+	height: 70px;
+}
+.zbf_img img{
+	width: 100%;
+	height:100%;
+}
+.zbf_txt{
+	margin-left: 24px;
+}
+.zbf_txt p{
+	color: #979393;
+	margin: 5px 0;
+}
+.zbf_txt dl dt{
+	float: left;
+	margin-right: 15px;
+}
+.zbf_txt dl dt span{
+	color: #979393;
+}
+.zbf_txt dl dt a{
+	color: #00a5eb;
+}
+.zbf_more{
+	color: #979393;
+}
+.zbf_sixin{
+	padding: 7px 19px;
+	background-color: #52cbff;
+}
+
+/****
+	我和你--个人中心
+	我发布的
+****/
+.fabu_con{
+	margin-bottom: 40px;
+}
+.fabuI_list {
+    padding: 15px 19px 15px 12px;
+}
+.fabuI_md a{
+	color: #77c400;
+}
+.fabuI_md a i{
+	background: url(../imgs/center/biaodan.png) 0 0 no-repeat;
+	width: 16px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: sub;
+}
+
+/* votebox */
+.votebox{
+	width:215px;
+	text-align:left;
+	position:relative;
+	z-index:66;
+	margin: 6px 10px 0 0; 
+}
+/* barbox */
+.barbox{
+	height:8px;
+	line-height:8px;
+	overflow:hidden;
+}
+.barbox dt a{
+	color:#0048CC;
+}
+.barbox dd{
+	float:left;
+}
+.barbox dd.last{
+	color:#999;
+}
+.barbox dd.barline{
+	width:215px;
+	background:url(../imgs/center/jdtbg.png) left center no-repeat;
+	height:8px;
+	overflow:hidden;
+	display:inline;
+}
+.barbox dd.barline div.charts{
+	height:8px;
+	overflow:hidden;
+	background:url(../imgs/center/barbg.gif) right center repeat-x;
+	border-radius:8px;
+}
+.vote_num i{
+	color: #52cbff;
+}
+.vote_num span{
+	color: #999;
+}
+/*名单管理*/
+.fbname_top input{
+	width: 153px;
+	height: 38px;
+	border: 1px #dedede solid;
+	color: #333;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+.fbname_top select{
+	width: 82px;
+	height: 40px;
+	border: 1px #dedede solid;
+	outline: none;
+	float: left;
+	margin-right: 10px;
+}
+.fb_cha{
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 26px;
+	background-color:#52cbff;
+}
+.fb_del{
+	background-color:#77c400;
+}
+.fb_quanxuan input,label{
+	color: #000;
+	cursor: pointer;
+}
+.fb_quanxuan input{
+	width: 20px;
+	height: 20px;
+}
+.fbname_bot{
+	margin-bottom: 50px;
+}
+.fbname_bot table{
+	border: 1px #dedede solid;
+	text-align: center;
+	margin-top: 15px;
+}
+.fbname_bot table thead{
+	height: 36px;
+	line-height: 36px;
+	background-color: #f2f2f2;
+}
+.fbname_bot table thead tr td{
+	color: #808080;
+}
+.fbname_bot table tbody{
+	height: 50px;
+	line-height: 50px;
+	background-color:#fff;
+}
+.fbname_bot table tbody tr td{
+	color: #000;
+}
+.fbname_bot table tbody input{
+	width: 20px;
+	height: 20px;
+}
+
+/****
+	我和你--个人中心
+	账户设置
+****/
+.per_zh_tab{
+	border:1px solid #d5d5d5;
+	width: 998px;
+	margin-top: 15px;
+}
+.per_zh_tab ul li {
+    float: left;
+    background-color: #ffffff;
+    height: 52px;
+    border-right: 1px solid #d5d5d5;
+    width: 248px;
+    line-height: 52px;
+    text-align: center;
+}
+.per_zh_tab ul li:last-child{
+	border: none;
+}
+.per_zh_tab ul li a {
+    display: block;
+}
+.per_zh_tab ul li i {
+    display: inline-block;
+    vertical-align: sub;
+}
+.per_zh_tab ul li i.zh_i01 {
+    width: 19px;
+    height: 18px;
+    background: url(../imgs/center/zh_0i1.png) 0 0 no-repeat;
+}
+.per_zh_tab ul li i.zh_i02 {
+    width: 14px;
+    height: 17px;
+    background: url(../imgs/center/zh_0i2.png) 0 0 no-repeat;
+    margin-right: 5px;
+}
+.per_zh_tab ul li i.zh_i03 {
+    width: 20px;
+    height: 20px;
+    background: url(../imgs/center/zh_0i3.png) 0 0 no-repeat;
+}
+.per_zh_tab ul li i.zh_i04 {
+    width: 17px;
+    height: 17px;
+    background: url(../imgs/center/zh_0i4.png) 0 0 no-repeat;
+}
+.per_zh_tab .zh_tab_cur {
+    background-color: #fff;
+    border-bottom: 4px #52cbff solid;
+    height: 48px;
+}
+.per_zh_tab .zh_tab_cur span{
+	color: #00a5eb;
+}
+.per_zh_tab .zh_tab_cur .zh_i01{
+	background: url(../imgs/center/zh_0i1_on.png) 0 0 no-repeat;
+}
+.per_zh_tab .zh_tab_cur .zh_i02{
+	background: url(../imgs/center/zh_0i2_on.png) 0 0 no-repeat;
+}
+.per_zh_tab .zh_tab_cur .zh_i03{
+	background: url(../imgs/center/zh_0i3_on.png) 0 0 no-repeat;
+}
+.per_zh_tab .zh_tab_cur .zh_i04{
+	background: url(../imgs/center/zh_0i4_on.png) 0 0 no-repeat;
+}
+
+/*输入新的手机号*/
+.ZH_main{
+	width: 998px;
+	border: 1px #dedede solid;
+	border-top: none;
+}
+.new_tel{
+	width: 880px;
+	margin: 63px auto 0;
+	margin-bottom: 65px;
+}
+.new_tel ul li{
+	margin-bottom: 26px;
+	overflow: hidden;
+}
+.new_tel ul li span{
+	text-align: right;
+	width: 155px;
+	display: inline-block;
+	margin-right: 10px;
+	float: left;
+	line-height: 46px;
+}
+.new_tel ul li input.tel_long{
+	border: 1px solid #e6e6e6;
+	height: 44px;
+	width: 638px;
+    padding-left: 20px;
+}
+.new_tel ul li input.tel_short{
+	border: 1px solid #e6e6e6;
+	height: 44px;
+	width: 487px;
+	padding-left: 20px;
+}
+.tel_ma{
+	border: 1px solid #e6e6e6;
+	width: 150px;
+	height: 44px;
+	line-height: 44px;
+	background-color:#ffa752;
+}
+.tel_sure{
+	background-color:#52cbff;
+	width: 286px;
+	height: 53px;
+	line-height: 53px;
+	margin-top: 18px;
+}
+/*输入旧的手机号*/
+.odd_tel em{
+	line-height: 46px;
+}
+
+/*个人资料设置*/
+.zh_tab_con {
+    width: 998px;
+    border: 1px #dedede solid;
+    border-top: none;
+}
+.ziliao_con input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #555;  
+}
+
+.ziliao_con input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #555;
+}
+
+.ziliao_con input:-ms-input-placeholder{
+    color: #555;
+}
+
+.ziliao_con input::-webkit-input-placeholder{
+    color: #555;
+}
+.ziliao_con select {
+    width: 330px;
+    height: 46px;
+    border: 1px #dedede solid;
+    outline: none;
+    float: left;
+    margin-right:20px;
+}
+.ziliao_sex{
+	height: 46px;
+	line-height: 46px;
+}
+.ziliao_sex label{
+	margin-right: 15px;
+	margin-left: 5px;
+}
+.ziliao_img{
+	width: 116px;
+	height: 116px;
+}
+.ziliao_img img{
+	width: 100%;
+	height: 100%;
+}
+.file_style{
+	width: 63px;
+	height: 29px;
+	line-height: 29px;
+	background-color:#52cbff;
+}
+.file_style input{
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ziliao_but{
+	margin-left: 20px;
+}
+.ziliao_but p{
+	color: #a8a8a8;
+	margin-top: 16px;
+}
+.yanimg{
+	width: 132px;
+	height: 44px;
+	border: 1px #dedede solid;
+	border-left: none;
+}
+
+/*主办方资料*/
+.ZL_zbf{
+	padding: 23px 18px 0;
+}
+.add_zbf a{
+	width: 160px;
+	height: 37px;
+	line-height: 37px;
+	background-color: #52cbff;
+}
+.ZLzbf_list{
+	border-top: 1px solid #dedede;
+	padding-top: 29px;
+}
+.ZLzbf_con{
+	border-bottom: 1px #dedede solid;
+	padding-bottom: 29px;
+	margin-bottom: 29px;
+}
+.ZLzbf_img{
+	width: 98px;
+	height: 94px;
+}
+.ZLzbf_img img{
+	width: 100%;
+	height: 100%;
+}
+.ZLzbf_txt{
+	width: 833px;
+	margin-left: 28px;
+}
+.ZLzbf_txt h2{
+	color: #125192;
+	font-size: 16px;
+	border-bottom: 1px dotted #dedede;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.ZLzbf_txt_l span{
+	color: #ff4c00;
+	margin: 8px 0;
+    display: inline-block;
+}
+.ZL_alert{
+	color: #52cbff;
+}
+.ZL_alert i{
+	background: url(../imgs/center/pencil.png) 0 0 no-repeat;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+/*添加主办方*/
+.tel_270{
+	border: 1px solid #e6e6e6;
+    height: 44px;
+    width: 250px;
+    padding-left: 20px;
+}
+.add_i{
+	height: 46px;
+	line-height: 46px;
+}
+.tel_off{
+	background-color:#747474;
+	margin-left: 24px;
+}
+.add_zbf_con textarea{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px #dedede solid;
+    width: 678px;
+    height: 264px;
+    outline: none;
+    color: #999;
+    padding: 20px 0 0 20px;
+}
+
+/*收款账户设置*/
+.kuan_main{
+	padding: 20px;
+}
+.add_kuan{
+	padding: 9px 36px;
+	background-color:#52cbff;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+}
+.kuan_list{
+	margin-bottom: 200px;
+}
+.kuan_con{
+	line-height: 53px;
+	border-top: 1px #dedede solid;
+}
+.ZL_del i{
+	background: url(../imgs/center/cup.png) 0 0 no-repeat;
+	width: 11px;
+	height: 14px;
+}
+.kuan_icon a{
+	margin-left: 25px;
+}
+.red_mi{
+	color: #fe0000;
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

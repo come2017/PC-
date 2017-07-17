@@ -1,0 +1,40 @@
+
+/*英文版公司简介*/
+.wid364{width:369px;}
+.in_text02 h4{width:365px;margin-bottom: 20px;}
+.in_text02 {margin-top:0px;}
+.in_text01 h4 {width:330px;}
+
+/*英文版公司理念*/
+.li_pic{margin-top:15px;}
+
+/*英文版服务优势*/
+.wid370 {margin-bottom:140px;margin-top:55px;}
+.wid402{margin-bottom:40px;}
+.wid469{margin-top:60px;}
+/*css*/
+.ling-x{font-style: normal;padding-right:32px;color:#E0E0E0;}
+.rec li a{background: none;padding-left:0;}
+
+
+
+/*************English***********/
+/*index*/
+.index_01 .index_01L { padding-top: 48px; height: 195px;}
+.index_01 .index_01R { width: 428px; }
+.index_03bg .index_03 .index_03-bot .index_03-bot_main .index_03_tab ul li { width: 135px; }
+.mr_frUl li a p { bottom: -27px; }
+.mr_frUl .two p { bottom: -12px; }
+.mr_frUl li .four p { bottom: -3px; }
+.dCon03 .dCon03_bottom .run02_C  p { margin-top: 33px; }
+.index_01 .index_01L span { margin-left: -15px; letter-spacing: -1px; }
+.index_03bg .index_03 .index_03-bot .index_03-bot_main .index_03_tab ul li.tab-on { width: 135px; }
+
+/*英文版关于我们左侧导航*/
+.shu_navin .Engsi a{padding-left:10px;width:160px;}
+.shu_navin .Engsan.current a{padding-left:20px;width:160px;}
+.shu_navin .Engsi.current a{padding-left:15px;width:170px;letter-spacing:-0.5px;}
+.shu_navin .Engyi.current a{padding-left:25px;width:160px;}
+
+
+.rig_title p .home{display:inline-block;padding-left:0px;}

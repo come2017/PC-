@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>景盛国际</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/com.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部开始-->
+		<div class="header01">
+			<div class="fix w1000 ma">
+				<div class="fl header01L">
+					<span>您身边的标识导视系统专家</span>
+					<a href="javascript:;" class="ce6"><i class="fs12 ce6">010-</i>57100125 <em class="fs12 ce6">/</em> 53675337</a>
+				</div>
+				<div class="fr header01R ce6">
+					<a href="javascript:;">设为首页</a>
+					|
+					<a href="javascript:;">加入收藏</a>
+				</div>
+			</div>
+		</div>
+		<div class="header02">
+			<div class="fix w1000 ma">
+				<div class="header02L fl">
+					<h1 class="fs24">公司宗旨</h1>
+					<span class="fs12">philosophy</span>
+				</div>
+				<div class="header02C fl">
+					企业存在的意义在于：为尊高的目标和理想杨帆前进，从而使得企业能够以一技之长去造福社会，盈利客户和回馈自己的员工。
+				</div>
+				<div class="header02R fr">
+					————北京景盛国际高级质量监控官
+				</div>
+			</div>
+		</div>
+		<div class="fix w1000 ma">
+			<div class="logo fl">
+				<a href="index.html" target="_blank">
+					<img src="imgs/logo.png" width="195" height="58" alt="图片加载中"/>
+				</a>
+			</div>
+			<div class="nav fr">
+				<ul class="fix">
+					<li><a href="index.html" target="_blank">首页</a></li>
+					<li><a href="jieshao.html" target="_blank">公司简介</a></li>
+					<li><a href="manage.html" target="_blank">经营范围</a></li>
+					<li><a href="fen_yingxiao.html" target="_blank">旗下分公司</a></li>
+					<li><a href="anli_ZT.html" target="_blank">产品案例</a></li>
+					<li><a href="news.html" target="_blank">新闻动态</a></li>
+					<li><a href="design_gong.html" target="_blank">人才招聘</a></li>
+					<li class="current_nav"><a href="contact_Us.html" target="_blank">联系我们</a></li>
+					<li><a href="advice.html" target="_blank">意见反馈</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--二级banner-->
+		<div class="er_banenr w100 ma">
+			<img src="imgs/neiye/banner_con.png" />
+		</div>
+		<!--头部结束-->
+		<div class="contact w1000 ma fix mt60">
+			<div class="cont_01 fix">
+				<div class="cont_map fl">
+					<div class="cont_tit">
+						<div class="tit_zi">
+							<i></i>
+							<span>地图定位</span>
+						</div>
+						<div class="carrow-down">
+							<!--向下的三角-->
+						</div>
+					</div>
+					<div class="contact-map ma">
+						<style type="text/css">
+			              #allmap {width:473px;height: 381px;overflow: hidden;margin:0 auto; background-color:#ffffff;margin-top:20px;border: 1px solid #e2e2e2;}
+			              #l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+			              #r-result{height:100%;width:20%;float:left;}
+			            </style>
+          				<script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+          				<!-------------地图坐标脚本结束-----------> 
+           				<div id="allmap"></div>
+			          	<script type="text/javascript">
+			                var map = new BMap.Map("allmap");            // 创建Map实例
+			                map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
+			                //map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
+			                //map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
+			                map.enableScrollWheelZoom();                            //启用滚轮放大缩小
+			                //map.addControl(new BMap.MapTypeControl());          //添加地图类型控件
+			                //map.centerAndZoom("山东",15);                     // 初始化地图,设置中心点坐标和地图级别。
+			                
+			                //var myEl = this.document.getElementById("mappoint").value;
+			                var myEl = "116.421391,40.062359";
+			                var myA=myEl.split(",");
+			                var point = new BMap.Point(myA[0], myA[1]);
+			                //alert(myEl);
+			                map.centerAndZoom(point, 15);
+			                var marker = new BMap.Marker(point);  // 创建标注
+			                map.addOverlay(marker);              // 将标注添加到地图中
+			                marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+			            </script>    
+            			<!--地图-->
+					</div>
+				</div>
+				<div class="cont_add fr">
+					<div class="cont_tit">
+						<div class="tit_zi">
+							<i></i>
+							<span>联系我们</span>
+						</div>
+						<div class="carrow-down">
+							<!--向下的三角-->
+						</div>
+					</div>
+					<dl class="mt20">
+						<dd>景盛总部：</dd>
+						<dt>地址：北京朝阳区安立路188号北方明珠大厦3座2103</dt>
+						<dt>联系电话：010-57100125 58608020</dt>
+						<dt>手机号码：15313092995</dt>
+						<dt>网 址： www.ad1231.com</dt>
+					</dl>
+					<dl class="mt30">
+						<dd>景盛分部：</dd>
+						<dt>深圳市福田区益田路3008号皇都广场B座3301</dt>
+						<dt>联系电话：0755-88250725</dt>
+						<dt>0755-88250735</dt>
+						<dt>联系邮箱：10388186@qq.com</dt>
+					</dl>
+				</div>
+			</div>
+			<div class="cont_02 fix">
+				<ul class="fix">
+					<li>
+						<div class="fl cont02_img">
+							<img src="imgs/neiye/con_03.png" width="78" height="82"/>
+						</div>
+						<div class="fl cont02_txt">
+							<h2>自驾路线：</h2>
+							<p>
+								无论您从哪个方向乘坐公交车过来，都在”西苑“下次。到达公司公交有397、397、397、397、397、397、
+								<br />
+								推荐路线：乘坐地铁至四惠A口出乘坐397至西苑下车，下车后西行100米西苑小学对面
+								<br />
+								（北京景盛国际文化发展有限公司）
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="fl cont02_img">
+							<img src="imgs/neiye/con_04.png" width="79" height="56"/>
+						</div>
+						<div class="fl cont02_txt">
+							<h2>乘车路线：</h2>
+							<p>
+								无论您从哪个方向乘坐公交车过来，都在”西苑“下次。到达公司公交有397、397、397、397、397、397、
+								<br />
+								推荐路线：乘坐地铁至四惠A口出乘坐397至西苑下车，下车后西行100米西苑小学对面
+								<br />
+								（北京景盛国际文化发展有限公司）
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!---底部内容--->
+<div class="footbg mt50">
+	<div class="foot fix prv">
+		<div class="foot-list fix">
+			<ul class="list-a">
+				<li class="list-tou"><a href="javascript:;">关于我们</a></li>
+				<li><a href="jieshao.html">公司介绍</a></li>
+				<li><a href="rongyu.html">公司荣誉</a></li>
+				<li><a href="linian.html">公司理念</a></li>
+			</ul>
+			<ul class="list-b">
+				<li class="list-tou"><a href="javascript:;">专长领域</a></li>
+				<li><a href="javascript:;">展厅工程</a></li>
+				<li><a href="javascript:;">品牌形象店</a></li>
+				<li><a href="javascript:;">广告牌</a></li>
+				<li><a href="javascript:;">标牌导视</a></li>
+				<li><a href="javascript:;">更多</a></li>
+			</ul>
+			<ul class="list-c">
+				<li class="list-tou"><a href="javascript:;">新闻动态</a></li>
+				<li><a href="news.html">公司新闻</a></li>
+				<li><a href="feel.html">行业感悟</a></li>
+			</ul>
+			<ul class="list-d">
+				<li class="list-tou"><a href="javascript:;">联系我们</a></li>
+				<li><a href="contact_Us.html">联系方式</a></li>
+				<li><a href="design_gong.html">人才招聘</a></li>
+				<li><a href="advice.html">留言反馈</a></li>
+			</ul>
+			<ul class="list-e">
+				<li class="list-tou"><a href="javascript:;">友情链接</a></li>
+				<li><a href="javascript:;">淘宝</a></li>
+				<li><a href="javascript:;">天猫</a></li>
+				<li><a href="javascript:;">京东</a></li>
+			</ul>
+			
+			<div class="weixin">
+				<a href="javascript:;">在线客服<span>Online Customer Service</span></a>
+				<div class="fl weixinL">
+					<img src="imgs/erweima.png" width="110" height="110"/>
+					<img src="imgs/logo03.png" width="107" height="26" class="two"/>
+				</div>
+				<div class="fr weixinR">
+					<img src="imgs/icon15.png" width="75" height="26"/>
+					<ol>
+						<li>010--57100125</li>
+						<li>010-53675337</li>
+						<li>大客户专线：15313092995</li>
+						<li>电话：400089936</li>
+						<li class="gray">投诉电话：13718663755</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		
+		<!--返回顶部-->
+		<div class="top pa">
+			<img src="imgs/top.png" width="38" height="15"/>
+		</div>
+		<div class="san pa">
+			<img src="imgs/daosan.png" width="13" height="11"/>
+		</div>
+	</div>
+</div>
+<div class="foot-bottom fix">
+	<div class="foot-bottom-con fix">
+		<div class="fl">
+			<div class="fix">
+				<img src="imgs/logo02.png" width="77" height="29" class="fl"/>
+				<em class="fl">景胜国际文化发展有限公司</em>
+			</div>
+			Copyright © 2015 demage.com Inc. All Rights Reserved.<br />
+			站长统计
+		</div>
+		<div class="fr footR">
+			如果您在全球任何国家有展览设计、展台搭建方面的需求，请随时联系我们,<br />
+			<span>沪ICP备09093806号-1</span>  <a href="javascript:;">网站地图</a>
+		</div>
+	</div>
+</div>
+<!---底部内容结束--->
+<!--竖导航开始-->
+<div class="rig_nav">
+        <div class="rig_list"><a class="list01" href="javascript:" target="_blank">在线咨询</a></div>
+        <div class="rig_list01">
+            <a class="list02" href="javascript:" target="_blank">服务热线</a>
+            <div class="list_content">
+                <a href="javascript:">400-089-9368</a>
+            </div>
+        </div>
+        <div class="rig_list rig_list04">
+            <span class="sanj"></span>
+        	<a class="list04" href="javascript:" target="_blank">扫一扫</a>
+            <div class="list_content">
+                <a href="javascript:"></a>
+            </div>
+        </div>       
+        <div class="rig_last"><a class="list05" href="#head">返回顶部</a></div>
+</div>
+<!--竖导航结束-->		
+	</body>
+</html>

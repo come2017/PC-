@@ -1,0 +1,365 @@
+
+/************************首页下拉菜单*******************************/
+div.select-main {background:#fff;color:#363636;height:29px;position:relative;width:239px;-webkit-user-select: none; /* webkit (safari, chrome) browsers */ -moz-user-select: none; /* mozilla browsers */ -khtml-user-select: none; /* webkit (konqueror) browsers */ -ms-user-select: none; /* IE10+ */ float:left;}
+div.select-main.z-index {z-index:10;z-index:10!important;}
+div.select-main.disabled {cursor:default; filter:alpha(opacity=50);opacity:0.5; zoom:1;}
+div.select-main.disabled div.select-set { cursor: default; }
+div.select-main.disabled div.select-arrow { cursor: default; }
+div.select-set{color:#808080;cursor:pointer;height:29px;line-height:29px;overflow:hidden;padding:0 10px 0 10px; width:188px; z-index: 5; font-size:14px; }
+div.select-arrow{background:url(../img/chevron-down.png) 0 0 no-repeat;cursor: pointer;height:9px;position:absolute;top:12px;right:10px;width:14px;z-index: 7; }
+div.select-block{background-color:#fff;border-left:1px solid #8f8f8f;border-right:1px solid #8f8f8f;border-bottom:1px solid #8f8f8f;left:-1px;line-height:20px;position:absolute;top:30px;width:239px;}
+ul.select-list {cursor:pointer; overflow-x: hidden;}
+/* End scroll view */
+li.select-items{width:100%;padding:7px 10px;color:#808080;font-size:14px;margin-bottom:0px;margin-top:0px;}
+li.select-items:hover{background-color:#3399FF;color: #FFFFFF;border:none;}
+.S_title{float:left;line-height:40px;margin-right:9px;font-size:16px;color:#333;}
+.S_select{display:inline-block;}
+
+.title1 .S_select{margin:21px 0px 0px 50px;}
+
+
+/**************心水发布足球下拉框*****************/
+.xiala{height:33px;line-height:33px;margin-top:20px;}
+.xiala span{font-size:14px;color:#666;}
+.xiala .S_select{vertical-align: middle;}
+.xiala div.select-main {
+	border:1px solid #8f8f8f;
+	color:#363636;
+	width:330px;height:33px;
+	line-height:33px;
+	position:relative;
+}
+.xiala div.select-set{
+	color:#808080;
+	height:33px;
+	line-height:33px;
+	width:280px;
+}
+.xiala div.select-arrow{
+	background:url(../img/chevron-down.png) center no-repeat;
+	height:33px;
+	position:absolute;
+	top:0px;right:0px;
+	width:30px;
+	border-left:1px solid #8f8f8f;
+}
+.xiala div.select-block{
+	left:-1px;line-height:20px;
+	position:absolute;
+	top:34px;
+	width:330px;
+}
+
+/***********赛事推荐下拉框***************/
+.tuijian div.select-main {
+	border:1px solid #c5c5c5;
+	color:#363636;
+	width:146px;height:47px;
+	line-height:47px;
+	position:relative;
+	font-size:16px;
+}
+.tuijian div.select-set{
+	color:#808080;
+	height:47px;
+	line-height:47px;
+	width:95px;
+	font-size:16px;
+}
+.tuijian div.select-arrow{
+	width:29px;
+	height:100%;
+	right:2px;
+	top:0px;
+	background:url(../img/icon.png) no-repeat -120px -100px;
+}
+.tuijian div.select-block{
+
+	left:-1px;line-height:30px;
+	position:absolute;
+	top:48px;
+	width:146px;
+	border-left:1px solid #c5c5c5;
+	border-right:1px solid #c5c5c5;
+	border-bottom:1px solid #c5c5c5;
+}
+.tuijian li.select-items{width:100%;	font-size:16px;}
+
+/********即时比分-赛事-下拉框***********/
+.S-table01 .S_select{vertical-align: middle;}
+.S-table01 div.select-main {
+	border:1px solid #c9c9c9;
+	width:170px;height:31px;
+	line-height:31px;
+	position:relative;
+	font-size:16px;
+	text-align:left;
+}
+.S-table01 div.select-set{
+	color:#808080;
+	height:31px;
+	line-height:31px;
+	width:120px;
+	font-size:16px;
+}
+.S-table01 div.select-arrow{
+	width:29px;
+	height:100%;
+	right:2px;
+	top:0px;
+	background:url(../img/icon.png) no-repeat -120px -107px;
+}
+.S-table01 div.select-block{
+
+	left:-1px;line-height:25px;
+	position:absolute;
+	top:32px;
+	width:170px;
+	border-left:1px solid #c9c9c9;
+	border-right:1px solid #c9c9c9;
+	border-bottom:1px solid #c9c9c9;
+}
+.S-table01 li.select-items{font-size:16px;}
+
+.S-nav div.select-main {
+	border:1px solid #c9c9c9;
+	width:220px;height:37px;
+	line-height:37px;
+	position:relative;
+	font-size:16px;
+	text-align:left;
+}
+.S-nav div.select-set{
+	color:#808080;
+	height:37px;
+	line-height:37px;
+	width:170px;
+	font-size:16px;
+}
+.S-nav div.select-arrow{
+	width:29px;
+	height:100%;
+	right:2px;
+	top:0px;
+	background:url(../img/icon.png) no-repeat -120px -105px;
+}
+.S-nav div.select-block{
+	left:-1px;line-height:25px;
+	position:absolute;
+	top:38px;
+	width:220px;
+	border-left:1px solid #c9c9c9;
+	border-right:1px solid #c9c9c9;
+	border-bottom:1px solid #c9c9c9;
+}
+.S-nav li.select-items{font-size:16px;}
+
+.js_qiu02_right .S-nav{
+	float:right;
+	margin-top:6px;
+	margin-right:10px;
+}
+
+/***********即时比分-析-下边虚线的下拉框01**************/
+.js_select01 .S_select{vertical-align: middle;}
+.js_select01 div.select-main {
+	border-bottom:1px dotted #c9c9c9;
+	width:288px;height:39px;
+	line-height:39px;
+	font-size:16px;
+	text-align:left;
+}
+.js_select01 div.select-set{
+	color:#808080;
+	height:39px;
+	line-height:39px;
+	width:267px;
+	font-size:16px;
+}
+.js_select01 div.select-arrow{
+	width:29px;
+	height:100%;
+	right:12px;
+	top:0px;
+	background:url(../img/icon.png) no-repeat -120px -107px;
+}
+.js_select01 div.select-block{
+
+	left:-1px;line-height:20px;
+	position:absolute;
+	top:40px;
+	width:288px;
+	border-left:1px solid #c9c9c9;
+	border-right:1px solid #c9c9c9;
+	border-bottom:1px solid #c9c9c9;
+}
+.js_select01 li.select-items{font-size:16px;}
+
+/**********即时比分-析-下拉框02***********/
+.js_f02 .S_select{vertical-align: middle;}
+.js_f02 div.select-main {
+	border:1px solid #c9c9c9;
+	width:142px;height:30px;
+	line-height:30px;
+	font-size:16px;
+	text-align:left;
+}
+.js_f02 div.select-set{
+	color:#808080;
+	height:30px;
+	line-height:30px;
+	width:91px;
+	font-size:16px;
+}
+.js_f02 div.select-arrow{
+	width:29px;
+	height:100%;
+	right:2px;
+	top:0px;
+	background:url(../img/icon.png) no-repeat -120px -107px;
+}
+.js_f02 div.select-block{
+
+	left:-1px;line-height:20px;
+	position:absolute;
+	top:32px;
+	width:142px;
+	border-left:1px solid #c9c9c9;
+	border-right:1px solid #c9c9c9;
+	border-bottom:1px solid #c9c9c9;
+}
+.js_f02 li.select-items{font-size:16px;}
+
+/**********即时比分-析-下拉框03***********/
+.ji_f_sec01 .S_select{vertical-align: middle;}
+.ji_f_sec01 div.select-main {
+	border:1px solid #c9c9c9;
+	width:134px;height:29px;
+	line-height:29px;
+	font-size:16px;
+	text-align:left;
+}
+.ji_f_sec01 div.select-set{
+	color:#808080;
+	height:29px;
+	line-height:29px;
+	width:83px;
+	font-size:16px;
+}
+.ji_f_sec01 div.select-arrow{
+	width:29px;
+	height:100%;
+	right:2px;
+	top:0px;
+	background:url(../img/icon.png) no-repeat -120px -107px;
+}
+.ji_f_sec01 div.select-block{
+
+	left:-1px;line-height:20px;
+	position:absolute;
+	top:30px;
+	width:134px;
+	border-left:1px solid #c9c9c9;
+	border-right:1px solid #c9c9c9;
+	border-bottom:1px solid #c9c9c9;
+}
+.ji_f_sec01 li.select-items{font-size:16px;}
+
+.ji_f_sec01{
+	margin-right:4px;
+}
+/**********即时比分-析-下拉框04***********/
+.ji_f_sec02 .S_select{vertical-align: middle;}
+.ji_f_sec02 div.select-main {
+	border:1px solid #c9c9c9;
+	width:80px;height:29px;
+	line-height:29px;
+	font-size:16px;
+	text-align:left;
+}
+.ji_f_sec02 div.select-set{
+	color:#808080;
+	height:29px;
+	line-height:29px;
+	width:83px;
+	font-size:16px;
+}
+.ji_f_sec02 div.select-arrow{
+	width:29px;
+	height:100%;
+	right:2px;
+	top:0px;
+	background:url(../img/icon.png) no-repeat -120px -107px;
+}
+.ji_f_sec02 div.select-block{
+
+	left:-1px;line-height:20px;
+	position:absolute;
+	top:30px;
+	width:80px;
+	border-left:1px solid #c9c9c9;
+	border-right:1px solid #c9c9c9;
+	border-bottom:1px solid #c9c9c9;
+}
+.ji_f_sec02 li.select-items{font-size:16px;}
+
+/*******提款下拉01*********/
+.Sxiala .S_select{vertical-align: middle;}
+.Sxiala div.select-main {
+	border:1px solid #c5c5c5;
+	color:#363636;
+	width:545px;height:60px;
+	line-height:60px;
+	position:relative;
+}
+.Sxiala div.select-set{
+	color:#808080;
+	height:60px;
+	line-height:60px;
+	width:523px;
+}
+.Sxiala div.select-arrow{
+	background:url(../img/chevron-down.png) center no-repeat;
+	height:33px;
+	position:absolute;
+	width:30px;
+}
+.Sxiala div.select-block{
+	left:-1px;line-height:35px;
+	position:absolute;
+	top:61px;
+	width:545px;
+	border-left:1px solid #c5c5c5;
+	border-right:1px solid #c5c5c5;
+	border-bottom:1px solid #c5c5c5;
+}
+/*******提款下拉02*********/
+.Sxiala-1 .S_select{vertical-align: middle;}
+.Sxiala-1 div.select-main {
+	border:1px solid #c5c5c5;
+	color:#363636;
+	width:314px;height:60px;
+	line-height:60px;
+	position:relative;
+}
+.Sxiala-1 div.select-set{
+	color:#808080;
+	height:60px;
+	line-height:60px;
+	width:312px;
+}
+.Sxiala-1 div.select-arrow{
+	background:url(../img/chevron-down.png) center no-repeat;
+	height:33px;
+	position:absolute;
+	width:30px;
+}
+.Sxiala-1 div.select-block{
+	left:-1px;line-height:35px;
+	position:absolute;
+	top:61px;
+	width:314px;
+	border-left:1px solid #c5c5c5;
+	border-right:1px solid #c5c5c5;
+	border-bottom:1px solid #c5c5c5;
+}

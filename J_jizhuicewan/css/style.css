@@ -1,0 +1,1500 @@
+
+/**********************************首页****************************/
+/*banner*/
+.slideBox{
+	width:100%;
+	height:538px;
+	overflow:hidden;
+	position:relative;
+}
+.slideBox .bd{
+	position:relative;
+	height:100%;
+	z-index:0;
+}
+.slideBox .bd li{
+	zoom:1;
+	vertical-align:middle;
+}
+.slideBox .bd img{
+	width:100%;
+	height:538px;
+	display:block;
+}
+
+.slideBox .prev{
+	position:absolute;
+	right:19%;
+	top:50%;
+	margin-top:-10px;
+	display:block;
+	width:36px;
+	height:36px;
+	background:url(../img/iconright.png) 0 0 no-repeat;
+}
+.slideBox .next{
+	position:absolute;
+	left:19%;
+	top:50%;
+	margin-top:-10px;
+	display:block;
+	width:36px;
+	height:36px;
+	background:url(../img/iconleft.png) 0 0 no-repeat;
+	}
+
+.banner .pageState{
+	position: absolute;
+	top: 48%;
+	right: 22%;
+}
+.banner .pageState span{
+	font-size: 30px;
+	color: #fff;
+}
+/*热门搜索*/
+.txtMarquee-left{
+	position:relative;
+	line-height: 30px;
+}
+.txtMarquee-left .bd{
+	/*padding:10px;*/
+}
+.txtMarquee-left .bd .tempWrap{
+	width:790px !important;
+	*width:750px !important;
+}/* 用 !important覆盖SuperSlide自动生成的宽度，这样就可以手动控制可视宽度。 */
+.txtMarquee-left .bd ul{
+	overflow:hidden; zoom:1;
+	
+}
+.txtMarquee-left .bd ul li{
+	float:left;
+	text-align:left;
+	_display:inline;
+	width:auto !important;
+}/* 用 width:auto !important 覆盖SuperSlide自动生成的宽度，解决文字不衔接问题 */
+.txtMarquee-left .bd ul li a{
+	color:#a8a8a8;
+	border-right: 1px solid #a8a8a8;
+	padding: 0 8px;
+}
+.txtMarquee-left .bd ul li:last-child a{
+	border-right: none;
+}
+.hot_top .hot-h2{
+	color: #209ed6;
+}
+.hot_glass{
+	width: 376px;
+}
+.hot_glass input{
+	width:300px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #dadada;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	color: #209ed6;
+	padding-left: 20px;
+}
+.hot_glass a{
+	width: 22px;
+	height: 21px;
+	background:url(../img/glass.jpg) 0 0 no-repeat;
+	display: inline-block;
+	position: absolute;
+	top: 4px;
+	right: 9px;
+}
+
+/*病因*/
+.index_why{
+	margin-top: 40px;
+}
+.index_why_main{
+	float: left;
+}
+.index_why_mainL{
+	width:94px;
+	height: 211px;
+	background-color: #209ed6;
+}
+.mainL_con{
+	margin-top: 42px;
+}
+.mainL_con img{
+	height: 37px;
+}
+.mainL_con dl{
+	margin-top: 10px;
+}
+.mainL_con dl dt{
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.mainL_con dl dt:nth-child(n+3){
+	color: #fff600;
+}
+
+.index_why_mainR{
+	margin-top: 10px;
+	width:206px;
+	height: 201px;
+	background-color:#ebeff8;
+}
+.index_why_mainR .why_mainR_sj{
+	width: 10px;
+	height: 10px;
+	background: url(../img/hot_sj.png) 0 0 no-repeat;
+	position: absolute;
+	top: -10px;
+	left: 0;
+}
+.index_why_mainR ul{
+	margin: 30px 10px 0 25px;
+}
+.index_why_mainR ul li{
+	margin-bottom:15px;
+	height: 20px;
+	overflow: hidden;
+}
+.index_why_mainR ul li a{
+	font-size: 12px;
+	color: #555;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+}
+.index_why_mainR ul li a:hover{
+	color:#ff3c00;
+}
+.index_why_mainR ul .Rmore a{
+	color: #ff3c00;
+}
+
+/*康复案例*/
+.index_con_tit i {
+    width: 45%;
+    height:18px;
+    display: inline-block;
+    border-bottom: 1px solid #dfdfdf;
+}
+.index_con_tit span{
+	font-size: 24px;
+	font-weight: bold;
+	color:#209ed6;
+}
+.index_con_tit p{
+	color: #797979;
+	margin: 11px 0 19px 0;
+}
+.index_con_tit a{
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #2fbfff;
+	display: inline-block;
+	color: #fff;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	font-size: 12px;
+}
+.CON1_main{
+	margin-top: 27px;
+}
+.index_con1{
+	margin-top: 74px;
+}
+.CON1_L{
+	width: 592px;
+}
+.CON1_R{
+	width: 600px;
+}
+.CON1_L .CON1_Limg{
+	width:592px;
+	height: 384px;
+}
+
+.CON1zi_L{
+	width: 120px;
+	height: 157px;
+	background-color: #ffa200;
+	position: absolute;
+	top:-15px;
+	left: 0;
+}
+.CON1zi_Lcon{
+	margin-top: 37px;
+}
+.CON1zi_Lcon dl{
+	margin-top: 5px;
+}
+.CON1zi_Lcon dl dt{
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+.CON1zi_R {
+    width:439px;
+    height: 117px;
+    background-color: #ebeff8;
+    padding: 25px 13px 0 20px;
+}
+.CON1zi_R h3{
+	font-weight: bold;
+	color: #555;
+	margin-bottom: 5px;
+}
+.CON1zi_R p{
+	font-size: 12px;
+	color: #555;
+	line-height: 20px;
+}
+.CON1zi_R .kan{
+	font-size: 12px;
+	color: #ff3c00;
+	margin-top: 13px;
+    display: inline-block;
+}
+.CON1_R_top .CON1_Rimg{
+	width: 300px;
+	height: 236px;
+}
+.CON1_R_top .CON1_Rimg img{
+	width: 100%;
+	height: 100%;
+}
+.CON1_R_top .CON1_Rlan{
+	width: 235px;
+	height: 193px;
+	background-color: #bdebff;
+	padding: 43px 35px 0 30px;
+}
+.sj_bg{
+	width: 8px;
+	height:236px;
+	background: url(../img/lan-sj.jpg) 0 0 no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.CON1_Rlan h3{
+	font-weight: bold;
+	color: #555;
+	margin-bottom: 5px;
+}
+.CON1_Rlan p{
+	font-size: 12px;
+	color: #555;
+	line-height: 20px;
+}
+.CON1_Rlan .kan{
+	font-size: 12px;
+	color: #ff3c00;
+	margin-top: 13px;
+    display: inline-block;
+}
+.CON1_R_list{
+	margin-top: 7px;
+	padding: 8px 25px 0 30px;
+}
+.CON1_R_list ul li{
+	border-bottom: 1px dotted #cad3e6;
+	padding: 13px 0;
+	*padding: 10px 0;
+}
+.CON1_R_list ul li:last-child{
+	border-bottom:none;
+}
+.CON1_R_list ul li a{
+	color: #555;
+	overflow: hidden;
+	display: block;
+}
+.CON1_R_list ul li a:hover span,.CON1_R_list ul li a:hover i{
+	color: #ff3c00;
+}
+
+/*治疗优势*/
+.index_con2 {
+    margin-top: 74px;
+}
+.con2_good{
+	margin-top: 37px;
+}
+.con2_main{
+	width:259px;
+	height:391px;
+	padding: 30px 17px;
+	float: left;
+	margin-right:9px;
+}
+.con2_main .con2_img{
+	width: 258px;
+	height:120px;
+}
+.con2_main .con2_img img{
+	width:100%;
+	height:100%
+}
+.con2_main h3{
+	color: #209ed6;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 30px 0 20px 0;
+	height: 50px;
+}
+.con2_main p{
+	line-height: 24px;
+	margin-bottom: 28px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+}
+.con2_main .con2_A{
+	width:85px;
+	height: 33px;
+	line-height: 33px;
+	background-color: #2fbfff;
+	border-radius:0 8px 8px 0;
+}
+.con2_main .con2_A:hover{
+	background-color: #ffa200;	
+}
+
+/*专家团队*/
+.index_con3 {
+    margin-top: 84px;
+}
+
+/*有问必答*/
+.index_con4{
+    margin-top:74px;
+}
+.con4_main{
+	margin-top: 32px;
+}
+.index_con4 ul li{
+	width: 550px;
+	margin-bottom: 25px;
+}
+.index_con4 ul li a{
+	
+}
+.index_con4 ul li dd span{
+	font-size: 12px;
+	color: #fff;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	background-color:#ffa200;
+	text-align: center;
+	display: inline-block;
+	margin-right: 9px;
+}
+.index_con4 ul li dd{
+	margin-bottom: 15px;
+}
+.index_con4 ul li dd h2{
+	color: #555;
+	font-weight: bold;
+	line-height: 16px;
+}
+.index_con4 ul li dt span{
+	font-size: 12px;
+	color: #fff;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	background-color:#888;
+	text-align: center;
+	display: inline-block;
+	margin-right: 9px;
+}
+.index_con4 ul li dt p{
+	line-height: 20px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+}
+/*关于我们*/
+.index_con5{
+	margin-bottom: 66px;
+	margin-top: 60px;
+}
+/**********************************首页结束****************************/
+
+
+/************************中医疑难脊椎侧弯治疗中心—脊柱侧弯病因列表****************************/
+.er_banner{
+	width: 100%;
+	height: auto;
+}
+.er_banner img{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.cureby_tab{
+	margin: 62px auto 55px auto;
+}
+.cureby_tab i {
+    width:307px;
+    height:20px;
+    display: inline-block;
+    border-bottom: 1px solid #dfdfdf;
+}
+.cureby_tab ul li{
+	float: left;
+	width: 146px;
+	height: 40px;
+	line-height: 40px;
+	background-color:#eaeaea;
+}
+.cureby_tab ul li a{
+	color: #333;
+	font-size: 16px;
+	display: block;
+}
+.cureby_tab ul li.cureby_tab_cur{
+	border: 1px solid #3cc6ee;
+	background-color: #24a0d7;
+	height: 38px;
+	width: 146px;
+}
+.cureby_tab ul li.cureby_tab_cur a{
+	color: #fff;
+}
+.cureby_fan{
+	position: absolute;
+	top:6px;
+	right: 0;
+}
+.cureby_mainTtit h2{
+	color: #209ed6;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.cureby_List{
+	margin-top: 12px;
+}
+.cureby_List ul li{
+	border-bottom: 1px solid #dbdbdb;
+	margin-top: 30px;
+}
+.cureby_List ul li a{
+	display: block;
+}
+.cureby_List ul li i{
+	font-size: 12px;
+	color: #b8b8b8;
+	margin: 11px 0 9px 0;
+	display: inline-block;
+}
+.cureby_List ul li p{
+	font-size: 14px;
+	color: #555;
+	line-height: 24px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.ladyScroll{
+	width:1200px;
+	height:370px;
+	position:relative;
+}	
+.ladyScroll .prev,.ladyScroll .next{
+	width:30px;
+	height:30px;
+	z-index:100;
+	cursor:pointer; 
+}	
+.ladyScroll .next{
+	background:url(../img/icon2-right.png) no-repeat; 
+	position:absolute;
+	right:-40px;
+	top:130px;
+}	
+.ladyScroll .prev{
+	background:url(../img/icon2-left.png) no-repeat; 
+	position:absolute;
+	left:-40px;
+	top:130px;
+}
+.ladyScroll .prev:hover{ 
+	background:url(../img/icon2-left-on.png) no-repeat; 
+ }	
+ .ladyScroll .next:hover{
+ 	background:url(../img/icon2-right-on.png) no-repeat;  
+}	
+.ladyScroll .scrollWrap{
+	width:1200px;
+	overflow:hidden;
+	position:absolute;
+}	
+.ladyScroll .con3-main{
+	float:left;
+	width:246px;
+	position:relative;
+	margin:0 27px;
+}	
+.con3-main .con3_txt{
+	height: 80px;
+	background-color:#f6f6f6;
+	padding-left: 20px;
+}
+.con3-main .con3_txt h2{
+	color: #209ed6;
+	font-size: 18px;
+	margin: 12px 0 9px 0;
+	font-weight: normal;
+}
+.con3_txt .con3_yuyue{
+	width: 71px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #ffa200;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	position: absolute;
+	top:29px;
+	right:26px;
+}
+.con3_tan{
+	background-color: #ffa200;
+	padding: 20px 30px 30px 30px;
+	position: absolute;
+   	bottom: -218px;
+}
+.con3_tan a{
+	display: block;
+}
+.con3_tan span{
+	margin: 8px 0 9px 0;
+	display: inline-block;
+}
+.con3_tan p{
+	line-height: 24px;
+}
+.con3_tan .new_yue{
+	width: 71px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #fff;
+	color: #ffa200;
+	text-align: center;
+	display: inline-block;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;	
+	margin-top: 12px;
+}
+
+
+
+
+/************************中医疑难脊椎侧弯治疗中心—康复案例****************************/
+.kangfu_top{
+	margin-top: 43px;
+}
+.kangfu_top .TOP_img {
+    width: 300px;
+    height: 236px;
+}
+.kangfu_top .TOP_img img {
+    width: 100%;
+    height: 100%;
+}
+.kangfu_top .TOP_zi {
+    width:623px;
+	height:165px;
+    background-color: #ebeff8;
+    padding: 43px 33px 28px 43px;
+}
+.TOP_zi h3 {
+    font-weight: bold;
+    color: #3a677b;
+    margin-bottom: 15px;
+}
+.TOP_zi p {
+    font-size: 12px;
+    color: #586e78;
+    line-height: 20px;
+}
+.sj_bgff8{
+	background: url(../img/sj_bgff8.jpg) 0 0 no-repeat;
+}
+.kf_kan{
+	width: 118px;
+	height: 33px;
+	line-height: 33px;
+	background-color: #ffa200;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.kf_kan i{
+	width: 20px;
+	height: 11px;
+	background: url(../img/eye.png) 0 0 no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.kangfu_list{
+	margin-top: 15px;
+}
+.kangfu_list ul li{
+	border: 1px solid #e5e1e1;
+	display: inline-block;
+	margin-top: 25px;
+}
+.kf_listimg{
+	width:154px;
+	height: 100px;
+	margin: 9px;
+}
+.kf_listimg img{
+	width:100%;
+	height: 100%;
+}
+.kf_listcon h2{
+	color: #555;
+	font-weight: bold;
+}
+.kf_listcon{
+	width: 665px;
+	margin: 12px 20px 0 14px;
+}
+.kf_listcon i{
+	color: #9e9e9e;
+	font-size: 12px;
+	margin: 5px 0 12px 0;
+    display: inline-block;
+}
+.kf_listcon p{
+	color: #666;
+	font-size: 12px;
+	line-height: 20px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+}
+.kf_eye{
+	width: 126px;
+	height: 75px;
+	border-left: 1px solid #e5e1e1;
+	background-color:#f3f3f3;
+	padding-top: 43px;
+}
+.kf_eye i{
+	width: 20px;
+	height: 11px;
+	background: url(../img/eye_blue.png) 0 0 no-repeat;
+	display: inline-block;
+}
+.kf_eye span{
+	color: #209ed6;
+	margin-top: 10px;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—康复案例详细页****************************/
+.null_fan{
+	height: 35px;
+}
+.kf_INtop .topimg{
+	width: 327px;
+	height: 213px;
+}
+.kf_INtop .topimg img{
+	width: 100%;
+	height:100%;
+}
+.kf_INtop .topcon{
+	width: 610px;
+	margin-left: 63px;
+}
+.kf_INtop .topcon h2{
+	color: #3b3b3b;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.kf_INtop .topcon ul li{
+	line-height: 24px;
+}
+.kf_INtop .topcon ul li i{
+	color: #727272;
+}
+.kf_INtop .topcon ul li span{
+	color: #303030;
+}
+.kf_INtop .topcon p{
+	line-height: 24px;
+	color: #303030;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+}
+.kfIN_text{
+	line-height: 24px;
+}
+.kfIN_bor{
+	border-bottom: 1px dotted #cfcfcf;
+	padding-bottom: 24px;
+}
+.kf_next {
+	margin: 50px 0;
+}
+.kf_next a{
+	float: left;
+	color: #36a6d5;
+	width: 500px;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—联系我们 地址简介****************************/
+.contact_tab i{
+	width: 453px;
+}
+.contadd_bus{
+	margin-top: 75px;
+}
+.contadd_bus span{
+	margin-bottom: 15px;
+}
+.contass_pic{
+	width: 690px;
+}
+.contass_pic ul li img{
+	margin-bottom: 25px;
+}
+.contass_pic ul li h3{
+	margin-bottom: 10px;
+}
+.contass_pic ul li span{
+	line-height: 24px;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—联系我们 在线预约****************************/
+.contline_con{
+	background-color: #f6f6f6;
+	margin: 52px 0;
+}
+.contline_tit{
+	margin-top: 36px;
+	margin-left: 47px;
+}
+.contline_tit h1{
+	color: #010101;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 13px;
+}
+.contline_tit h1 i{
+	width: 25px;
+	height: 25px;
+	background: url(../img/Pencil.png) 0 0 no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.contline_tit span{
+	color: #ff7e00;
+}
+.contline_input ul li{
+	float: left;
+	margin-top: 32px;
+}
+.contline_input ul li span{
+	color: #010101;
+	width: 115px;
+	text-align: right;
+	display: inline-block;
+}
+.contline_input ul li input{
+	width: 311px;
+	height: 38px;
+	background-color: #fff;
+	padding-left: 15px;
+	color: #010101;
+}
+.contline_input ul li select{
+	width: 106px;
+	height: 38px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+.contline_input ul li textarea{
+	width: 751px;
+	height: 193px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	padding-left: 15px;
+}
+.contactYY_tijiao{
+	font-weight: bold;
+	width: 192px;
+	height: 38px;
+	line-height: 38px;
+	background-color:#5bcdff;
+	margin: 40px 0;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—特色技术****************************/
+.tese_txt01{
+	color: #209ed6;
+	line-height: 30px;
+}
+.tese_txt02{
+	color: #6a6a6a;
+	line-height: 30px;
+}
+.tese_txt02 i{
+	color: #030303;
+	font-weight: bold;
+}
+.tese_Lp{
+	width: 344px;
+}
+.tese_Lp span{
+	width: 344px;
+	height: 56px;
+	line-height: 56px;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	background: url(../img/ts_03.jpg) 0 0 no-repeat;
+}
+.tese_Lp p{
+	color: #5b5b5b;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+.tese_Rp{
+	width: 640px;
+}
+.tese_Rp span{
+	width: 640px;
+	height: 56px;
+	line-height: 56px;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	background: url(../img/ts_04.jpg) 0 0 no-repeat;
+}
+.tese_Rp p{
+	color: #5b5b5b;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.tese_Rp h3{
+	color: #209ed6;
+	margin-top: 15px;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—治疗优势****************************/
+.ZLgood_top{
+	margin-top: 42px;
+	border-bottom: 1px solid #dbdbdb;
+	padding-bottom: 45px;
+	margin-bottom: 23px;
+}
+.ZLgood_top ul li{
+	width:301px;
+	display: inline-block;
+}
+.ZLgood_top ul li a{
+	display: block;
+}
+.ZLgood_top ul li h3{
+	font-weight: bold;
+	margin: 15px 0 10px 0;
+	text-align: left;
+}
+.ZLgood_top ul li span{
+	line-height: 20px;
+	text-align: left;
+	display: inline-block;
+}
+.ZLgood_top ul li i{
+	font-size: 12px;
+	color: #ff3c00;
+}
+.ZLgood_list ul li{
+	border: 1px solid #f2f2f2;
+	display: inline-block;
+	margin-top: 20px;
+}
+.ZLgood_list ul li a{
+	display:block;
+}
+.ZLgood_list ul li .good_img{
+	width: 301px;
+	height: 140px;
+}
+.ZLgood_list ul li img{
+	width: 100%;
+	height: 100%;
+}
+.ZLgood_list ul li .good_txt{
+	width:647px;
+	padding: 25px 25px;
+}
+.ZLgood_list ul li .good_txt h2{
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.ZLgood_list ul li .good_txt p{
+	line-height: 20px;
+}
+.ZLgood_list ul li .good_txt i{
+	font-size: 12px;
+	color: #ff3c00;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—治疗优势详情页****************************/
+.goodlistTop{
+	margin-top: 75px;
+	padding-bottom: 32px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.goodlistTop h2{
+	color: #3b3b3b;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.goodlistTop span{
+	color: #9d9d9d;
+	font-size: 12px;
+	margin-right: 25px;
+}
+.goodlist_text{
+	margin-top: 35px;
+	line-height: 24px;
+	text-indent: 2em;
+	border-bottom: 1px solid #dbdbdb;
+	padding-bottom: 30px;
+	margin-bottom: 47px;
+}
+.goodlist_next{
+	margin-bottom: 30px;
+}
+.goodlist_next a{
+	font-size: 12px;
+	color: #3cbeee;
+	margin-bottom: 14px;
+	display: block;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—有问必答****************************/
+.Ques_answer{
+	
+}
+.answer_top{
+	color: #010101;
+	border-left: 8px solid #5bcdff;
+	padding-left: 9px;
+	margin-bottom: 20px;
+}
+.answer_list{
+	padding-top: 40px;
+	border-top: 1px solid #c9c9c9;
+}
+.answer_list ul li {
+    width:440px;
+    margin-bottom:50px;
+}
+.answer_list ul li a{
+	display: block;
+}
+.answer_list ul li dd {
+    margin-bottom: 15px;
+}
+.answer_list ul li dd span {
+    font-size: 12px;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #ffa200;
+    text-align: center;
+    display: inline-block;
+    margin-right: 9px;
+}
+.answer_list ul li dd h2 {
+    color: #555;
+    font-weight: bold;
+    line-height: 16px;
+}
+.answer_list ul li dt span {
+    font-size: 12px;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #888;
+    text-align: center;
+    display: inline-block;
+    margin-right: 9px;
+}
+.answer_list ul li dt p {
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+}
+
+.answer_time{
+	border-bottom: 1px dotted #cfcfcf;
+	padding-bottom: 15px;
+	color: #a9a9a9;
+	margin-bottom: 13px;
+}
+.answer_time i{
+	width: 17px;
+	height: 17px;
+	background: url(../img/time.png) 0 0 no-repeat;
+	display: inline-block;
+	vertical-align: sub;
+	margin-right: 10px;
+}
+
+.Ques_line {
+    background-color: #f6f6f6;
+    margin: 52px 0;
+}
+.Ques_input ul li {
+    float: left;
+    margin-top: 32px;
+    line-height: 38px;
+}
+.Ques_input ul li span {
+    color: #010101;
+    width: 85px;
+    text-align: right;
+    display: inline-block;
+}
+.Ques_input ul li input.ques_chang{
+    width: 360px;
+    height: 38px;
+    background-color: #fff;
+    padding-left: 15px;
+    color: #010101;
+}
+.Ques_input ul li input.ques_duan{
+    width: 165px;
+    height: 38px;
+    background-color: #fff;
+    padding-left: 15px;
+    color: #010101;
+}
+.Ques_input ul li input[type=radio],.Ques_input ul li label{
+	cursor: pointer;
+}
+.Ques_input ul li .sex-nan{
+	margin-right: 35px;
+}
+.Ques_input ul li textarea {
+    width: 825px;
+    height: 183px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #a4a4a4;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—专家团队****************************/
+.TD_01{
+	color: #666;
+	line-height: 24px;
+	text-indent: 2em;
+	margin: 40px 0 55px 0;
+}
+.TD_list_conbg{
+	background-color: #e8edf1;
+	margin-top: 20px;
+}
+.TD_list_con{
+	
+}
+.TD_listImg{
+	width: 246px;
+	height:289px;
+}
+.TD_listImg img{
+	width: 100%;
+	height: 100%;
+}
+.TD_listTxt h2{
+	color: #209ed6;
+	font-size: 18px;
+	margin-top: 25px;
+}
+.TD_listTxt span{
+	color: #5c85a2;
+	margin: 10px 0 20px 0;
+	display: inline-block;
+}
+.TD_listTxt p{
+	color: #437890;
+	font-size: 12px;
+	line-height: 24px;
+	width: 686px;
+}
+
+.TD_yue{
+	background-color:#24a0d7;
+}
+.TD_yue i {
+    width: 16px;
+    height: 16px;
+    background: url(../img/pen.png) 0 0 no-repeat;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—医院简介****************************/
+.intro_con1 span{
+	color: #979797;
+	margin-top: 15px;
+}
+.intro_con2 p{
+	text-indent: 2em;
+	line-height: 30px;
+	color: #666;
+}
+
+.index-jc-con {
+    width: 1000px;
+    margin-top: 62px;
+    height: 280px;
+}
+
+.index-jcbg img {
+    width: 100%;
+    height: 100%;
+}
+
+.mr_frUl {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.mr_frUl {
+    width: 867px;
+    margin: 0 auto;
+    /*	height: 318px;*/
+}
+
+.mr_frUl li {
+    margin: 0 21px;
+    float: left;
+    width: 242px;
+    height: 243px;
+    border-radius: 50%;
+    background: url(../img/intro_04.png) no-repeat center center;
+    background-size: contain;
+    text-align: center;
+    transition: .5s all;
+}
+
+.mr_frUl li:hover {
+    transform: scale(1.2);
+}
+
+.mr_frUl .two {
+    background: url(../img/intro_04.png) no-repeat center center;
+    background-size: contain;
+}
+
+.mr_frUl .three {
+    background: url(../img/intro_04.png) no-repeat center center;
+    background-size: contain;
+}
+
+
+.mr_frBtnL {
+    width: 39px;
+    height: 39px;
+    top: 120px;
+    background: url(../img/sev_qiye11.png) no-repeat;
+    background-size: contain;
+}
+
+.mr_frBtnL:hover {
+    background: url(../img/sev_qiye1102.png) no-repeat;
+    background-size: contain;
+}
+
+.mr_frBtnR {
+    width: 39px;
+    height: 39px;
+    top: 120px;
+    right: 0px;
+    background: url(../img/sev_qiye12.png) no-repeat;
+    background-size: contain;
+}
+
+.mr_frBtnR:hover {
+    background: url(../img/sev_qiye1202.png) no-repeat;
+    background-size: contain;
+}
+
+/*.mr_frUl ul li span {
+    width: 130px;
+    height:10px;
+    background-color: #ececec;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 246px;
+}*/
+
+.tui-con {
+    margin-top:40px;
+    width: 1000px;
+    height: 196px;
+    overflow: auto;
+}
+.tui-con ul li {
+    float: left;
+    width: 229px;
+    height: 196px;
+    overflow: hidden;
+    margin-right: 13px;
+}
+.tui-con ul li img {
+    width: 229px;
+    height: 147px;
+    display: block;
+}
+.scrollbar {
+    height: 1px;
+    background: #ffa200;
+    margin-top: 15px;
+}
+.scrollbar .handle {
+    border-radius: 10px;
+    background-color: #ffa200;
+    cursor: pointer;
+    top: -10px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+}
+
+.bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.rongyu {
+    display: none;
+    width:705px;
+    height: 460px;
+    position: fixed;
+    left: 50%;
+    margin-left: -352px;
+    top: 50%;
+    margin-top: -230px;
+    background-color: #fff;
+    z-index: 1002;
+    text-align: center;
+    padding-bottom: 0px;
+    padding:27px;
+}
+.rongyu dt img {
+    width: 100%;
+    height: 100%;
+}
+.rongyu dd {
+    margin: 10px 0px;
+    text-align: left;
+}
+.close {
+    display: block;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    bottom: 6px;
+    right:23px;
+}
+
+/************************中医疑难脊椎侧弯治疗中心—专家团队详细页****************************/
+.TDlist_tabcon{
+	border-left: 1px solid #e5e5e5;
+	padding-left: 43px;
+	margin-left: 43px;
+}
+.TDlist_Left h2{
+	color: #005980;
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #c0ecff;
+}
+.TDlist_Left ul{
+	border: 1px #f6f3f3 solid;
+	border-top: none;
+	width: 198px;
+	margin-top: 10px;
+	padding-bottom: 25px;
+}
+.TDlist_Left ul li{
+	position: relative;
+	margin-top: 12px;
+}
+.TDlist_Left ul li span{
+	width: 176px;
+	position: absolute;
+	bottom: 0;
+	left:11px;
+	background: url(../img/teambg.jpg) 0 0 repeat-x;
+	line-height: 26px;
+	color: #fff;
+}
+.TDlist_Right{
+	margin-bottom: 120px;
+}
+.TDlist_Rtop .Rtop_img{
+	width: 408px;
+	height: 480px;
+	border-right: 1px solid #efefef;
+	padding-right: 35px;
+	margin-right: 37px;
+}
+.TDlist_Rtop .Rtop_img img{
+	width: 100%;
+	height: 100%;
+}
+.TDlist_Rtop .Rtop_txt{
+	
+}
+.TDlist_Rtop .Rtop_txt h2{
+	color: #209ed6;
+	font-size: 18px;
+}
+.TDlist_Rtop .Rtop_txt span{
+	color: #999999;
+	margin: 13px 0 30px 0;
+}
+.TDlist_Rtop .Rtop_txt p{
+	color: #555;
+	line-height: 30px;
+	width: 227px;
+}
+.TDlist_Rtxt{
+	line-height: 30px;
+	color: #555;
+	width: 710px;
+}
+.TDlist_but{
+	margin-top: 80px;
+}
+.TD_zixun{
+	background-color:#24d7c4;
+	margin-right: 10px;
+}
+.TD_zixun i {
+    width: 16px;
+    height: 16px;
+    background: url(../img/assistant.png) 0 0 no-repeat;
+}
+
+.anli_tit{
+	background-color: #c0ecff;
+	height: 45px;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+.anli_tit span{
+	color: #005980;
+	margin-left: 18px;
+}
+.anli_tit a{
+	color: #209ed6;
+	margin-right: 14px;
+}
+.TDlist_anli{
+	margin-bottom: 43px;
+}
+.TDlist_anli ul li{
+	width: 470px;
+	height: 100px;
+	border: 1px solid #e5e1e1;
+	padding: 10px;
+}
+.TDlist_anli ul li .anli_img{
+	width: 155px;
+	height: 102px;
+}
+.TDlist_anli ul li .anli_img img{
+	width: 100%;
+	height: 100%;
+}
+.TDlist_anli ul li .anli_txt{
+	width: 275px;
+	margin-right: 15px;
+}
+.TDlist_anli ul li .anli_txt span{
+	color: #9e9e9e;
+	margin: 10px 0 15px 0;
+}
+.TDlist_anli ul li .anli_txt p{
+	line-height: 20px;
+	color: #666;
+	font-size: 12px;
+}
+.TDlist_anli ul li .anli_txt p i{
+	color: #ff3c00;
+	font-size: 12px;
+}
+
+

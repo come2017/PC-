@@ -1,0 +1,59 @@
+/*css reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; font-family:Arial,"Microsoft YaHei","微软雅黑"; font-size:14px;}
+fieldset, img { border: none; }
+ol, ul ,li{ list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-weight: normal; }
+em,i,b{ font-style:normal }
+a,a:hover { text-decoration: none;}
+a{color:inherit;}
+input{ list-style: none; border: none;  outline: none; }
+textarea{ resize: none;}
+/*原子类*/
+.last { margin-right:0 !important; }
+
+.clear { overflow: hidden; clear: both; height: 0; }
+table { border-collapse: collapse; }
+.fix { *zoom:1;}
+.fix:after, .fix:before { display: block; content: "."; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+img { border: 0; }
+
+.bgff{background-color:#ffffff;}
+
+.w1000{width:1000px;}
+.w1200{width:1200px;}
+.w100{width:100%;}
+
+.cp{ cursor:pointer;}
+.dt{ display: table;}
+.dc{ display: table-cell;}
+.db{ display: block;}
+.di{ display: inline-block;}
+.dn{ display: none; }
+.fsbold{font-weight:bold;}
+
+.oh{ overflow: hidden;}
+.pa{ position: absolute;}
+.prv{ position: relative;}
+.pf{ position: fixed;}
+.vam{ vertical-align: middle; }
+.vat{ vertical-align: top; }
+.tal{ text-align: left;}
+.tac{ text-align: center;}
+.tar{ text-align: right;}
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both;}
+
+.ce6{color:#e60012;}
+.cf{color: #fff;}
+.caa8{color:#aa8100;}
+
+.fs12{font-size:12px;}
+.fs24{font-size:24px;}
+
+.ma{margin:0 auto;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+.mt50{margin-top:50px;}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>名众导游</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.placeholder.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.pf_submit').click(function(){
+					$('.layout').stop().fadeIn(500);
+				});
+				$('.close').click(function(){
+					$('.layout').stop().fadeOut(500);
+				});
+			})
+		</script>
+
+	</head>
+	<body>
+		<!--头部-->
+		<div class="pf_header">
+			<div class="login_header">
+				<img src="imgs/login_logo.png"/>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="passwordCon tac">
+			<span class="ps_title">找回密码</span>
+			<ul class="ps_conIn">
+				<li class="fix">
+					<input type="text" name="" id="" value=""/><span>请输入手机号：</span>
+				</li>
+				<li class="ps_meg prv fix">
+					<input type="text" id="" value="" /><span>请输入短信验证码：</span>
+					<i>短信验证</i>
+				</li>
+				<li class="fix">
+					<input type="password" name="" id="" value=""/><span>新密码：</span>
+				</li>
+				<li class="fix">
+					<input type="password" name="" id="" value=""/><span>再次确认新密码：</span>
+				</li>
+				<li class="fix sub">
+					<input class="pf_submit" type="submit" name="" id="" value="提交"/>
+				</li>
+			</ul>
+		</div>
+		<!--弹出层-->
+		<div class="layout">
+			<div class="layoutCon">
+				<span>
+					<i>找回密码，成功！</i>
+					<a href="javascript:;">请点击此处，立即登录！</a>
+				</span>
+				<i class="close"></i>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="login_foot">
+			© 2016 Mafengwo.cn 京ICP备11015476号 京公网安备110105013401号 京ICP证110318号 新出网证(京)字242号<br />
+全国统一客服电话：400-888-2563
+		</div>
+	</body>
+</html>

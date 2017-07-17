@@ -1,0 +1,1215 @@
+/*********************首页**************************/
+/*****banner*****/
+/* changeBox_a1 */
+.changeBox_a1 {
+    width: 100%;
+    height: 532px;
+    position: relative;
+}
+
+.changeBox_a1 .a_bigImg img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    width: 100%;
+    height: 532px;
+}
+
+/* ul_change_a1 */
+.ul_change_a1 {
+    position: absolute;
+    right: 222px;
+    bottom: 16px;
+    padding-left: 19px;
+}
+
+.ul_change_a1 li {
+    float: left;
+    margin-right: 15px;
+}
+
+.ul_change_a1 img {
+    border: 4px solid #fff;
+    transition: 1s all;
+    position: relative;
+    top: 0;
+}
+
+.ul_change_a1 img.now, .ul_change_a1 img:hover {
+    border: 4px solid #d00a2d;
+    top: -11px;
+}
+
+/*****公司介绍*****/
+.index-Btitle {
+    width: 238px;
+}
+
+.index-company {
+    width: 1200px;
+    margin-top: 65px;
+}
+
+.index-company .comP {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    width: 1155px;
+    margin: 0 auto;
+}
+
+.index-company .comP i {
+    color: #ff5271;
+    font-size: 16px;
+}
+
+.index-company .comA {
+    width: 157px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #ea3c5a;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 34px;
+}
+
+/*****服务流程*****/
+.index-serv {
+    width: 100%;
+    position: relative;
+    height: 295px;
+    margin-top: 63px;
+}
+
+.index-servbg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.index-servbg img {
+    width: 100%;
+    height: 100%;
+}
+
+.ser-title {
+    width: 160px;
+    height: 49px;
+    padding-top: 60px;
+}
+
+.ser-main {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.ser-main li {
+    float: left;
+    margin-right: 94px;
+}
+
+.ser-main li img {
+    float: left;
+    width: 78px;
+    height: 78px;
+    margin-right: 20px;
+}
+
+.ser-main li span {
+    font-size: 16px;
+    color: #505050;
+    margin-top: 12px;
+}
+
+.ser-main li span em {
+    font-size: 16px;
+    color: #ea3c5a;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*****产品中心*****/
+.index-chantitle {
+    width: 223px;
+}
+
+.index-chanpin {
+    width: 1200px;
+    margin-top: 55px;
+}
+
+.chanpin-tab-con {
+    margin-top: 59px;
+}
+
+.chanpin-tab-con .cont-02-Top {
+    position: relative;
+    margin: 0 10px 15px 0;
+    display: inline-block;
+    -webkit-transition: -webkit-transform 2s;
+}
+
+.chanpin-tab-con .cont-02-Top:nth-child(4n) {
+    margin-right: 0;
+}
+
+.chanpin-tab-con .cont-02-Top img {
+    vertical-align: top;
+
+}
+
+.chanpin-tab-con .cont-02-Top:hover {
+    -webkit-transform: scale(1.3, 1.3);
+    -moz-transform: scale(1.3, 1.3);
+    z-index: 1;
+}
+
+.chanpin-tab-con .cont-02-Top span {
+    width: 289px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*.index-chanpin */
+.chanpinA {
+    width: 157px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #ea3c5a;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 43px
+}
+
+.Cmr_frUl {
+    width: 1073px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.Cmr_frUl ul {
+    height: 40px;
+}
+
+.Cmr_frUl li {
+    margin: 0 7px;
+    float: left;
+    width: 120px;
+    height: 38px;
+    display: inline-block;
+}
+
+.Cmr_frUl li a {
+    position: relative;
+    border: 1px solid #f6cfd6;
+    width: 100%;
+    line-height: 38px;
+    color: #444;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.Cmr_frUl .chanpin-cur a {
+    background-color: #d00a2d;
+    color: #fff;
+}
+
+.Cmr_frBtnL {
+    width: 39px;
+    height: 39px;
+    top: 0;
+    background: url(../imgs/sev_qiye11.png) no-repeat;
+    background-size: contain;
+}
+
+.Cmr_frBtnL:hover, .CPmr_frBtnL:hover {
+    background: url(../imgs/sev_qiye1102.png) no-repeat;
+    background-size: contain;
+}
+
+.Cmr_frBtnR {
+    width: 39px;
+    height: 39px;
+    top: 0;
+    right: 0px;
+    background: url(../imgs/sev_qiye12.png) no-repeat;
+    background-size: contain;
+}
+
+.Cmr_frBtnR:hover, .CPmr_frBtnR:hover {
+    background: url(../imgs/sev_qiye1202.png) no-repeat;
+    background-size: contain;
+}
+
+/*****精彩专题*****/
+.index-JCtitle {
+    width: 235px;
+}
+
+.index-jc {
+    width: 100%;
+    position: relative;
+    height: 430px;
+    margin-top: 83px;
+    margin-bottom: 140px;
+}
+
+.index-jcbg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.index-jc-con {
+    width: 1200px;
+    margin-top: 62px;
+}
+
+.index-jcbg img {
+    width: 100%;
+    height: 100%;
+}
+
+.mr_frUl {
+    width: 1100px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.mr_frUl {
+    width: 981px;
+    margin: 0 auto;
+    /*	height: 318px;*/
+}
+
+.mr_frUl li {
+    margin: 0 21px;
+    float: left;
+    width: 284px;
+    height: 283px;
+    border-radius: 50%;
+    background: url(../imgs/pc-jc01.png) no-repeat center center;
+    background-size: contain;
+    text-align: center;
+    transition: .5s all;
+}
+
+.mr_frUl li:hover {
+    transform: scale(1.2);
+}
+
+.mr_frUl .two {
+    background: url(../imgs/pc-jc02.png) no-repeat center center;
+    background-size: contain;
+}
+
+.mr_frUl .three {
+    background: url(../imgs/pc-jc02.png) no-repeat center center;
+    background-size: contain;
+}
+
+.mr_frUl dl {
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    margin: 70px 0 0 70px;
+    text-align: center;
+    line-height: 139px;
+}
+
+.mr_frBtnL {
+    width: 39px;
+    height: 39px;
+    top: 120px;
+    background: url(../imgs/sev_qiye11.png) no-repeat;
+    background-size: contain;
+}
+
+.mr_frBtnL:hover {
+    background: url(../imgs/sev_qiye1102.png) no-repeat;
+    background-size: contain;
+}
+
+.mr_frBtnR {
+    width: 39px;
+    height: 39px;
+    top: 120px;
+    right: 0px;
+    background: url(../imgs/sev_qiye12.png) no-repeat;
+    background-size: contain;
+}
+
+.mr_frBtnR:hover {
+    background: url(../imgs/sev_qiye1202.png) no-repeat;
+    background-size: contain;
+}
+
+.mr_frUl ul li span {
+    width: 130px;
+    height: 4px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 74px;
+}
+
+/*****推荐产品*****/
+.index-Tuititle {
+    width: 292px;
+}
+
+.index-tui {
+    width: 1200px;
+    margin-top: 90px;
+}
+
+.tui-con {
+    margin-top: 64px;
+    width: 1200px;
+    height: 196px;
+    overflow: auto;
+}
+
+.tui-con ul li {
+    float: left;
+    width: 229px;
+    height: 196px;
+    overflow: hidden;
+    margin-right: 13px;
+}
+
+.tui-con ul li img {
+    width: 229px;
+    height: 147px;
+    display: block;
+}
+
+.tui-con ul li span {
+    width: 229px;
+    height: 49px;
+    position: relative;
+    top: 49px;
+    line-height: 49px;
+    background-color: #ea3c5a;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+}
+
+/*****地毯资讯*****/
+.index-Zititle {
+    width: 268px;
+}
+
+.index-ditan {
+    width: 1200px;
+    margin-top: 80px;
+}
+
+.ditan-list {
+    margin-top: 64px;
+}
+
+.ditan-list ul li {
+    width: 553px;
+    height: 118px;
+    float: left;
+    margin-right: 94px;
+    margin-bottom: 42px;
+}
+
+.ditan-list ul li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.ditan-list .ditan-list-span {
+    /*	margin-right: 17px;*/
+}
+
+.ditan-list .ditan-list-span span {
+    width: 59px;
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+
+.ditan-list .ditan-list-p p {
+    width: 478px;
+    color: #555;
+    line-height: 24px;
+    margin-top: 7px;
+}
+
+.ditan-list .ditanA {
+    color: #000;
+}
+
+.ditan-list .ditanA i {
+    color: #ff7e00;
+    font-weight: bold;
+}
+
+/*****经典案例*****/
+.index-JDtitle {
+    width: 214px;
+}
+
+.index-JD {
+    width: 1200px;
+    margin-top: 80px;
+}
+
+.JD-ul {
+    margin-top: 55px;
+}
+
+.JD-ul li {
+    float: left;
+    margin-right: 34px;
+    margin-bottom: 30px;
+    -webkit-transition: -webkit-transform 2s;
+}
+
+.JD-ul li:hover {
+    -webkit-transform: scale(1.3, 1.3);
+    -moz-transform: scale(1.3, 1.3);
+    z-index: 1;
+}
+
+.JD-ul li img {
+    display: block;
+}
+
+.JD-ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+/****************************内页   地毯资讯*********************************************/
+.er-banner {
+    height: 276px;
+}
+
+.er-banner img {
+    width: 100%;
+    height: 276px;
+}
+
+.er-title {
+    width: 411px;
+    height: 49px;
+}
+
+.Cnews {
+    width: 1000px;
+    margin-top: 55px;
+}
+
+.Cnews-list li {
+    margin-bottom: 43px;
+    height: 107px;
+}
+
+.Cnews-list .CnewsL {
+   /* width: 169px;*/
+   /* height: 107px;*/
+}
+
+.Cnews-list .CnewsR {
+  /*  width: 1008px;*/
+}
+
+/*.Cnews-list .CnewsR .CnewsP {
+    line-height: 24px;
+}*/
+
+.Cnews-list .CnewsR .Cnewsdata {
+    color: #ada5a5;
+    /*margin: 15px 0 10px 0;*/
+}
+.newsIn { width:1000px; margin:22px auto; }
+.newsIn li { height:44px; width:921px; line-height:44px; padding:0 23px; margin-left:27px;background: url(../imgs/erji/nCon_news.png) left center no-repeat;}
+.newsIn li a { float:left; color:#000; }
+.newsIn li a:hover { color:#d0000e; }
+.newsIn li span { float:right; color:#999; }
+.news-more {
+    width: 1200px;
+    height: 65px;
+    line-height: 65px;
+    background-color: #f2f2f2;
+    text-align: center;
+    color: #010101;
+}
+
+.news-main {
+    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.news-main .news-main-title {
+    border-bottom: 1px solid #d5d5d5;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 57px;
+}
+
+.news-main .news-main-title h2 {
+    color: #4c4c4c;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.news-main .news-main-title span {
+    color: #ada5a5;
+    font-size: 14px;
+    margin: 22px 0 13px 0;
+    display: inline-block;
+}
+
+.news-main .news-main-title .dates {
+    margin-right: 30px;
+}
+
+.news-main .news-main-text {
+    text-indent: 2em;
+    line-height: 31px;
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 55px;
+}
+
+.news-main .news-text-page {
+    margin-top: 52px;
+}
+
+.news-main .news-text-page span {
+    color: #0a9ad0;
+    font-size: 16px;
+}
+
+.news-main .news-text-page span a {
+    color: #0a9ad0;
+    font-size: 16px;
+}
+
+/****************************内页   工程部*********************************************/
+.GC-main {
+    width: 1200px;
+}
+
+.GC-main h3 {
+    color: #258cd4;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 44px;
+    margin-top: 40px;
+}
+
+.GC-p {
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+/****************************内页   联系我们*********************************************/
+.contact-main {
+    width: 883px;
+}
+
+.US-big {
+    margin-top: 89px;
+}
+
+.contact-map {
+    width: 500px;
+    height: 273px;
+    margin-right: 48px;
+}
+
+.contact-di h4 {
+    color: #010101;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.contact-di ul li {
+    font-size: 16px;
+    color: #4C4C4C;
+    line-height: 36px;
+}
+
+.contact-di ul li i {
+    color: #898989;
+    font-size: 16px;
+}
+
+/****************************内页   设计部*********************************************/
+.SJ-main {
+    width: 1073px;
+}
+
+.SJ-con {
+    margin-top: 76px;
+}
+
+.SJ-tu ul li {
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 90px;
+}
+
+.SJ-tu ul li span {
+    display: block;
+    margin-top: 17px;
+    font-size: 18px;
+    color: #4C4C4C;
+}
+
+.SJ-tu .SJone {
+    width: 288px;
+    height: 330px;
+}
+
+.SJ-tu .SJtwo {
+    margin: 127px 44px 0 45px;
+}
+
+.SJ-tu .SJthree {
+    width: 492px;
+    height: 330px;
+}
+
+.SJ-tu .SJone img {
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+}
+
+.SJ-tu .SJthree img {
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+}
+
+/****************************内页   售后服务*********************************************/
+.after-main {
+    width: 1089px;
+}
+
+.after-p {
+    line-height: 30px;
+    margin-top: 85px;
+}
+
+.after-con h1 {
+    color: #d00a2d;
+    margin-top: 45px;
+}
+
+.after-list {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.after-list dl {
+    float: left;
+    text-align: center;
+}
+
+.after-list dd {
+    line-height: 24px;
+    margin-top: 20px;
+    color: #797979;
+    width: 210px;
+}
+
+.after-list dt a {
+    display: inline-block;
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    background: url(../imgs/erji/pc-sh-img1.png) center center no-repeat;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    border: 2px solid #ff7070;
+}
+
+.after-list .con02-02 a {
+    background: url(../imgs/erji/pc-sh-img2.png) center center no-repeat;
+}
+
+.after-list .con02-03 a {
+    background: url(../imgs/erji/pc-sh-img3.png) center center no-repeat;
+}
+
+.after-list .con02-04 a {
+    background: url(../imgs/erji/pc-sh-img4.png) center center no-repeat;
+}
+
+.after-list .con02-05 a {
+    background: url(../imgs/erji/pc-sh-img5.png) center center no-repeat;
+}
+
+.after-list .con02-06 a {
+    background: url(../imgs/erji/pc-sh-img6.png) center center no-repeat;
+}
+
+.after-list .con02-07 a {
+    background: url(../imgs/erji/pc-sh-img7.png) center center no-repeat;
+}
+
+.after-listIn {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 40px;
+    padding: 0px 29px;
+    position: relative;
+    top: 0;
+}
+
+/****************************内页   公司简介*********************************************/
+.company-main {
+    width: 1200px;
+}
+
+.company-tab {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.company-tab ul {
+    display: inline-block;
+}
+
+.company-tab ul li {
+    line-height: 18px;
+    float: left;
+    border-right: 2px solid #5a5a5a;
+
+}
+
+.company-tab ul li a:hover {
+    background-color: #fdebee;
+    color: #d00a2d;
+}
+
+.company-tab .company-cur {
+    background-color: #fdebee;
+    color: #d00a2d;
+}
+
+.company-tab ul li a {
+    font-size: 18px;
+    color: #5a5a5a;
+    padding: 3px 18px;
+    margin: 0 20px;
+}
+
+.company-tab ul li.last {
+    padding-right: 0;
+    border: none;
+}
+
+.company-wenzi .wenzi-in {
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+.wenzi-img {
+    width: 702px;
+    height: 300px;
+}
+
+.wenzi-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/****************************内页   厂房设备*********************************************/
+.CF-main {
+    margin-top: 80px;
+}
+
+.posterTvGrid {
+    position: relative;
+    height: 310px;
+}
+
+.posterTvGrid img {
+    max-width: none;
+    max-height: none;
+    border: 0 none;
+    background: #888;
+}
+
+.posterTvGrid .contentHolder {
+    position: relative;
+    overflow: hidden;
+}
+
+.posterTvGrid .contentHolderUnit {
+    cursor: pointer;
+    position: absolute;
+    width: 640px;
+    height: 270px;
+}
+
+.posterTvGrid .contentHolderUnit a.elementLink {
+    display: block;
+    overflow: hidden;
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.posterTvGrid .contentHolderUnit img {
+    width: 100%;
+    height: 100%;
+}
+
+.posterTvGrid .contentHolderUnit .elementTitle {
+}
+
+.posterTvGrid .contentHolderUnit .elementOverlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: opacity=0;
+}
+
+.posterTvGrid .bannerControls {
+}
+
+.posterTvGrid .leftNav, .posterTvGrid .rightNav {
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: 40px;
+}
+
+.posterTvGrid .leftNav {
+    left: 7px;
+    background: url("../imgs/erji/cf1.png") no-repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../imgs/erji/slide_prev_btn.png");
+}
+
+.posterTvGrid .rightNav {
+    right: 7px;
+    background: url("../imgs/erji/cf2.png") no-repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../imgs/erji/slide_next_btn.png");
+}
+
+.posterTvGrid .leftNav:hover {
+}
+
+.posterTvGrid .rightNav:hover {
+}
+
+.posterTvGrid .bottomNav {
+    z-index: 140;
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: -105px;
+    padding: 10px 0 0;
+    text-align: center;
+    display: none;
+}
+
+.posterTvGrid .bottomNavButtonOFF {
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    vertical-align: top;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #c3c3c3;
+}
+
+.posterTvGrid .bottomNavButtonOFF:hover {
+    background: #aaa;
+}
+
+.posterTvGrid .bottomNavButtonON,
+.posterTvGrid .bottomNavButtonON:hover {
+    background: #69aaec;
+}
+
+.posterTvGrid .bottomNavLeft {
+}
+
+.posterTvGrid .bottomNavRight {
+}
+
+.cf-text-main {
+    margin-top: 50px;
+    text-align: center;
+}
+.cf-text-main span {
+    display: none;
+}
+
+.cf-text-main .c-on {
+    display: block;
+}
+
+/****************************内页   产品展示*********************************************/
+.product-main {
+    width: 1073px;
+    margin-top: 55px;
+}
+
+.CP-ul {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.CP-ul .chanpin-cur a {
+    background-color: #fdebee;
+    color: #d00a2d;
+    display: inline-block;
+}
+
+.CP-ul ul li {
+    line-height: 18px;
+    float: left;
+    border-right: 2px solid #5a5a5a;
+}
+
+.CP-ul li a {
+    font-size: 18px;
+    color: #5a5a5a;
+    padding: 3px 18px;
+    margin: 0 17px;
+    display: inline-block;
+}
+
+/*.CP-ul li.last {
+    padding-right: 0;
+    border: none;
+}*/
+.CPmr_frBtnL {
+    width: 39px;
+    height: 39px;
+    top: -11px;
+    background: url(../imgs/sev_qiye11.png) no-repeat;
+    background-size: contain;
+}
+
+.CPmr_frBtnR {
+    width: 39px;
+    height: 39px;
+    top: -11px;
+    right: 0px;
+    background: url(../imgs/sev_qiye12.png) no-repeat;
+    background-size: contain;
+}
+
+.CP-ul li a:hover {
+    background-color: #fdebee;
+    color: #d00a2d;
+}
+
+.product-tab-con {
+    margin-top: 58px;
+}
+
+.product-02-top {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.product-02-top:nth-child(3n) {
+    margin-right: 0;
+}
+
+.product-02-top:hover {
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.product-02-top img {
+    vertical-align: top;
+}
+
+.product-02-top dl {
+    height: 50px;
+    line-height: 50px;
+    background-color: #f7f5f5;
+
+}
+
+.product-02-top dl .pro-zi {
+    padding-left: 14px;
+}
+
+.product-02-top dl .pro-add i {
+    width: 17px;
+    height: 17px;
+    background-color: #d1d2d0;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 17px;
+    margin-top: 16px;
+    margin: 16px 15px 0 15px;
+    font-weight: normal;
+}
+
+.product-02-top dl .pro-add i:hover {
+    background-color: #d00a2d;
+}
+
+.paging {
+    text-align: center;
+    background-color: #fff;
+}
+
+.paging a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+    vertical-align: middle;
+    color: #888;
+    display: inline-block;
+}
+
+.paging a:hover {
+    background-color: #efefef;
+}
+
+.paging a.selected {
+    background-color: #d00a2d;
+    color: #fff;
+}
+
+.paging a.prev {
+    width: 25px;
+}
+
+/****************************内页   企业荣誉*********************************************/
+.RY-main {
+
+}
+
+.RY-main ul li {
+    float: left;
+    border: 1px #eceaea solid;
+    padding: 18px;
+    width: 210px;
+    text-align: center;
+    margin-right: 27px;
+    margin-bottom: 26px;
+}
+
+.RY-main ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.RY-main ul li img {
+    display: block;
+    margin: 0 auto;
+}
+
+.RY-main ul li span {
+    margin-top: 19px;
+}
+
+/*****荣誉弹出层******/
+.bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.rongyu {
+    display: none;
+    width: 650px;
+    height: 540px;
+    position: fixed;
+    left: 50%;
+    margin-left: -325px;
+    top: 50%;
+    margin-top: -320px;
+    background-color: #fff;
+    z-index: 1002;
+    text-align: center;
+    padding-bottom: 0px;
+    padding: 50px;
+}
+
+.rongyu dd {
+    margin: 15px 0px;
+}
+
+.rongyu dt img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.close {
+    display: block;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+}
+
+/********************首页 自定义滚动条**********************/
+.sly { overflow: hidden; }
+.scrollbar {height:1px; background: #F6ACB9; margin-top: 15px; }
+.scrollbar .handle { border-radius: 10px; background: #FF6C86; cursor: pointer; top: -10px; color: #FFFFFF; text-align: center; line-height: 20px;}
+

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>名众导游</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/w.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		$(function(){
+			var IN=document.getElementById("reply");
+			IN.onfocus=function(){
+				if(this.value=="回复招小弟的内容：")
+				{
+					this.value="";
+					this.style.color="#000"; 
+				};
+			}
+			IN.onblur=function(){
+				if(this.value=="")
+				{
+					this.value="回复招小弟的内容：";
+					this.style.color="#909090";
+				}
+			};
+			
+			var IN=document.getElementById("value");
+			IN.onfocus=function(){
+				if(this.value=="请输入你要评论的内容...")
+				{
+					this.value="";
+					this.style.color="#000"; 
+				};
+			}
+			IN.onblur=function(){
+				if(this.value=="")
+				{
+					this.value="请输入你要评论的内容...";
+					this.style.color="#909090";
+				}
+			};
+		})
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="headerIn fix">
+				<a class="fl" href="javascript:;"><img class="logo" src="imgs/logo.png"/></a>
+				<ul class="nav fl fix">
+					<li><a href="fengJing.html" target="_blank">风景区</a></li>
+					<li><a href="javascript:;">游乐区</a></li>
+					<li><a href="javascript:;">旅游区</a></li>
+					<li><a href="javascript:;">美食区</a></li>
+					<li><a href="javascript:;">采摘区</a></li>
+					<li><a href="javascript:;">农家乐</a></li>
+					<li class="cur"><a href="ziXun.html" target="_blank">导游</a></li>
+				</ul>
+				<div class="mine fr fix w_login">
+					<a href="login.html" target="_blank">登录</a>
+					<i>|</i>
+					<a href="sign.html" target="_blank">注册</a>
+					<span class="phone">400-888-2563</span>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="w1200 ma">
+			<div class="GCon01 tac">
+				<img src="imgs/neiye/toux01.png" width="204" height="204"/>
+				<span>赵小青</span>
+				<i>女</i>
+				<p>若果你不出去走走，你就会以为这就是世界......</p>
+			</div>
+			<div class="GCon02">
+				<ul>
+					<li><span>导游经验：</span>13年</li>
+					<li><span>服务城市：</span>北京</li>
+					<li><span>自我介绍：</span>每个人在他的人生发轫之初，总有一段时光，没有什么可留恋，只有抑制不住的梦想，没有什么可凭仗，只有他的好身体，没有地方可去，只想到处流浪。</li>
+				</ul>
+			</div>
+			<div class="GCon03 fix">
+				<div class="GCon03L fl">
+					<h2><i></i>最新评论</h2>
+					<form>
+						<div class="prv">
+							<textarea id="value" rows="" cols="">请输入你要评论的内容...</textarea>
+							<ul>
+								<li class="smile"></li>
+								<li class="star01"></li>
+								<li class="star01"></li>
+								<li class="star01"></li>
+								<li class="star01"></li>
+								<li class="star01"></li>
+							</ul>
+						</div>
+						<input type="submit" value="评论" />
+					</form>
+					<div class="Value">
+						<ul>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="Valuein fix">
+								<div class="ValueL fl">
+									<img src="imgs/neiye/toux02.jpg" width="82" height="81"/>
+									<ol>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="staron02"></li>
+										<li class="star02"></li>
+									</ol>
+								</div>
+								<div class="ValueR fr">
+									<div class="ValueR01 fix">
+										<span>招小弟：</span>
+										<p>人特别善良和热情，说我们如果没有住的地方还邀请我们住他家里南疆地区比较乱建议我们别去大哥。</p>
+										<i>F1</i>
+									</div>
+									<div class="ValueR02">
+										<span>2015-12-07  10:39</span>
+										<i class="Btnreply">回复</i>
+										<div class="ReplyT fix">
+											<textarea id="reply">回复招小弟的内容：</textarea>
+											<input type="submit" value="评论" />
+										</div>
+										<div class="ReplyC fix">
+											<img src="imgs/neiye/toux03.jpg" width="49" height="49"/>
+											<div class="fl">
+												<i class="zhu">赵小青</i>
+												<a>回复</a>
+												<i class="ke">招小弟：</i>
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<!--分页-->
+						<div class="paging">
+							<a href="javascript:" class="selected">1</a>
+							<a href="javascript:">2</a>
+							<a href="javascript:">3</a>
+							<i>.....</i>
+							<a href="javascript:" class="prev">下一页</a>
+							<a href="javascript:" class="go">末页</a> 
+						</div>
+					</div>
+					<script type="text/javascript">
+						$('.ValueR02 i').click(function(){
+							$(this).siblings('.ReplyT').stop().slideDown(300);
+						})
+						$('.ReplyT input').click(function(){
+							var VTxt = $(this).siblings('textarea').val();
+							$(this).parent('.ReplyT').slideUp(300);
+							$(this).parent('.ReplyT').siblings('.ReplyC').show().find('span').text(VTxt);
+						})
+					</script>
+				</div>
+				<div class="GCon03R fr">
+					<h2><i></i>个人游记</h2>
+					<div class="GCon03Rin">
+						<ul>
+							<li>
+								<a href="javascript:;">
+									<div class="YImg prv">
+										<img src="imgs/neiye/youpic01.jpg" width="266" height="147"/>
+										<span>丘北普者黑风景区</span>
+									</div>
+									<span>2月份去哪旅游好?哈尔滨有哪些滑雪场？醉温泉门票有优惠吗？香港打折季是什么时候？</span>
+									<i>2015年12月2日</i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<div class="YImg prv">
+										<img src="imgs/neiye/youpic01.jpg" width="266" height="147"/>
+										<span>丘北普者黑风景区</span>
+									</div>
+									<span>2月份去哪旅游好?哈尔滨有哪些滑雪场？醉温泉门票有优惠吗？香港打折季是什么时候？</span>
+									<i>2015年12月2日</i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<div class="YImg prv">
+										<img src="imgs/neiye/youpic01.jpg" width="266" height="147"/>
+										<span>丘北普者黑风景区</span>
+									</div>
+									<span>2月份去哪旅游好?哈尔滨有哪些滑雪场？醉温泉门票有优惠吗？香港打折季是什么时候？</span>
+									<i>2015年12月2日</i>
+								</a>
+							</li>
+						</ul>
+						<a href="javascript:;" class="look">点击查看更多</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--底部-->
+		<div class="foot">
+			<div class="footIn fix">
+				<div class="footIn_left fl">
+					<div class="footNav fix">
+						<a href="javascript:;">首页</a>
+						<a href="aboutus.html" target="_blank">关于我们</a>
+						<a href="help.html" target="_blank">帮助</a>
+					</div>
+					<div class="foot_txt">
+						北京市朝阳区北三环中路26号浙江大厦710<br />
+						Beijing jiahehongye Science and technology Co ,Ltd<br />
+						北京珈禾宏业科技有限公司 版权所有 2015 京ICP备15034426号-1
+					</div>
+				</div>
+				<div class="footIn_center tac fl">
+					<i class="foot_i01">全国热线</i>
+					<i class="foot_i02">400-111-1222</i>
+					<i class="foot_i03">周一至周日9:00-18:00（仅收市话费）</i>
+					<a href="javascript:;">在线客服</a>
+				</div>
+				<div class="footIn_right tac fr">
+					<span>微信扫二维码加关注</span>
+					<img src="imgs/erWeiMa.png" width="127" height="127"/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

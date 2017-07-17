@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>珈禾科技</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link href="css/timeline.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cui.css"/>
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" type="text/css" href="css/ie8.css"/>	
+		<![endif]-->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+	</head>
+	<body>
+		<!--时间轴-->
+		<div class="carTimeline">
+			<h2 class="timeline_Title">汽车销售流程</h2>
+			<div id="cd-timeline" class="cd-container">
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content fix">
+						<div class="fl">
+							<h2>购车者选车信息来源</h2>
+							<p>最主要获取购车信息来源为互联网</p>
+						</div>
+						<img class="fl" src="imgs/erji/linPic01.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine02">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>驾车体验</h2>
+							<p>用户在购买汽车前会进行试驾，试驾一般有以下渠道：朋友的车辆试驾方便、4s店提供的试驾服务、线上预约试驾</p>
+						</div>
+						<img src="imgs/erji/linPic02.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine03">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>客户咨询</h2>
+							<p>资深资深销售顾问在线与客户沟通买车遇到的问题；通过大数据销售顾问可以及时了解到该客户的购买意向。</p>
+						</div>
+						<img src="imgs/erji/linPic03.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine04">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>购车渠道</h2>
+							<p>目前线下的4S店和汽车综合市场<br />仍是购买者购车主要渠道，而电商带来的种种优势将成为未来发展的重点。</p>
+						</div>
+						<img src="imgs/erji/linPic04.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine05">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>购车咨询</h2>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;专业导购（im），大数据支撑客户需求分析。</p>
+						</div>
+						<img src="imgs/erji/linPic05.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine06">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>营销活动</h2>
+							<p>保客推荐，抢红包、微信推广、秒杀....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						</div>
+						<img src="imgs/erji/linPic06.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine07">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>业务办理</h2>
+							<p>试驾预约、活动报名、续保询价...</p>
+						</div>
+						<img src="imgs/erji/linPic07.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine08">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>汽车维修及保养</h2>
+							<p>按期保养、美容护理、更换零件...</p>
+						</div>
+						<img src="imgs/erji/linPic08.png"/>
+					</div>
+				</div>
+				<div class="cd-timeline-block carLine09">
+					<div class="cd-timeline-img"></div>
+					<div class="cd-timeline-content">
+						<div class="">
+							<h2>会员社区</h2>
+							<p>专业导购（im），大数据支撑客户需求分析。</p>
+						</div>
+						<img src="imgs/erji/linPic09.png"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script>
+	$(function(){
+		var $timeline_block = $('.cd-timeline-block');
+		//hide timeline blocks which are outside the viewport
+		$timeline_block.each(function(){
+			if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.55) {
+				$(this).find('.cd-timeline-img, .cd-timeline-content, .timline_Pic').addClass('is-hidden');
+			}
+		});
+		//on scolling, show/animate timeline blocks when enter the viewport
+		$(window).on('scroll', function(){
+			$timeline_block.each(function(){
+				if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.55 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+					$(this).find('.cd-timeline-img, .cd-timeline-content, .timline_Pic').removeClass('is-hidden').addClass('bounce-in');
+				}
+			});
+		});
+	});
+	</script>
+	</body>
+</html>

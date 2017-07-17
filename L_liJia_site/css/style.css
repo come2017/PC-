@@ -1,0 +1,126 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0px; padding: 0px; font-family: "微软雅黑"; font-size: 12px; color: #414141; }
+ul, li { list-style: none; }
+a { text-decoration: none }
+.clear { overflow: hidden; clear: both; height: 0; }
+table { border-collapse: collapse; }
+.fix { *zoom:1;
+}
+.fix:after, .fix:before { display: block; content: "."; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+img { border: 0; }
+
+/****************导航**************/
+.nav-big { width: 100%; max-width: 1200px; margin: 0 auto; background-color: #fff; }
+.nav { width: 100%; margin: 0 auto; height: 95px; padding: 0px 20px; box-sizing: border-box; }
+.nav .logo { float: left; width: 177px; height: 33px; margin-top: 32px; }
+.nav ul { float: right; margin-top: 40px; }
+.nav ul li { float: left; margin-left: 65px; }
+.nav ul li a { font-size: 18px; color: #414141; }
+.nav ul li a.nav-cur { color: #2da4de; }
+
+/****************banner**************/
+.banner { height: 309px; }
+.banner img { width: 100%; height: 309px; }
+
+/****************底部**************/
+.footer { width: 100%; background-color: #2da4de; height: 50px; text-align: center; padding: 30px 0; }
+.footer p { font-size: 14px; color: #fff; line-height: 2; }
+.footer-index { background-color: #fff; }
+.footer-index p { color: #4e4e4e; }
+
+
+
+/****************首页---内容**************/
+.index-main { width: 100%; }
+.index-main a { }
+.index-main a img { width: 100%; vertical-align: top; height: auto; }
+
+
+
+/****************公司简介---内容**************/
+.content { background-color: #f9f9f9; padding-top: 28px; padding-bottom: 62px; }
+.content .cont-title { width: 100%; max-width: 1200px; height: 77px; background-color: #fff; margin: 0 auto; line-height: 77px; }
+.content .cont-title .bt-L { color: #2da4de; font-size: 24px; float: left; padding-left: 25px; }
+.content .cont-title .bt-R { float: right; color: #2da4de; font-size: 14px; padding-right: 25px; }
+.content .cont-title .bt-R a { color: #414141; font-size: 14px; }
+.content .cont-title .bt-R i { font-style: normal; margin: 0 2px; }
+.content .index-text { width: 100%; max-width: 1200px; margin: 0 auto; padding: 18px; box-sizing: border-box; }
+.content .index-text p { color: #797979; font-size: 16px; line-height: 37px; }
+.content .index-text ul { height: 93px; margin: 30px 4px 46px 7px; }
+.content .index-text ul li { float: left; margin-right: 7px; width: 13%; }
+.content .index-text ul li img { width: 100%; }
+
+
+/****************联系我们---内容**************/
+.contact { width: 100%; max-width: 1200px; margin: 0 auto; padding-top: 73px; }
+.contact .contact-wrap { width: 850px; margin: auto; }
+.contact .map { width: 529px; height: 317px; float: left; }
+.contact .list-us { padding-left: 10px; margin-left: 548px; }
+.contact .list-us ul li { font-size: 16px; line-height: 48px; }
+
+
+/****************新闻动态---内容**************/
+.news-list { width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box; padding: 16px; position: relative; }
+.news-list ul li { border-bottom: 1px dashed #d6d6d6; line-height: 60px; position: relative; }
+.news-list ul li a { font-size: 16px; color: #797979; }
+.news-list ul li a:hover { color: #f5a54f; }
+.news-list ul li span { font-size: 16px; color: #797979; position: absolute; right: 10px; }
+.news-list .news-more { width: 100%; max-width: 1200px; height: 55px; background-color: #fff; text-align: center; line-height: 55px; margin-top: 50px; }
+.news-list .news-more a { color: #2da4de; font-size: 18px; }
+
+
+/****************新闻动态详情页---内容**************/
+.news-main { width: 100%; max-width: 1200px; margin: 0 auto; }
+.news-main .news-main-title { border-bottom: 1px dashed #d5d5d5; text-align: center; margin-top: 72px; margin-bottom: 62px; }
+.news-main .news-main-title h2 { color: #3d3d3d; font-size: 18px; }
+.news-main .news-main-title span { color: #959595; font-size: 14px; margin: 27px 0 13px 0; display: inline-block; }
+.news-main .news-main-title .dates { margin-right: 30px; }
+.news-main .news-main-title .knows { }
+.news-main .news-main-text { border-bottom: 1px dashed #d5d5d5; padding: 0 30px; }
+.news-main .news-main-text p { color: #797979; font-size: 16px; text-indent: 2em; margin-bottom: 45px; line-height: 35px; }
+.news-main .news-text-page { margin-top: 43px; padding: 0 30px; }
+.news-main .news-text-page span { color: #2da4de; font-size: 16px; }
+.news-main .news-text-page span a { color: #2da4de; font-size: 16px; }
+.news-main .news-text-page .text-pageL { float: left; }
+.news-main .news-text-page .text-pageR { float: right; }
+
+
+/****************招聘---内容**************/
+.job { width: 100%; max-width: 1200px; margin: 52px auto 0; }
+.job-left { width: 255px; position: absolute; }
+.job-left span { height: 65px; margin-bottom: 9px; line-height: 65px; width: 227px; display: inline-block; background-color: #fff; color: #2da4de; font-size: 18px; padding-left: 28px; }
+.job-left ul { background-color: #fff; padding-bottom: 14px; }
+.job-left ul li { height: 52px; line-height: 52px; cursor: pointer; font-size: 18px; color: #8ecdeb; padding-left: 28px; }
+.job-left ul li.job-on { background: url(../images/triangle-right.png) 226px center no-repeat; color: #2da4de; }
+.job-right { background-color: #fff; padding-left: 29px; padding-bottom: 57px; margin-left: 275px; }
+.job-right span { margin-top: 21px; display: inherit; font-size: 16px; color: #797979; }
+.job-right dl { margin: 15px 0; }
+.job-right dl dt.job-in { text-indent: 3em; }
+.job-right dl dt { font-size: 16px; color: #797979; line-height: 35px; }
+.job-right ul { overflow: hidden; height: 502px; }
+
+
+/*****竖导航*****/
+.rig_nav { width: 83px; position: fixed; right: 2%; bottom: 20%; display: none; }
+.rig_nav .rig_list, .rig_nav .rig_list01, .rig_nav .rig_last { width: 83px; background-color: #fff; text-align: center; border-bottom: 1px #dbdbdb solid; }
+.rig_nav .rig_last { background-color: #fff; }
+.rig_nav .rig_list .list01, .rig_nav .rig_list01 .list02, .rig_nav .rig_list .list03, .rig_nav .rig_list .list04, .rig_nav .rig_last .list05 { font-size: 16px; display: block; color: #656565; width: 83px; height: 30px; padding-top: 50px; background-image: url(../images/icon.png); background-repeat: no-repeat; }
+.rig_nav .rig_list .list01 { background-position: 20px 10px; }
+.rig_nav .rig_list01 .list02 { background-position: -248px 10px; }
+.rig_nav .rig_list .list03 { background-position: -164px 10px; }
+.rig_nav .rig_list .list04 { background-position: -62px 10px; }
+.rig_nav .rig_last .list05 { background-position: -339px 10px; height: 34px; padding-top: 35px; }
+.rig_nav .rig_list .list01, .rig_nav .rig_list01 .list02, .rig_nav .rig_list .list03, .rig_nav .rig_list .list04, .rig_nav .rig_last .list05:hover { font-size: 16px; display: block; color: #656565; width: 83px; height: 30px; padding-top: 50px; background-image: url(../images/icon.png); background-repeat: no-repeat; }
+.rig_nav .rig_list .list01:hover { background-position: 20px -68px; }
+.rig_nav .rig_list01 .list02:hover { background-position: -248px -63px; }
+.rig_nav .rig_list .list03:hover { background-position: -164px -68px; }
+.rig_nav .rig_list .list04:hover { background-position: -62px -68px; }
+.rig_nav .rig_last .list05:hover { background-position: -339px -68px; height: 34px; padding-top: 35px; }
+.rig_nav .rig_list .list02 { position: relative; }
+.rig_nav .rig_list01 .list_content { display: none; position: absolute; top: 247px; right: 82px; width: 183px; height: 71px; text-align: center; line-height: 80px; background-image: url(../images/yellow02.png); z-index: 300; }
+.rig_nav .rig_list04 .list_content { display: none; position: absolute; top: 28px; right: 109px; width: 189px; height: 189px; text-align: center; line-height: 80px; background: url(../images/erweima.jpg) 0 0 no-repeat; }
+.rig_nav .rig_list03 .list_content { display: none; position: absolute; top: 150px; right: 109px; width: 189px; height: 189px; text-align: center; line-height: 80px; background: url(../images/erweima.jpg) 0 0 no-repeat; }
+.rig_nav .rig_list .sanj { width: 17px; height: 18px; background-image: url(../images/icon.png); background-position: -7px -180px; background-repeat: no-repeat; position: absolute; top: 112px; right: 82px; display: none; }
+.rig_nav .rig_list .sanj-app { width: 17px; height: 18px; background-image: url(../images/icon.png); background-position: -7px -180px; background-repeat: no-repeat; position: absolute; top: 192px; right: 82px; display: none; }

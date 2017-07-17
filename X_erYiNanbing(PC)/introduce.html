@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>北京中医儿童青少年疑难病治疗中心</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/css.css"/>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function () {
+//医院简介
+	$(".Cmr_frbox").slide({
+        mainCell:".Cmr_frUl ul",
+        effect:"leftLoop",
+        autoPlay:true,
+        vis:8,
+        trigger:"click"
+    });
+//医院简介切换
+		$('.Cmr_frUl ul li').click(function(){
+			$(this).addClass("chanpin-cur").siblings().removeClass();
+			$(".chanpin-tab-con").hide().eq($(this)[0].getAttribute('data-index') - 1).show();
+		});
+/* 使用js分组，每6个dl放到一个ul里面 */
+		jQuery(".multipleColumn .bd li").each(function(i){ 
+			jQuery(".multipleColumn .bd li").slice(i*8,i*8+8).wrapAll("<ul></ul>");
+		});
+		/* 调用SuperSlide，每次滚动一个ul，相当于每次滚动6个li */
+		jQuery(".multipleColumn").slide({
+			
+			titCell:".hd ul",
+			mainCell:".bd .picList",
+			effect:"leftLoop",
+			autoPlay:true
+		});		
+});
+</script>
+</head>
+	<body>"
+	<!--顶部-->
+	<div class="header w100 bgff">
+		<div class="head_top w1100 ma">
+			<div class="head_phone fl mt60">
+				<span class="fs12 c45">全国免费服务热线<i class="fs14">400-660-1865</i></span>
+				<p class="fs12 c45">zhongyijzcw@yahoo.com</p>
+			</div>
+			<div class="head_ma fr mt45">
+				<span>扫一扫 有惊喜哦</span>
+				<img src="imgs/erweima.jpg" width="78" height="78" class="vam"/>
+			</div>
+			<div class="logo tac">
+				<a href="index.html" class="di">
+					<img src="imgs/logo.png" width="343" height="105"/>
+				</a>
+			</div>
+		</div>
+		<div class="head_line w100 fix"></div>
+		<div class="head_nav fix w1100 ma mt10">
+			<ul>
+				<li>
+					<a href="index.html">首　页</a>
+				</li>
+				<li class="nav_cur">
+					<a href="introduce.html">医院简介</a>
+				</li>
+				<li>
+					<a href="team.html">专家团队</a>
+				</li>
+				<li>
+					<a href="Tese.html">特色技术</a>
+				</li>
+				<li>
+					<a href="zhiliao.html">治疗资讯</a>
+				</li>
+				<li>
+					<a href="case.html">成功案例</a>
+				</li>
+				<li>
+					<a href="question.html">有问必答</a>
+				</li>
+				<li>
+					<a href="contact _Us.html">联系我们</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!--二级banner-->
+	<div class="bgff">
+		<div class="er_banner">
+			<img src="imgs/neiye/banner_Y.png"/>
+		</div>
+		<div class="w1100 ma Te_con Yi_con fix">
+			<h2 class="yi_h2"> 北京中医儿童青少年疑难病治疗中心<i>介绍</i><span>Company Profile</span></h2>
+			<div class="Yi_01 mt45 fix">
+				<div class="Yi01img fl bora20">
+					<img src="imgs/neiye/yi_01.png" />
+				</div>
+				<div class="Yi01txt fl">
+					<div class="us01_tit tac">
+						<h2>北京中医儿童青少年疑难病治疗中心</h2>
+						<span>
+							Beijing Traditional Chinese children and adolescents<br>
+	difficult disease treatment center
+						</span>
+					</div>
+					<p class="mt20">
+						北京中医儿童青少年疑难病治疗中心是爱婴门诊、临床教学机构、规范化服务达标医疗机构、首都平安示范门诊。同时也是北京中医药大学博士、硕士学位研究生培养点，北京市中医师规范化培训基地。
+						<br /><br />
+						北京中医儿童青少年疑难病治疗中心，设有临床科室、医技科室。医院承担着北京市和外省市患儿的医疗救治工作，年门诊量和治愈患者逐年增加。
+					</p>
+				</div>
+			</div>
+			<div class="Yi_02 fix mt50">
+				<div class="chanpin-tab fix">
+					<div class="index_04">
+						<div class="Cmr_frbox prv">
+							<div class="Cmr_frUl oh">
+								<ul>
+									<li class="chanpin-cur" data-index="1"><a href="javascript:;">消化内科</a></li>
+									<li data-index="2"><a href="javascript:;">呼吸内科</a></li>
+									<li data-index="3"><a href="javascript:;">神经内科</a></li>
+									<li data-index="4"><a href="javascript:;">内分泌科</a></li>
+									<li data-index="5"><a href="javascript:;">心血管内科</a></li>
+									<li data-index="6"><a href="javascript:;">肾脏内科</a></li>
+									<li data-index="7"><a href="javascript:;">血液内科</a></li>
+									<li data-index="8"><a href="javascript:;">风湿免疫科</a></li>
+								</ul>
+							</div>
+							<a class="db pa cp Cmr_frBtnL next"></a>
+							<a class="db pa cp Cmr_frBtnR prev"></a>
+						</div>
+					</div>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv">
+					<h2>中医<i>消化</i>内科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv dn">
+					<h2>中医<i>呼吸</i>内科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv dn">
+					<h2>中医<i>神经</i>内科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv dn">
+					<h2>中医<i>内分泌</i>科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv dn">
+					<h2>中医<i>心血管</i>内科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv dn">
+					<h2>中医<i>肾脏</i>内科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv dn">
+					<h2>中医<i>血液</i>内科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+				<div class="chanpin-tab-con tac mt60 prv dn">
+					<h2>中医<i>风湿免疫</i>科</h2>
+					<p>
+						中医消化内科多年来围绕小儿腹泻开展了大量基础研究、临床实践，填补了我国小儿腹泻病中医治疗方面的一些空白。擅长运 用中医辨证治疗小儿脾胃病。其多项研究成果先后获得国家新药发明一等奖，市科技进步二等奖，北京市科技进步一等奖等奖。该科室在儿童、婴幼儿中医保守治疗消化系统疾病方面积累了丰富的临床诊治经验。掌指诊断为了解儿童胃肠功能提供基础，为儿科消化道疾病的诊断和治疗创造了重要的条件。
+					</p>
+				</div>
+			</div>
+			<h2 class="yi_h2 mt80"> 北京中医儿童青少年疑难病治疗中心<i>医院环境</i><span>Hospital Environment</span></h2>
+			<div class="Yi_03 fix mt50">
+				<div id="gallery">
+					<div id="pictures">
+						<ul>
+							<li>
+								<img src="imgs/neiye/picture1.png" alt="" />
+								<span>医院简介一</span>
+							</li>
+							<li>
+								<img src="imgs/neiye/picture1.png" alt="" />
+								<span>医院简介2</span>
+							</li>
+							<li>
+								<img src="imgs/neiye/picture1.png" alt="" />
+								<span>医院简介3</span>
+							</li>
+						</ul>
+					</div>
+					<div id="prev"><a href="#previous"></a></div>
+					<div id="next"><a href="#next"></a></div>
+				</div>
+			</div>
+			<h2 class="yi_h2 mt80"> 北京中医儿童青少年疑难病治疗中心<i>荣誉资质</i><span>Honor</span></h2>			
+			<div class="Yi_04 fix mt50">
+				<div class="multipleColumn">
+					<div class="hd fix">
+						<a class="next"></a>
+						<a class="prev"></a>
+					</div>
+					<div class="bd">
+						<div class="picList">
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+							<li>
+								<div class="pic">
+									<a href="javascript:;">
+										<img src="imgs/con6_01.jpg" />
+									</a>
+								</div>
+								<div class="title tac">
+									<a href="javascript:;">效果图3</a>
+								</div>
+							</li>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Te_Btcon bgff fix">
+				<ul>
+					<li>
+						<div class="Te_BtconL fl">
+							<img src="imgs/neiye/tepng01.png">
+						</div>
+						<div class="Te_BtconR fl fix">
+							<h5>小儿神经门诊</h5>
+							<dl>
+								<dd><a href="javascript:;">智力低下</a></dd>
+								<dd><a href="javascript:;">脑瘫</a></dd>
+								<dd><a href="javascript:;">自闭症</a></dd>
+							</dl>
+							<dl style="padding-left: 10px;">
+								<dd><a href="javascript:;">弱智</a></dd>
+								<dd><a href="javascript:;">癫痫</a></dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="Te_BtconL fl">
+							<img src="imgs/neiye/tepng02.png">
+						</div>
+						<div class="Te_BtconR fl fix">
+							<h5>发育行为门诊</h5>
+							<dl>
+								<dd><a href="javascript:;">抽动症</a></dd>
+								<dd><a href="javascript:;">学习困难</a></dd>
+								<dd><a href="javascript:;">语言障碍</a></dd>
+							</dl>
+							<dl style="padding-left: 10px;">
+								<dd><a href="javascript:;">多动症</a></dd>
+								<dd><a href="javascript:;">遗尿症</a></dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="Te_BtconL fl">
+							<img src="imgs/neiye/tepng03.png">
+						</div>
+						<div class="Te_BtconR fl fix">
+							<h5>小儿内分泌门诊</h5>
+							<dl>
+								<dd><a href="javascript:;">性早熟</a></dd>
+								<dd><a href="javascript:;">肥胖症</a></dd>
+								<dd><a href="javascript:;">甲状腺疾病</a></dd>
+							</dl>
+							<dl style="padding-left: 10px;">
+								<dd><a href="javascript:;">矮小症</a></dd>
+								<dd><a href="javascript:;">发育迟缓</a></dd>
+							</dl>
+						</div>
+					</li>
+					<li style="border-right-style: none;">
+						<div class="Te_BtconL fl">
+							<img src="imgs/neiye/tepng04.png">
+						</div>
+						<div class="Te_BtconR fl fix">
+							<h5>消化系统</h5>
+							<dl>
+								<dd><a href="javascript:;">支气管炎</a></dd>
+								<dd><a href="javascript:;">便秘</a></dd>
+								<dd><a href="javascript:;">呕吐</a></dd>
+							</dl>
+							<dl style="padding-left: 10px;">
+								<dd><a href="javascript:;">感冒</a></dd>
+								<dd><a href="javascript:;">消化不良</a></dd>
+								<dd><a href="javascript:;">腹泻</a></dd>
+							</dl>
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	<!--底部-->
+	<div class="footer w100 bg4b fix">
+		<div class="foot01 w1100 ma fix">
+			<div class="foot01_dian fl">
+				<span>全国免费服务热线</span>
+				<i>400-660-1865</i>
+			</div>
+			<div class="foot01_ul fl">
+				<ul class="fix">
+					<li>
+						<a href="javascript:;">医院简介</a>
+					</li>
+					<li>
+						<a href="javascript:;">专家团队</a>
+					</li>
+					<li>
+						<a href="javascript:;">特色技术</a>
+					</li>
+					<li>
+						<a href="javascript:;">治疗资讯</a>
+					</li>
+					<li>
+						<a href="javascript:;">成功案例</a>
+					</li>
+					<li>
+						<a href="javascript:;">有问必答</a>
+					</li>
+					<li class="last">
+						<a href="javascript:;">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<div class="foot01_gz fr">
+				<dl class="fl">
+					<dt>
+						<a href="javascript:;">
+							<img src="imgs/icon/weixin.png" />
+						</a>
+					</dt>
+					<dt>
+						<a href="javascript:;">
+							<img src="imgs/icon/weibo.png" />
+						</a>
+					</dt>
+				</dl>
+				<div class="foot01_gztxt fs12 oh fl">
+					<span class="db">关注我们</span>
+					<a href="javascript:;">zhongyijzcw@yahoo.com</a>
+				</div>
+				<a href="javascript:;" class="foot01_jian tac di fr">
+					→
+				</a>
+			</div>
+		</div>
+		<div class="footer_line fix w100"></div>
+		<div class="foot02 fix w1100 ma">
+			北京中医儿童青少年疑难病治疗中心  ®2010版权所有   |   ★温馨提示：为了您的身心健康和确保生命财产安全，请一定要到专业、正规医疗机构就医！
+		</div>
+	</div>
+	<!--弹出层-->
+<div class="bg"></div>
+<div class="rongyu">
+	<dl>
+		<dt><img src="imgs/tanbig.png"/></dt>
+		<dd class="fs14">中国驰名商标</dd>
+	</dl>
+	<a class="close" href="javascript:;"><img src="imgs/close.png"/></a>
+</div>
+	</body>
+</html>

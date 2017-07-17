@@ -1,0 +1,293 @@
+/*手机端样式*/
+@media (max-width:675px){
+	/*首页*/
+	/*顶部*/
+	.headTop .warp {
+		width:100%;
+	}
+	.logo {
+	    margin: 17px 0 19px 0px;
+	    width: 40%;
+	    height:auto;
+	}
+	.search {
+     float: right; 
+     margin:0px 0 0px 0; 
+     padding:29px 0 0 8px; 
+	}
+	.search span{
+		font-size:20px;
+	}
+	.search .wapphone{display:initial;}
+	.search .pcphone{display:none;}
+	#nav ul li {
+		width: auto;
+		background: none;
+		padding: 0 12px;
+	}
+	#nav li .submenu {
+    	left: -20px;
+	}
+	.login {
+    	margin: 12px 0 12px 0;
+	}
+	.login a.login_b {
+    	margin-right: 0;
+	}
+	.footer-cen dl {
+		width: 24%;
+		border:none
+	}
+	/*底部*/
+	.footer h3 {
+	    width:100%;
+	    margin-right: 0%;
+	    padding-right: 0%;
+	    border-right: none;
+	    text-align: center;
+	    font-size: 16px;
+	}
+	.footer_R {
+    	width:100%;
+	}
+	.footer-cen .foot-er img{
+		width: 85px;
+		height: 85px;
+	}
+	.footer-cen{
+		padding-bottom: 0;
+	}
+	.ip-banner{display:block;}
+	/*.w-banner{height:200px;}*/
+	.w-banner img{width:100%;height:auto;}
+	.banner-bg{
+    	display: none;
+    }
+	/*************首页*****************/
+	.door {
+    	width: 100%;
+    	margin:20px auto 0px;
+    }
+    .index-con1{
+    	margin-top:20px;
+    }
+    .door ul li {
+    	width: 50%;
+    }
+    .door ul li dl dd.dt-tit-en {
+		display:none;
+	}
+	.door ul li dl dd.dt-tit {
+	    line-height: 36px;
+	}
+	.door ul li dl {
+    	background: url(../imgs/icon/Cchevron-small-up.png) right center no-repeat;
+    }
+    .door ul li dl dt {
+    	margin-right: 8px;
+	}
+	.banner-bg{
+    	display: none;
+    	height: 100%;
+    }
+    .index_oneDL dl dt {
+    	font-size: 12px;
+    }
+    .index_oneDL dl dd a {
+	    border-right: 1px solid #fff;
+	    padding: 0 8px;
+    }
+    .seprate{
+    	display: none;
+    }
+    .con2R-list-r {
+    	width: 140px;
+    }
+    .con2-L {
+    	width: 100%;
+    }
+    .index-title ul li {
+    	line-height: 30px;
+	}
+	.index-title {
+    	padding-top: 10px;
+	}
+	.index-title h2 {
+		font-size: 14px;
+		padding: 0 24px 10px 24px;
+	}
+	.con3-Lmain ul li {
+		padding: 4px 33px 0 0px;
+	}
+	.slideBox {
+		display: none;
+	}
+	.con3phone-img{
+		display: block;
+	}
+	.index-con4 {
+		width:100%;
+	}
+	
+	.con4L-main .con4IMG {
+    	width: 100%;
+	}
+	/*首页结束*/
+	.Cjishu-main ul li {
+    	width: 42%;
+    }
+    .Cjishu-main ul li img {
+	    width: 50%;
+	    height: 50%;
+	}
+	.Cjishu-main ul li span {
+		margin-top: 3px;
+	}
+	.Cimg_50{
+		width: 50%;
+		height: 50%;
+	}
+	.join dt {
+    	padding: 0px 0px;
+    }
+    .join u {
+    	padding-right:18px;
+    }
+    .W_click_show u {
+	    background: url(../imgs/neiye/Cshou.png) no-repeat right center;
+	    background-size: 1rem;
+	}
+	.W_click_hide u {
+    	background: url(../imgs/neiye/Czhan.png) no-repeat right center;
+    	 background-size: 1rem;
+	}
+	.join u {
+		font-size: 12px;
+	}
+	.zi02 {
+    	width: 100%;
+	}
+	.AconR_t a {
+		margin-right: 0px;
+	}
+	.AconR_t {
+	    height: 30px;
+	    line-height: 30px;
+    }
+    .C_huizhenCON_img {
+	    width:100%;
+	    height: 94px;
+	}
+	.chuguoIMG{
+		width: 100%;
+		height: 100%;
+	}
+	.W_jiyinL .C_jiyinLimg{
+		width: 120px;
+	}
+	.C_jiyinL{
+		width:120px
+	}
+	.CmianCON {
+    	padding: 0 5px;
+	}
+	.W_jiyinL {
+		margin-right: 5px;
+	}
+    .C_jiyint {
+    -webkit-line-clamp: 2;
+    line-height: 19px;
+    }
+    .CMYlist li a {
+    width: 100%;
+    font-size: 12px;
+    }
+    .Cmyimg{
+    	width: 120px;
+    }
+    .Cmyimg img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .Cmianyi {
+    	margin: 5px;
+	}
+	.C_jiyinR .look{
+		font-size: 1rem;
+	}
+	.Cbao_example{
+		margin: 0;
+	}
+	.Gj_yic{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-wrap: break-word;
+	}
+	.AconLli li a {
+		font-size: 14px;
+	}
+	.Gj_yi-r {
+	    width: 100%;
+	    border: none;
+	    margin-top: 10px;
+	}
+	.Clctop-img {
+		width: 100%;
+    }
+    .Clctop-zi p {
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    -webkit-line-clamp: 4;
+	    -webkit-box-orient: vertical;
+	    display: -webkit-box;
+	    word-wrap: break-word;
+	    margin-top: 5px;
+    }
+    .index_oneRCON {
+    	padding: 0 8%;
+	}
+	.con2-Rul{
+		padding: 0 5%;
+	}
+	.CMYlist li {
+		width: 20%;
+	}
+	.CinputWIDTH{
+		width: 180px;
+	}
+	.C_huizhenCON span{
+	margin-top:0px;
+	}
+	.C_huizhen02CON{
+		padding:27px;
+	}
+	/*健康套餐*/
+	.JK_exm {
+	    width: 45%;
+	    margin: 5% 2.2% 0px;
+	}
+	.Css-table .input03 {
+    	width: 50%;
+	}
+	.Css-table .Css_yanz {
+		width: 40%;
+    }
+    .list_topimg{
+	width: 100%;
+	}
+	.list_toptxt {
+    	margin-left: 0;
+	}
+	.list_toptxt h5,.list_toptxt span{
+		margin-bottom: 5px;
+	}
+	.list_toptxt i{
+		font-size: 20px;
+	}
+	.list_add {
+    	margin-top: 10px;
+	}
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>出彩未来</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/select.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.select.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/select-widget-min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+			//下拉样式
+			$(document).ready(function(){		
+				
+//				$("<option value='1'>test</option>").appendTo("#select_c");
+				$(".ui-select").selectWidget({
+					change       : function (changes) {
+						return changes;
+					},
+					effect       : "slide",
+					keyControl   : true,
+					speed        : 200,
+					scrollHeight : 200
+				});
+			})
+		})
+		</script>
+	</head>
+	<body>
+		<!--分页-->
+		<div class="paging">
+			<a href="javascript:" class="prev">上一页</a>
+			<a href="javascript:">1</a>
+			<a href="javascript:" class="selected">2</a>
+			<a href="javascript:">3</a>
+			<a href="javascript:">4</a>
+			<i>...</i>
+			<a href="javascript:" class="prev">下一页</a>
+			<span>共70页，到第<input type="text" value="4" />页</span> 
+			<a href="javascript:" class="go">确定</a> 
+		</div>
+		<!--分页end-->
+		
+		<!--4个主题之间切换-->
+		<div class="title4 title">
+			<ul>
+				<li class="white"><a href="javascript:;">初盘预测</a></li>
+				<li><a href="javascript:;">足彩指南</a></li>
+				<li><a href="javascript:;">足球新闻</a></li>
+				<li><a href="javascript:;">篮球新闻</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$('.title4 li').click(function(){
+				var oInx = $(this).index()+1;
+				$(this).addClass('white').siblings().removeClass('white');
+				$('.title4').css('background','url(img/si_nav0'+oInx+'.png) no-repeat');
+				$('.Change04').eq(oInx-1).css('display','block').siblings().css('display','none');
+			})
+		</script>
+		<div class="w1200 ma">
+			<div class="Change04 db">
+				<div class="w1200 ma ">
+					<span>初盘预测</span>
+				</div>
+			</div>
+			<div class="Change04 dn">
+				<div class="w1200 ma">
+					<span>足彩指南</span>
+				</div>
+			</div>
+			<div class="Change04 dn">
+				<div class="w1200 ma">
+					<span>足球新闻</span>
+				</div>
+			</div>
+			<div class="Change04 dn">
+				<div class="w1200 ma">
+					<span>篮球新闻</span>
+				</div>
+			</div>
+		</div>
+		<!--4个主题之间切换end-->
+		
+		<!--2个主题之间切换-->
+		<div class="title2 title">
+			<ul>
+				<li class="white"><a href="javascript:;">初盘预测</a></li>
+				<li><a href="javascript:;">足彩指南</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$('.title2 li').click(function(){
+				var oInx = $(this).index()+1;
+				$(this).addClass('white').siblings().removeClass('white');
+				$('.title2').css('background','url(img/shu_nav0'+oInx+'.png) no-repeat');
+				$('.Change02').eq(oInx-1).css('display','block').siblings().css('display','none');
+			})
+		</script>
+		<div class="w1200 ma">
+			<div class="Change02 db">
+				<div class="w1200 ma ">
+					<span>初盘预测</span>
+				</div>
+			</div>
+			<div class="Change02 dn">
+				<div class="w1200 ma">
+					<span>足彩指南</span>
+				</div>
+			</div>
+		</div>
+		<!--2个主题之间切换end-->
+		
+		<div class="title1">
+			<h2 class="cf fs16">排行榜</h2>
+			<form>
+				<div class='diy_select'>
+					 <input type='hidden' name='' class='diy_select_input'/>
+					 <div class="text"><div class="di">胜率—</div><div class='diy_select_txt di'>最近三天</div></div>
+					 <div class='diy_select_btn'></div>
+					 <ul class='diy_select_list'>
+					 	<li>最近一月</li>
+					 	<li>最近一周</li>
+					 	<li>最近十天</li>
+					 	<li>最近一天</li>
+					 </ul>
+				</div>
+			</form>
+		</div>
+		<div style="height:90px;width:1200px;margin:0 auto;background-color:red;"></div>
+		
+		<!--首页下拉框-->
+		<div class="S_select">
+			<select id="select_c" name="drop2" class="ui-select">
+				<option value="">最近三天</option>
+				<option value="1">最近一月</option>
+				<option value="2">最近一周</option>
+				<option value="3">最近十天</option>
+				<option value="4">最近一天</option>
+			</select>
+		</div>
+		
+		<!--心水发布足球下拉框-->
+		<div class="xiala">
+			<div class="S_select">
+				<select id="select_c" name="drop2" class="ui-select">
+					<option value="">亚盘</option>
+					<option value="1">大小球</option>
+				</select>
+			</div>
+		</div>
+		
+		<!--赛事推荐下拉框-->
+		<div class="tuijian">
+			<div class="S_select">
+				<select id="select_c" name="drop2" class="ui-select">
+					<option value="">关键字</option>
+					<option value="1">亚盘</option>
+					<option value="2">大小球</option>
+				</select>
+			</div>
+		</div>
+	</body>
+</html>

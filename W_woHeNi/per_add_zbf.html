@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>我和你</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/css.css"/>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="js/center.js" type="text/javascript" charset="utf-8"></script>-->
+<script type="text/javascript">
+$(function(){
+	var IN=document.getElementById("advice");
+	IN.onfocus=function(){
+		if(this.value=="请输入您要发送的信息。限200字以内。")  
+		{
+			this.value="";
+			this.style.color="#999"; 
+		};
+	}
+	IN.onblur=function(){
+		if(this.value=="")
+		{
+			this.value="请输入您要发送的信息。限200字以内。";
+			this.style.color="#999";
+		}
+	};
+	
+	$("#advice").keyup(function(){
+		var len = $(this).val().length;
+		if(len > 199){
+			$(this).val($(this).val().substring(0,200));
+		}
+		$("#word").text(len);
+	});
+	
+})
+</script>
+</head>
+<body>
+<!-------------------------(｡･∀･)ﾉﾞ嗨,我是个人中心--------------------------------->
+<!---头部开始--->
+<div class="header">
+	<div class="head w1000 ma">
+		<div class="logo">
+			<a href="javascript:;">
+				<img src="imgs/logo.png" width="224" height="66" />
+			</a>
+		</div>
+		<div class="navBar">
+			<ul class="nav fix">
+				<li class="nav_m on">
+					<a target="_blank" href="100teamList.html">团体活动</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="200salonList.html">兴趣沙龙</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="300huoDongList.html">活动日历</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="javascript:;">心理咨询</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="500activity.html">活动墙</a>
+				</li>
+			</ul>
+			<ul class="subNav">
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">亚隆人际</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">兴趣沙龙</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li2">
+						<div class="li2_data">
+							<dl class="fix li2_data_bor">
+								<dd class="first_li"><a href="javascript:;"><i class="nav-icon"></i>按时间</a></dd>
+								<dd><a href="javascript:;">全部</a></dd>
+								<dd><a href="javascript:;">最近一周</a></dd>
+								<dd><a href="javascript:;">今天</a></dd>
+								<dd><a href="javascript:;">明天</a></dd>
+								<dd><a href="javascript:;">周末</a></dd>
+							</dl>
+							<dl class="fix">
+								<dd class="first_li"><a href="javascript:;"><i class="nav-icon nav-icon1"></i>按地区</a></dd>
+								<dd><a href="javascript:;">全部</a></dd>
+								<dd><a href="javascript:;">北京</a></dd>
+								<dd><a href="javascript:;">上海</a></dd>
+								<dd><a href="javascript:;">广州</a></dd>
+								<dd><a href="javascript:;">深圳</a></dd>
+								<dd><a href="javascript:;">杭州</a></dd>
+								<dd><a href="javascript:;">天津</a></dd>
+								<dd><a href="javascript:;">南京</a></dd>
+								<dd><a href="javascript:;">成都</a></dd>
+								<dd><a href="javascript:;">厦门</a></dd>
+								<dd><a href="javascript:;">宁波</a></dd>
+								<dd><a href="javascript:;">苏州</a></dd>
+								<dd><a href="javascript:;">武汉</a></dd>
+								<dd><a href="javascript:;">西安</a></dd>
+							</dl>
+						</div>
+						<!--<div class="li2_quyu">
+							
+						</div>-->
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">心理咨询</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">活动墙</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!---头部结束--->		
+<!---中间内容--->
+<div class="per_head ma fix">
+	<div class="per_headimg fl">
+		<a href="javascript:;">
+			<img src="imgs/center/per_01.jpg" width="161" height="161"/>
+		</a>
+	</div>
+	<div class="per_headtit fl mt30">
+		<div class="per_tit01 fix">
+			<h2 class="fl">张晓清</h2>
+			<ul class="fl">
+				<li><img src="imgs/center/star.png" width="15" height="15"/></li>
+				<li><img src="imgs/center/star.png" width="15" height="15"/></li>
+				<li><img src="imgs/center/star.png" width="15" height="15"/></li>
+				<li><img src="imgs/center/star.png" width="15" height="15"/></li>
+				<li><img src="imgs/center/star.png" width="15" height="15"/></li>
+			</ul>
+			<span class="fl">咨询师</span>
+		</div>
+		<div class="per_tit02 fix fs12 single mt10">
+			其实很多事物，没有得到时总觉得美好，得到之后才开始明白，我们得到的同时也在失去。
+		</div>
+		<div class="per_tit03 fix mt30">
+			<a href="javascript:;" class="fl tit03_wan bora20 tac fs12 c5 bgff">完善个人信息</a>
+			<a href="javascript:;" class="fr tit03_xin c5 mr5"><i class="C_mailer di vam mr5"></i>我的私信</a>
+		</div>
+	</div>
+	<div class="per_headnum fl mt30">
+		<ul class="fix">
+			<li>
+				<a href="javascript:;">
+					<i>269</i>
+					<span>关注的主办方</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i>7</i>
+					<span>已发布的活动</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i>87</i>
+					<span>参加的活动</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i>15</i>
+					<span>喜欢的活动</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="per_tab w1000 ma fix">
+	<ul class="fix">
+		<li>
+			<a href="javascript:;">
+				<i class="i01"></i>
+				<span>我的活动</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<i class="i02"></i>
+				<span>我参与的</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<i class="i03"></i>
+				<span>我收藏的</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<i class="i04"></i>
+				<span>我发布的</span>
+			</a>
+		</li>
+		<li class="per_tab_cur">
+			<a href="javascript:;">
+				<i class="i05"></i>
+				<span>账户设置</span>
+			</a>
+		</li>
+	</ul>
+</div>
+<div class="per_zh_tab ma fix">
+	<ul class="fix">
+		<li>
+			<a href="javascript:;">
+				<i class="zh_i01"></i>
+				<span>个人资料设置</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<i class="zh_i02"></i>
+				<span>修改密码</span>
+			</a>
+		</li>
+		<li class="zh_tab_cur">
+			<a href="javascript:;">
+				<i class="zh_i03"></i>
+				<span>主办方资料</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<i class="zh_i04"></i>
+				<span>收款账户设置</span>
+			</a>
+		</li>
+	</ul>
+</div>
+<div class="ZH_main fix ma bgff">
+	<div class="ZL_zbf fix">
+		<div class="add_zbf">
+			<a href="javascript:;" class="tac di cf bora5">+添加主办方</a>
+		</div>
+	</div>
+	<div class="new_tel ma ziliao_con add_zbf_con">
+		<ul>
+			<li>
+				<span><s class="red_mi">*</s>主办方图标：</span>
+				<div class="fl">
+					<div class="ziliao_img fl">
+						<img src="imgs/center/per_09.jpg" width="116" height="116">
+					</div>
+					<div class="ziliao_but fl">
+						<div class="file_style bora5 di tac prv cf fs12">
+							<input type="file" name="" id="" value="" placeholder="编辑头像">
+							编辑头像
+						</div>
+						<p>图片小于2M (jpg、gif、png、bmp) </p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<span><s class="red_mi">*</s>联系人：</span>
+				<input type="text" id="" value="" class="tel_long fl" placeholder="限制50个字以内">
+			</li>
+			<li>
+				<span><s class="red_mi">*</s>联系人手机：</span>
+				<input type="text" id="" value="" class="tel_long fl" placeholder="限制30个字以内">
+			</li>
+			<li>
+				<span><s class="red_mi">*</s>联系人邮箱：</span>
+				<input type="text" id="" value="" class="tel_long fl">
+			</li>
+			<li>
+				<span><s class="red_mi">*</s>主办方简介：</span>
+				<textarea name="textarea" id="advice" cols="45" rows="9" class="ma">请输入您要发送的信息。限200字以内。</textarea>
+			</li>
+			<li>
+				<span>专属网址：</span>
+				<i class="fl add_i">http://</i>
+				<input type="text" id="" value="" class="tel_270 fl">
+				<i class="fl add_i">xinlianxin.com</i>
+			</li>
+			<li>
+				<span>官方主页链接：</span>
+				<input type="text" id="" value="" class="tel_long fl">
+			</li>
+			<li>
+				<span class="cf">确认修改：</span>
+				<a href="javascript:;" class="tel_sure di tac cf fs16 fl">确定</a>
+				<a href="javascript:;" class="tel_sure tel_off di tac cf fs16 fl">取消</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!---中间内容结束--->	
+<!---底部内容--->
+<div class="footer fix mt40">
+	<div class="foot_one w1000 ma">
+		<ul>
+			<li>
+				<dl>
+					<dt>团体活动</dt>
+					<dd><a href="javascript:;">亚隆人际</a></dd>
+					<dd><a href="javascript:;">职业生涯</a></dd>
+					<dd><a href="javascript:;">亲子关系</a></dd>
+					<dd><a href="javascript:;">深度交友</a></dd>
+					<dd><a href="javascript:;">情感婚姻</a></dd>
+					<dd><a href="javascript:;">自我心灵探索</a></dd>
+				</dl>
+			</li>
+			<li class="foot_rz">
+				<dl>
+					<dt>认证咨询师</dt>
+					<dd><a href="javascript:;">认证标准</a></dd>
+					<dd><a href="javascript:;">认证咨询师</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="javascript:;">公司介绍</a></dd>
+					<dd><a href="javascript:;">相关项目</a></dd>
+					<dd><a href="javascript:;">精彩活动</a></dd>
+					<dd><a href="javascript:;">联系方式</a></dd>
+					<dd><a href="javascript:;">招兵买马</a></dd>
+				</dl>
+			</li>
+		</ul>
+		<div class="Telphone">
+			<div class="ma_pic fl">
+				<img src="imgs/erweima.png" width="139" height="139" />
+				<p>微信公众号</p>
+			</div>
+			<ol class="fl">
+				<li class="ol-li1">服务热线</li>
+				<li class="ol-li2"><img src="imgs/tel.png"/></li>
+				<li class="ol-li3">周一至周五  09：00-18：00</li>
+			</ol>
+		</div>
+	</div>
+</div>
+<div class="foot-two-bg">
+	<div class="foot-two w1000 ma fix">
+		<dl>
+			<dt>友情链接:</dt>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-01.png" width="120" height="40"/>
+					<span>万生心语</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-02.png" width="120" height="40"/>
+					<span>清华大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-03.png" width="120" height="40"/>
+					<span>北京大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-04.png" width="120" height="40"/>
+					<span>中国人民大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-05.png" width="120" height="40"/>
+					<span>中国心理学会</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-06.png" width="120" height="40"/>
+					<span>友谊心友网</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-07.png" width="120" height="40"/>
+					<span>多伦多大学</span>
+				</a>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="foot-three-bg fix">
+	<div class="foot-three w1000 ma">
+		<span>地址：北京市海淀区中关村南大街1号 友谊宾馆苏园14单元3层 </span>
+		<p>Copyright © 2000-2015 All Rights Reserved  京ICP备08100020号</p>
+	</div>
+</div>	
+<!---底部内容结束--->
+</body>
+</html>

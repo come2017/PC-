@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>我和你</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		var oHeight = $(window).height();
+		$('.layer').height(oHeight);
+		
+		//上传操作
+		$('.sq_file li,.zz_file .add').on('click',function(){
+			$('.layer,.layer_con').show();
+		})
+		$('.layer').on('click',function(){
+			$('.layer,.layer_con').hide();
+		})
+	})
+</script>
+</head>
+<body style="background: #f2f2f2;">
+<!---头部开始--->
+<div class="header">
+	<div class="head w1000 ma">
+		<div class="logo">
+			<a href="javascript:;">
+				<img src="imgs/logo.png" width="224" height="66" />
+			</a>
+		</div>
+		<div class="navBar">
+			<ul class="nav fix">
+				<li class="nav_m on">
+					<a target="_blank" href="100teamList.html">团体活动</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="200salonList.html">兴趣沙龙</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="300huoDongList.html">活动日历</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="javascript:;">心理咨询</a>
+				</li>
+				<li class="nav_m">
+					<a target="_blank" href="500activity.html">活动墙</a>
+				</li>
+			</ul>
+			<ul class="subNav">
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">亚隆人际</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">兴趣沙龙</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li2">
+						<div class="li2_data">
+							<dl class="fix li2_data_bor">
+								<dd class="first_li"><a href="javascript:;"><i class="nav-icon"></i>按时间</a></dd>
+								<dd><a href="javascript:;">全部</a></dd>
+								<dd><a href="javascript:;">最近一周</a></dd>
+								<dd><a href="javascript:;">今天</a></dd>
+								<dd><a href="javascript:;">明天</a></dd>
+								<dd><a href="javascript:;">周末</a></dd>
+							</dl>
+							<dl class="fix">
+								<dd class="first_li"><a href="javascript:;"><i class="nav-icon nav-icon1"></i>按地区</a></dd>
+								<dd><a href="javascript:;">全部</a></dd>
+								<dd><a href="javascript:;">北京</a></dd>
+								<dd><a href="javascript:;">上海</a></dd>
+								<dd><a href="javascript:;">广州</a></dd>
+								<dd><a href="javascript:;">深圳</a></dd>
+								<dd><a href="javascript:;">杭州</a></dd>
+								<dd><a href="javascript:;">天津</a></dd>
+								<dd><a href="javascript:;">南京</a></dd>
+								<dd><a href="javascript:;">成都</a></dd>
+								<dd><a href="javascript:;">厦门</a></dd>
+								<dd><a href="javascript:;">宁波</a></dd>
+								<dd><a href="javascript:;">苏州</a></dd>
+								<dd><a href="javascript:;">武汉</a></dd>
+								<dd><a href="javascript:;">西安</a></dd>
+							</dl>
+						</div>
+						<!--<div class="li2_quyu">
+							
+						</div>-->
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">心理咨询</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dn">
+					<div class="subNav_li1">
+						<div class="nav_img fl">
+							<img src="imgs/index-01.png" width="139" height="75"/>
+						</div>
+						<div class="nav_mainLI fl">
+							<ul>
+								<li>
+									<a href="javascript:;" target="_blank">活动墙</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">职业生涯</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">亲子关系</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">深度交友</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">情感婚姻</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">自我心灵探索</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">舞动团体</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">其他活动</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!---头部结束--->		
+<!---中间内容--->
+<div class="djCon sqCon">
+	<h2 class="conTitle">申请咨询师</h2>
+	<form action="" method="post">
+		<ul class="djList tac">
+			<li>
+				<span><i class="red_m">*</i>姓名</span>
+				<input type="text" name="" id="" value="" />
+			</li>
+			<li>
+				<span><i class="red_m">*</i>电话</span>
+				<input type="text" name="" id="" value="" />
+			</li>
+			<li>
+				<span><i class="red_m">*</i>手机</span>
+				<input type="text" name="" id="" value="" />
+			</li>
+			<li>
+				<span><i class="red_m">*</i>邮箱</span>
+				<input type="text" name="" id="" value="" />
+			</li>
+			<li class="sfz fix">
+				<span class="sq_txt01"><i class="red_m">*</i>上传身份证</span>
+				<ul class="di sq_file fix">
+					<li><img src="imgs/neiye/dJ_pic01.jpg"/></li>
+					<li><img src="imgs/neiye/dJ_pic02.jpg"/></li>
+				</ul>
+				<i class="sq_txt02">请确保照片中的身份证详细信息清晰可见</i>
+			</li>
+			<li class="sfz fix">
+				<span class="sq_txt01"><i class="red_m">*</i>专业资质证明</span>
+				<div class="zz_file fix">
+					<img src="imgs/neiye/zz_pic.jpg"/>
+					<span class="add">+ 添加资质</span>
+				</div>
+			</li>
+			<li class="sq_textarea fix">
+				<span><i class="red_m">*</i>教育经历</span>
+				<textarea name="" rows="5" cols=""></textarea>
+			</li>
+			<li class="sq_textarea fix">
+				<span><i class="red_m">*</i>培训背景</span>
+				<textarea name="" rows="5" cols=""></textarea>
+			</li>
+			<li class="sq_textarea fix">
+				<span><i class="red_m">*</i>接受督导经历</span>
+				<textarea name="" rows="5" cols=""></textarea>
+			</li>
+			<li class="sq_textarea fix">
+				<span><i class="red_m">*</i>个人体验经历</span>
+				<textarea name="" rows="5" cols=""></textarea>
+			</li>
+			<li>
+				<span><i class="red_m">*</i>累计咨询时间</span>
+				<input type="text" name="" id="" value="" placeholder="个人的和团体咨询的" />
+			</li>
+			<li>
+				<span>推荐人</span>
+				<input type="text" name="" id="" value="" placeholder="" />
+			</li>
+		</ul>
+		<input class="ipt_sub" type="submit" id="" name="" value="提交" />
+	</form>
+</div>
+<!---中间内容结束--->
+<!--弹出框-->
+<div class="layer"></div>
+<div class="layer_con"></div>
+<!---底部内容--->
+<div class="footer fix mt40">
+	<div class="foot_one w1000 ma">
+		<ul>
+			<li>
+				<dl>
+					<dt>团体活动</dt>
+					<dd><a href="javascript:;">亚隆人际</a></dd>
+					<dd><a href="javascript:;">职业生涯</a></dd>
+					<dd><a href="javascript:;">亲子关系</a></dd>
+					<dd><a href="javascript:;">深度交友</a></dd>
+					<dd><a href="javascript:;">情感婚姻</a></dd>
+					<dd><a href="javascript:;">自我心灵探索</a></dd>
+				</dl>
+			</li>
+			<li class="foot_rz">
+				<dl>
+					<dt>认证咨询师</dt>
+					<dd><a href="javascript:;">认证标准</a></dd>
+					<dd><a href="javascript:;">认证咨询师</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="javascript:;">公司介绍</a></dd>
+					<dd><a href="javascript:;">相关项目</a></dd>
+					<dd><a href="javascript:;">精彩活动</a></dd>
+					<dd><a href="javascript:;">联系方式</a></dd>
+					<dd><a href="javascript:;">招兵买马</a></dd>
+				</dl>
+			</li>
+		</ul>
+		<div class="Telphone">
+			<div class="ma_pic fl">
+				<img src="imgs/erweima.png" width="139" height="139" />
+				<p>微信公众号</p>
+			</div>
+			<ol class="fl">
+				<li class="ol-li1">服务热线</li>
+				<li class="ol-li2"><img src="imgs/tel.png"/></li>
+				<li class="ol-li3">周一至周五  09：00-18：00</li>
+			</ol>
+		</div>
+	</div>
+</div>
+<div class="foot-two-bg">
+	<div class="foot-two w1000 ma fix">
+		<dl>
+			<dt>友情链接:</dt>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-01.png" width="120" height="40"/>
+					<span>万生心语</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-02.png" width="120" height="40"/>
+					<span>清华大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-03.png" width="120" height="40"/>
+					<span>北京大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-04.png" width="120" height="40"/>
+					<span>中国人民大学</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-05.png" width="120" height="40"/>
+					<span>中国心理学会</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-06.png" width="120" height="40"/>
+					<span>友谊心友网</span>
+				</a>
+			</dd>
+			<dd>
+				<a href="javascript:;">
+					<img src="imgs/foot-07.png" width="120" height="40"/>
+					<span>多伦多大学</span>
+				</a>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="foot-three-bg fix">
+	<div class="foot-three w1000 ma">
+		<span>地址：北京市海淀区中关村南大街1号 友谊宾馆苏园14单元3层 </span>
+		<p>Copyright © 2000-2015 All Rights Reserved  京ICP备08100020号</p>
+	</div>
+</div>	
+<!---底部内容结束--->
+<!--竖导航开始-->
+		<div class="rig_nav">
+			<div class="rig_list"><a class="list01" href="javascript:;" target="_blank"></a></div>
+			<div class="rig_list01">
+				<a class="list02" href="javascript:;" target="_blank"></a>
+				<div class="list_content">
+					<a href="javascript:;">010-68946651</a>
+				</div>
+			</div>
+			<div class="rig_list"><a class="list04" href="#head"></a></div>
+		</div>
+		<!--竖导航结束-->
+</body>
+</html>

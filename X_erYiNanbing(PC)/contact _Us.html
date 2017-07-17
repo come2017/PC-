@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>北京中医儿童青少年疑难病治疗中心</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/css.css"/>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+</head>
+	<body>
+	<!--顶部-->
+	<div class="header w100 bgff">
+		<div class="head_top w1100 ma">
+			<div class="head_phone fl mt60">
+				<span class="fs12 c45">全国免费服务热线<i class="fs14">400-660-1865</i></span>
+				<p class="fs12 c45">zhongyijzcw@yahoo.com</p>
+			</div>
+			<div class="head_ma fr mt45">
+				<span>扫一扫 有惊喜哦</span>
+				<img src="imgs/erweima.jpg" width="78" height="78" class="vam"/>
+			</div>
+			<div class="logo tac">
+				<a href="index.html" class="di">
+					<img src="imgs/logo.png" width="343" height="105"/>
+				</a>
+			</div>
+		</div>
+		<div class="head_line w100 fix"></div>
+		<div class="head_nav fix w1100 ma mt10">
+			<ul>
+				<li>
+					<a href="index.html">首　页</a>
+				</li>
+				<li>
+					<a href="introduce.html">医院简介</a>
+				</li>
+				<li>
+					<a href="team.html">专家团队</a>
+				</li>
+				<li>
+					<a href="Tese.html">特色技术</a>
+				</li>
+				<li>
+					<a href="zhiliao.html">治疗资讯</a>
+				</li>
+				<li>
+					<a href="case.html">成功案例</a>
+				</li>
+				<li>
+					<a href="question.html">有问必答</a>
+				</li>
+				<li class="nav_cur">
+					<a href="contact _Us.html">联系我们</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!--二级banner-->
+	<div class="er_banner">
+		<img src="imgs/neiye/banner_L.png"/>
+	</div>
+	
+	<!--中间内容开始-->
+	<div class="w1100 ma prv">
+		<i class="Csun"></i>
+		<div class="Te_con bgff">
+			<h2>联系<i>我们</i><span>Contact Us</span></h2>
+		</div>
+		<div class="us_con bgff">
+			<div class="us_01 tac">
+				<div class="us01_tit tac">
+					<h2>北京中医儿童青少年疑难病治疗中心</h2>
+					<span>
+						Beijing Traditional Chinese children and adolescents<br/>
+difficult disease treatment center
+					</span>
+				</div>
+				<div class="us01_zi c5 ma">
+					北京中医儿童青少年疑难病治疗中心是爱婴门诊、临床教学机构、规范化服务达标医疗机构、首都平安示范门诊。同时也是北京中医药大学博士、硕士学位研究生培养点，北京市中医师规范化培训基地。
+				</div>
+				<div class="us01_lvd mt50">
+					<h2>联系方式</h2>
+				</div>
+				<div class="us01_add di">
+					<ul>
+						<li>
+							<i>地址：</i>
+							<span>北京市海淀区学清路9号</span>
+						</li>
+						<li>
+							<i>电话：</i>
+							<span>010-62533017;4006601865</span>
+						</li>
+						<li>
+							<i>E-Mail：</i>
+							<span>中医xeynb@yahoo.cn</span>
+						</li>
+						<li>
+							<i>途径公交车：</i>
+							<span>392路、398路、609路、490路、355路公交到马家沟下车</span>
+						</li>
+					</ul>
+				</div>
+				<div class="contact-map ma bora5">
+				<style type="text/css">
+	              #allmap {width: 670px;height: 300px;overflow: hidden;margin:0 auto; background-color:#ffffff;}
+	              #l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+	              #r-result{height:100%;width:20%;float:left;}
+	            </style>
+          		<script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+          <!-------------地图坐标脚本结束-----------> 
+           	<div id="allmap"></div>
+          	<script type="text/javascript">
+                var map = new BMap.Map("allmap");            // 创建Map实例
+                map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
+                //map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
+                //map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
+                map.enableScrollWheelZoom();                            //启用滚轮放大缩小
+                //map.addControl(new BMap.MapTypeControl());          //添加地图类型控件
+                //map.centerAndZoom("山东",15);                     // 初始化地图,设置中心点坐标和地图级别。
+                
+                //var myEl = this.document.getElementById("mappoint").value;
+                var myEl = "116.35789,40.025469";
+                var myA=myEl.split(",");
+                var point = new BMap.Point(myA[0], myA[1]);
+                //alert(myEl);
+                map.centerAndZoom(point, 15);
+                var marker = new BMap.Marker(point);  // 创建标注
+                map.addOverlay(marker);              // 将标注添加到地图中
+                marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+            </script>    
+            <!--地图-->
+		</div>
+			</div>
+			<div class="us_02 ma">
+				<div class="us01_lvd mt50 tac">
+					<h2>在线预约</h2>
+				</div>
+				<div class="us02_input tac mt20">
+					<ul>
+						<li>
+							<span>姓　　名：</span>
+							<input type="text" />
+						</li>
+						<li>
+							<span>年　　龄：</span>
+							<input type="text" />
+						</li>
+						<li>
+							<span>电　　话：</span>
+							<input type="text" />
+						</li>
+						<li>
+							<span>就诊时间：</span>
+							<input type="text" class="input_data"/>
+						</li>
+						<li>
+							<span class="vat">主　　述：</span>
+							<textarea></textarea>
+						</li>
+					</ul>
+					<a href="javascript:;" class="bora20 tac cf di us_ti mt10">提交</a>
+				</div>
+			</div>
+		</div>
+		<div class="Te_Btcon bgff fix mt30">
+			<ul>
+				<li>
+					<div class="Te_BtconL fl">
+						<img src="imgs/neiye/tepng01.png"/>
+					</div>
+					<div class="Te_BtconR fl fix">
+						<h5>小儿神经门诊</h5>
+						<dl>
+							<dd><a href="javascript:;">智力低下</a></dd>
+							<dd><a href="javascript:;">脑瘫</a></dd>
+							<dd><a href="javascript:;">自闭症</a></dd>
+						</dl>
+						<dl>
+							<dd><a href="javascript:;">弱智</a></dd>
+							<dd><a href="javascript:;">癫痫</a></dd>
+						</dl>
+					</div>
+				</li>
+				<li>
+					<div class="Te_BtconL fl">
+						<img src="imgs/neiye/tepng02.png"/>
+					</div>
+					<div class="Te_BtconR fl fix">
+						<h5>发育行为门诊</h5>
+						<dl>
+							<dd><a href="javascript:;">抽动症</a></dd>
+							<dd><a href="javascript:;">学习困难</a></dd>
+							<dd><a href="javascript:;">语言障碍</a></dd>
+						</dl>
+						<dl>
+							<dd><a href="javascript:;">多动症</a></dd>
+							<dd><a href="javascript:;">遗尿症</a></dd>
+						</dl>
+					</div>
+				</li>
+				<li>
+					<div class="Te_BtconL fl">
+						<img src="imgs/neiye/tepng03.png"/>
+					</div>
+					<div class="Te_BtconR fl fix">
+						<h5>小儿内分泌门诊</h5>
+						<dl>
+							<dd><a href="javascript:;">性早熟</a></dd>
+							<dd><a href="javascript:;">肥胖症</a></dd>
+							<dd><a href="javascript:;">甲状腺疾病</a></dd>
+						</dl>
+						<dl>
+							<dd><a href="javascript:;">矮小症</a></dd>
+							<dd><a href="javascript:;">发育迟缓</a></dd>
+						</dl>
+					</div>
+				</li>
+				<li>
+					<div class="Te_BtconL fl">
+						<img src="imgs/neiye/tepng04.png"/>
+					</div>
+					<div class="Te_BtconR fl fix">
+						<h5>消化系统</h5>
+						<dl>
+							<dd><a href="javascript:;">支气管炎</a></dd>
+							<dd><a href="javascript:;">便秘</a></dd>
+							<dd><a href="javascript:;">呕吐</a></dd>
+						</dl>
+						<dl>
+							<dd><a href="javascript:;">感冒</a></dd>
+							<dd><a href="javascript:;">消化不良</a></dd>
+							<dd><a href="javascript:;">腹泻</a></dd>
+						</dl>
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<!--中间内容结束-->
+	
+	<!--底部-->
+	<div class="footer w100 bg4b fix">
+		<div class="foot01 w1100 ma fix">
+			<div class="foot01_dian fl">
+				<span>全国免费服务热线</span>
+				<i>400-660-1865</i>
+			</div>
+			<div class="foot01_ul fl">
+				<ul class="fix">
+					<li>
+						<a href="javascript:;">医院简介</a>
+					</li>
+					<li>
+						<a href="javascript:;">专家团队</a>
+					</li>
+					<li>
+						<a href="javascript:;">特色技术</a>
+					</li>
+					<li>
+						<a href="javascript:;">治疗资讯</a>
+					</li>
+					<li>
+						<a href="javascript:;">成功案例</a>
+					</li>
+					<li>
+						<a href="javascript:;">有问必答</a>
+					</li>
+					<li class="last">
+						<a href="javascript:;">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<div class="foot01_gz fr">
+				<dl class="fl">
+					<dt>
+						<a href="javascript:;">
+							<img src="imgs/icon/weixin.png" />
+						</a>
+					</dt>
+					<dt>
+						<a href="javascript:;">
+							<img src="imgs/icon/weibo.png" />
+						</a>
+					</dt>
+				</dl>
+				<div class="foot01_gztxt fs12 oh fl">
+					<span class="db">关注我们</span>
+					<a href="javascript:;">zhongyijzcw@yahoo.com</a>
+				</div>
+				<a href="javascript:;" class="foot01_jian tac di fr">
+					→
+				</a>
+			</div>
+		</div>
+		<div class="footer_line fix w100"></div>
+		<div class="foot02 fix w1100 ma">
+			北京中医儿童青少年疑难病治疗中心  ®2010版权所有   |   ★温馨提示：为了您的身心健康和确保生命财产安全，请一定要到专业、正规医疗机构就医！
+		</div>
+	</div>
+	
+	</body>
+</html>

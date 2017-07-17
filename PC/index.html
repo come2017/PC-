@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>红叶地毯</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.sly.js"></script>
+
+<script type="text/javascript" src="js/jquery.soChange.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+$(function () {
+//banner
+
+
+
+	$('#change_4 .a_bigImg img').soChange({
+		thumbObj:'#change_4 .ul_change_a1 img',
+	});
+//精彩专题
+	$(".mr_frbox").slide({
+		mainCell:".mr_frUl ul",
+		effect:"leftMarquee",
+		autoPlay:true,
+		vis:3,
+		interTime:15,
+		trigger:"click"
+	});
+//产品中心
+	$(".Cmr_frbox").slide({
+        mainCell:".Cmr_frUl ul",
+        effect:"leftLoop",
+        autoPlay:true,
+        vis:8,
+        trigger:"click"
+    });
+//产品中心切换
+		$('.Cmr_frUl ul li').click(function(){
+			$(this).addClass("chanpin-cur").siblings().removeClass();
+			$(".chanpin-tab-con").hide().eq($(this)[0].getAttribute('data-index') - 1).show();
+		});
+//推荐产品
+
+});
+</script>
+</head>
+<body>
+<!---头部开始--->
+<div class="index-nav ma">
+	<div class="logo fl">
+		<a href="javascript:;">
+			<img src="imgs/pc-logo.png" width="192" height="65" />
+		</a>
+	</div>
+	<ul class="fl nav">
+		<li><a href="index.html" class="nav-cur">首页</a></li>
+		<li><a href="company.html">公司简介</a></li>
+		<li><a href="news.html">地毯资讯</a></li>
+		<li><a href="product.html">产品展示</a></li>
+		<li><a href="case.html">经典案例</a></li>
+		<li><a href="gongchengbu.html">工程部</a></li>
+		<li><a href="sheji.html">设计部</a></li>
+		<li><a href="after.html">售后服务</a></li>
+		<li class="last"><a href="contact-us.html">联系我们</a></li>
+	</ul>
+</div>
+<!---头部结束--->
+<!---中间内容--->
+<!--banner 开始-->
+<div class="eachBox fix">
+	<div class="changeBox_a1" id="change_4">
+		<a class="a_bigImg" target="_blank" href="javascript:;"><img src="imgs/pc-banner.jpg" /></a>
+		<a class="a_bigImg" target="_blank" href="javascript:;"><img src="imgs/pc-banner.jpg" /></a>
+		<a class="a_bigImg" target="_blank" href="javascript:;"><img src="imgs/pc-banner.jpg" /></a>
+		<ul class="ul_change_a1">
+			<li><a target="_blank" href="javascript:;"><img src="imgs/banner-small01.png" /></a></li>
+			<li><a target="_blank" href="javascript:;"><img src="imgs/banner-small01.png" /></a></li>
+			<li><a target="_blank" href="javascript:;"><img src="imgs/banner-small01.png" /></a></li>
+		</ul>
+	</div>
+</div>
+<!--banner 结束-->
+<!--公司介绍-->
+<div class="index-company fix ma">
+	<div class="index-Btitle ma">
+		<img src="imgs/pc-com.png" />
+	</div>
+	<p class="comP">
+		北京尚邦弘业商贸有限公司（山东红叶地毯厂北京办事处）主要生产高档丝毛合织手工、机织地毯;目前是集地毯及其材料的专业设计、研发、生产、销售和服务于一体的专业地毯制造商。公司规模位于中国地毯行业前列，是目前国内<i>最具实力、最具规模</i>的专业地毯制造商之一。所生产的手工地毯、机织威尔顿地毯、簇绒地毯总销量位居国内前三甲
+	</p>
+	<a href="company.html" class="comA ma db">查看详情</a>
+</div>
+<!--服务流程-->
+<div class="index-serv ma fix">
+	<div class="index-servbg ma">
+		<img src="imgs/pc-serbg.jpg" />
+	</div>
+	<div class="ser-title ma">
+		<img src="imgs/pc-ser.png" />
+	</div>
+	<ul class="ser-main ma">
+		<li>
+			<a href="javascript:;">
+				<img src="imgs/pc-com01.png" />
+				<span class="di">
+					产品咨询<br/>
+					<em class="di">足不出户</em>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="imgs/pc-com02.png" />
+				<span class="di">
+					免费送样<br/>
+					<em class="di">更放心</em>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="imgs/pc-com03.png" />
+				<span class="di">
+					产品确认<br/>
+					<em class="di">更贴心</em>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="imgs/pc-com04.png" />
+				<span class="di">
+					铺设安装<br/>
+					<em class="di">有保障</em>
+				</span>
+			</a>
+		</li>
+		<li class="last">
+			<a href="javascript:;">
+				<img src="imgs/pc-com05.png" />
+				<span class="di">
+					售后服务<br/>
+					<em class="di">随叫随到</em>
+				</span>
+			</a>
+		</li>
+	</ul>
+</div>
+<!--产品中心-->
+<div class="index-chanpin ma">
+	<div class="index-chantitle ma">
+		<img src="imgs/pc-pro.png" />
+	</div>
+	<div class="chanpin-tab mt_px35">
+		<div class="index_04">
+			<div class="Cmr_frbox prv">
+				<div class="Cmr_frUl oh">
+					<ul>
+						<li class="chanpin-cur" data-index="1"><a href="javascript:;">手工地毯</a></li>
+						<li data-index="2"><a href="javascript:;" >餐饮地毯</a></li>
+						<li data-index="3"><a href="javascript:;">宾馆地毯</a></li>
+						<li data-index="4"><a href="javascript:;">办公地毯</a></li>
+						<li data-index="5"><a href="javascript:;">尼龙地毯</a></li>
+						<li data-index="6"><a href="javascript:;">羊毛地毯</a></li>
+						<li data-index="7"><a href="javascript:;">走廊地毯</a></li>
+						<li data-index="8"><a href="javascript:;">KTV地毯</a></li>
+					</ul>
+				</div>
+				<a class="db pa cp Cmr_frBtnL next"></a>
+				<a class="db pa cp Cmr_frBtnR prev"></a>
+			</div>
+		</div>
+	</div>
+	<div class="chanpin-tab-con">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列一</span>
+		</div>
+		<div class="cont-02-Top">
+	         <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	         <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列三</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列四</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列五</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列六</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列七</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列八</span>
+		</div>
+	</div>
+	<div class="chanpin-tab-con dn">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列三</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列四</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列五</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列六</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列七</span>
+		</div>
+	</div>
+	<div class="chanpin-tab-con dn">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列三</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列四</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列五</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列六</span>
+		</div>
+	</div>
+	<div class="chanpin-tab-con dn">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列三</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列四</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列五</span>
+		</div>
+	</div>
+	<div class="chanpin-tab-con dn">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列三</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro04.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列四</span>
+		</div>
+	</div>
+	<div class="chanpin-tab-con dn">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro03.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列三</span>
+		</div>
+	</div>
+	<div class="chanpin-tab-con dn">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro02.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+	</div>
+	<div class="chanpin-tab-con dn">
+		<div class="cont-02-Top">
+	        <a href="productin.html">
+	            <img src="imgs/pc-pro01.png" width="289" height="185">
+	        </a>
+            <span class="cont-02-Top-span">手工地毯系列二</span>
+		</div>
+	</div>
+
+	<a href="product.html" class="chanpinA ma db">更多</a>
+</div>
+<!--精彩专题-->
+<div class="index-jc fix ma">
+	<div class="index-jcbg ma">
+		<img src="imgs/pc-jcbg.jpg">
+	</div>
+	<div class="index-JCtitle ma">
+		<img src="imgs/pc-jc.png">
+	</div>
+	<div class="index-jc-con ma">
+	<div class="index_04">
+		<div class="mr_frbox prv">
+					<div class="mr_frUl">
+						<ul>
+							<li class="one">
+								<dl class="db bgea3">
+									<dd class="fs14 cf">酒店会所专题</dd>
+								</dl>
+								<span></span>
+							</li>
+							<li class="two">
+								<dl class="db bgea3">
+									<dd class="fs14 cf">手工地毯专题</dd>
+								</dl>
+								<span></span>
+							</li>
+							<li class="three">
+								<dl class="db bgea3">
+									<dd class="fs14 cf">股权转让变更</dd>
+								</dl>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					<a class="db pa cp mr_frBtnL next"></a>
+					<a class="db pa cp mr_frBtnR prev"></a>
+				</div>
+	</div>
+</div>
+</div>
+<!--推荐产品-->
+<div class="index-tui fix ma">
+	<div class="index-Tuititle ma">
+		<img src="imgs/pc-tui.png">
+	</div>
+	
+	<div id="sections" class="container">
+		<div class="scrollbox " id="horizontal">
+			<div class="slyWrap example1">
+				<div class="sly tui-con" data-options='{ "horizontal": 1, "itemNav": "smart", "dragContent": 1, "startAt": 3, "scrollBy": 1 }'>
+					<ul class="fix">
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+						<li>
+							<a href="productin.html">
+								<img src="imgs/pc-tui01.jpg" />
+								<span>手工地毯一</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="scrollbar">
+					<div class="handle" style="height: 20px;">拖动看更多产品</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--地毯资讯-->
+<div class="index-ditan fix ma">
+	<div class="index-Zititle ma">
+		<img src="imgs/pc-zi.png">
+	</div>
+	<div class="ditan-list">
+		<ul>
+			<li>
+				<a href="newsIn.html">
+					<div class="fl ditan-list-span">
+						<span class="bgea3 db">10-30</span>
+						<span class="bg333 db">2013</span>
+					</div>
+					<div class="fr ditan-list-p">
+						<h3 class="fs16 c28">酒店客房地毯的选择技巧</h3>
+						<p>
+							酒店客房地毯是忙碌的客商休息的地方，优雅舒适的休息环境不仅可以为客人解除旅途的困乏，还会让商客产生留恋忘返的感觉，所以酒店客房地毯的选用是非常重要的。……
+						</p>
+						<a href="javascript:;" class="ditanA">Read More<i>></i></a>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="newsIn.html">
+					<div class="fl ditan-list-span">
+						<span class="bgea3 db">10-30</span>
+						<span class="bg333 db">2013</span>
+					</div>
+					<div class="fr ditan-list-p">
+						<h3 class="fs16 c28">酒店客房地毯的选择技巧</h3>
+						<p>
+							酒店客房地毯是忙碌的客商休息的地方，优雅舒适的休息环境不仅可以为客人解除旅途的困乏，还会让商客产生留恋忘返的感觉，所以酒店客房地毯的选用是非常重要的。……
+						</p>
+						<a href="javascript:;" class="ditanA">Read More<i>></i></a>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="newsIn.html">
+					<div class="fl ditan-list-span">
+						<span class="bgea3 db">10-30</span>
+						<span class="bg333 db">2013</span>
+					</div>
+					<div class="fr ditan-list-p">
+						<h3 class="fs16 c28">酒店客房地毯的选择技巧</h3>
+						<p>
+							酒店客房地毯是忙碌的客商休息的地方，优雅舒适的休息环境不仅可以为客人解除旅途的困乏，还会让商客产生留恋忘返的感觉，所以酒店客房地毯的选用是非常重要的。……
+						</p>
+						<a href="javascript:;" class="ditanA">Read More<i>></i></a>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="newsIn.html">
+					<div class="fl ditan-list-span">
+						<span class="bgea3 db">10-30</span>
+						<span class="bg333 db">2013</span>
+					</div>
+					<div class="fr ditan-list-p">
+						<h3 class="fs16 c28">酒店客房地毯的选择技巧</h3>
+						<p>
+							酒店客房地毯是忙碌的客商休息的地方，优雅舒适的休息环境不仅可以为客人解除旅途的困乏，还会让商客产生留恋忘返的感觉，所以酒店客房地毯的选用是非常重要的。……
+						</p>
+						<a href="javascript:;" class="ditanA">Read More<i>></i></a>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="newsIn.html">
+					<div class="fl ditan-list-span">
+						<span class="bgea3 db">10-30</span>
+						<span class="bg333 db">2013</span>
+					</div>
+					<div class="fr ditan-list-p">
+						<h3 class="fs16 c28">酒店客房地毯的选择技巧</h3>
+						<p>
+							酒店客房地毯是忙碌的客商休息的地方，优雅舒适的休息环境不仅可以为客人解除旅途的困乏，还会让商客产生留恋忘返的感觉，所以酒店客房地毯的选用是非常重要的。……
+						</p>
+						<a href="javascript:;" class="ditanA">Read More<i>></i></a>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="newsIn.html">
+					<div class="fl ditan-list-span">
+						<span class="bgea3 db">10-30</span>
+						<span class="bg333 db">2013</span>
+					</div>
+					<div class="fr ditan-list-p">
+						<h3 class="fs16 c28">酒店客房地毯的选择技巧</h3>
+						<p>
+							酒店客房地毯是忙碌的客商休息的地方，优雅舒适的休息环境不仅可以为客人解除旅途的困乏，还会让商客产生留恋忘返的感觉，所以酒店客房地毯的选用是非常重要的。……
+						</p>
+						<a href="javascript:;" class="ditanA">Read More<i>></i></a>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<a href="news.html" class="chanpinA ma db oh">更多</a>
+</div>
+<!--经典案例-->
+<div class="index-JD fix ma">
+	<div class="index-JDtitle ma">
+		<img src="imgs/pc-jd.png">
+	</div>
+	<ul class="JD-ul fix">
+		<li>
+			<a href="case.html">
+				<img src="imgs/pc-jd01.png" />
+			</a>
+		</li>
+		<li>
+			<a href="case.html">
+				<img src="imgs/pc-jd01.png" />
+			</a>
+		</li>
+		<li>
+			<a href="case.html">
+				<img src="imgs/pc-jd01.png" />
+			</a>
+		</li>
+		<li>
+			<a href="case.html">
+				<img src="imgs/pc-jd01.png" />
+			</a>
+		</li>
+		<li>
+			<a href="case.html">
+				<img src="imgs/pc-jd01.png" />
+			</a>
+		</li>
+		<li>
+			<a href="case.html">
+				<img src="imgs/pc-jd01.png" />
+			</a>
+		</li>
+	</ul>
+	<a href="case.html" class="chanpinA ma db">更多</a>
+</div>
+<!---中间内容结束--->
+
+<!---底部内容--->
+<div class="footbg">
+	<div class="foot fix">
+		<div class="foot-list fix">
+			<ul class="list-a">
+				<li class="list-tou"><a href="javascript:;"><i class="foot-a di"></i>我们的荣誉</a></li>
+				<li><a href="javascript:;">中国驰名商标</a></li>
+				<li><a href="javascript:;">农业产业化龙头企业</a></li>
+				<li><a href="javascript:;">农行AAA级信用客户</a></li>
+				<li><a href="javascript:;">国家外伤投资先进企业单位</a></li>
+				<li><a href="javascript:;">最佳信用企业</a></li>
+			</ul>
+			<ul class="list-b">
+				<li class="list-tou"><a href="javascript:;"><i class="foot-b di"></i>联系方式</a></li>
+				<li><a href="javascript:;">业务咨询热线：13701063876</a></li>
+				<li><a href="javascript:;">邮　　　　箱：952511395@qq.com</a></li>
+				<li><a href="javascript:;">座　　　　机：010-83678372</a></li>
+			</ul>
+			<ul class="list-c">
+				<li class="list-tou"><a href="javascript:;"><i class="foot-c di"></i>关注我们</a></li>
+				<li><a href="javascript:;">新浪微博</a></li>
+				<li><a href="javascript:;">腾讯微博</a></li>
+				<li><a href="javascript:;">官方微信</a></li>
+			</ul>
+			<ul class="list-d">
+				<li class="list-tou"><a href="javascript:;"><i class="foot-d di"></i>友情链接</a></li>
+				<li><a href="javascript:;">兴盛邦办公家具</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="foot-bottom fix">
+	<div class="foot-bottom-con">
+		<p>企业地址：北京市丰台区南三环西路纪家庙8号院 （邮编：100071)<br/>
+红叶地毯版权所有  京ICP备11048675号-1 Copyright © 2004-2013 www.hongyedt.com ALL Rights Reserved</p>
+	</div>
+</div>
+<!---底部内容结束--->
+
+<!--底部固定-->
+<div class="foot-fix fix foot_fix_show">
+	<a href="javascript:;">
+		<img src="imgs/fix.png" />
+	</a>
+	<a href="javascript:;">
+		<i class="foot-click foot_click_show"></i>
+	</a>
+</div>
+
+<!--<script type="text/javascript" src="js/jquery.sly.js"></script>-->
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?cc29665f088529d2fb281287362d8074";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>

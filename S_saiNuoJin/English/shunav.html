@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>赛诺金竖导航</title>
+		<link rel="stylesheet" type="text/css" href="css/shunav.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//竖导航
+				$(window).scroll(function(e) {
+					var wT = $(window).scrollTop();
+					if (wT > 500){
+						$('.rig_nav').stop().slideDown(200);	
+					}else{
+						$('.rig_nav').stop().slideUp(300);	
+					}
+				});	
+				$('.rig_nav .list04').click(function(e) {
+					$('body,html').animate({'scrollTop':'0'},500);
+				});
+				
+				//竖导航经过时
+				$('.rig_nav .rig_list01').mouseenter(function(){
+					$(".rig_nav .rig_list01 .list_content").css("display","block");
+				});
+				$('.rig_nav .rig_list01').mouseleave(function(){
+					$('.rig_nav .rig_list01 .list_content').css('display','none');
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<!--竖导航开始-->
+		<div class="rig_nav">
+			<div class="rig_list"><a class="list01" href="javascript:;" target="_blank">QQ</a></div>
+			<div class="rig_list01">
+				<a class="list02" href="javascript:;" target="_blank">电话</a>
+				<div class="list_content">
+					<a href="javascript:;">010-85795623</a>
+				</div>
+			</div>
+			<div class="rig_list"><a class="list03" href="javascript:;" target="_blank">商桥</a></div>
+			<div class="rig_list"><a class="list04" href="#head">回顶部</a></div>
+		</div>
+		<!--竖导航结束-->
+	</body>
+</html>

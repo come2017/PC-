@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>发展历程</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<!-----------头部----------->
+		<div class="header">
+			<div class="header-litter">
+				<ul><li class="poll-li02"><a href="javascript:;"><img src="img/logo.png"/></a></li></ul>
+				<div class="poll-li01">
+					<ul>
+						<li><a href="javascript:;">设为首页</a></li>
+						<li class="poll-li01-xh">|</li>
+						<li><a href="javascript:;">网站地图</a></li>
+						<li class="poll-li01-xh">|</li>
+						<li><a href="javascript:;">关于我们</a></li>
+					</ul>
+					<span class="jison-z01">
+						010-64348673
+						<i>全国服务热线</i>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav-lopper">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="About-Us.html">关于我们</a></li>
+					<li><a href="business.html">主营业务</a></li>
+					<li><a href="partner.html">合作伙伴</a></li>
+					<li><a href="youmeihu.html">优美环境</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a href="talent.html">人才招聘</a></li>
+					<li class="cller-tison"><a href="contert_us.html">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="er_banner fix w100">
+			<img src="img/er_banner.jpg" />
+		</div>
+		<!--contert内容-->
+		<div class="contert04">
+			<div class="postion-litter-poll01">
+				<span class="soliter111 fix">联系我们<i>您当前位置：<a href="javascript:;">主页>联系我们</a></i></span>
+				<div class="soliter-voller01 ma fix">
+					<h1 class="fix">好星餐饮管理有限公司</h1></br>
+					联系人：任经理</br>
+					电话：010-64348673</br>
+					手机：15321111128   18612388886</br>
+					网址：www.haoxin.com</br>
+					邮箱：27643502@.com</br>
+					地址：北京朝阳区金盏嘉园C区二号楼底商111号</br>
+				</div>	
+				<div class="contact-map ma fix">
+			<style type="text/css">
+              #allmap {width: 571px;height:349px;overflow: hidden;margin:0 auto; background-color:#ffffff;margin-top:8px;}
+              #l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+              #r-result{height:100%;width:20%;float:left;}
+            </style>
+          	<script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+          <!-------------地图坐标脚本结束-----------> 
+           	<div id="allmap"></div>
+          	<script type="text/javascript">
+                var map = new BMap.Map("allmap");            // 创建Map实例
+                map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
+                //map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
+                //map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
+                map.enableScrollWheelZoom();                            //启用滚轮放大缩小
+                //map.addControl(new BMap.MapTypeControl());          //添加地图类型控件
+                //map.centerAndZoom("山东",15);                     // 初始化地图,设置中心点坐标和地图级别。
+                
+                //var myEl = this.document.getElementById("mappoint").value;
+                var myEl = "116.558851,40.014259";
+                var myA=myEl.split(",");
+                var point = new BMap.Point(myA[0], myA[1]);
+                //alert(myEl);
+                map.centerAndZoom(point, 15);
+                var marker = new BMap.Marker(point);  // 创建标注
+                map.addOverlay(marker);              // 将标注添加到地图中
+                marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+            </script>    
+            <!--地图-->
+		</div>
+			</div>
+			<!--footer页脚-->
+			<div class="footerr">
+			<div class="footerr-ctter02">
+				<ul>
+					<li class="fot-t01"><a href="javascript:;">网站首页</a></li>
+					<li>|</li>
+					<li><a href="javascript:;">关于我们</a></li>
+					<li>|</li>
+					<li><a href="javascript:;">联系方式</a></li>
+					<li>|</li>
+					<li><a href="javascript:;">网站地图</a></li>
+					<li>|</li>
+					<li><a href="javascrip t:;">食堂承包网</a></li>
+					<li>
+						北京好星餐饮管理有限责任公司-食堂承包官方网站（www.haoxin.com)</br>
+						主营业务：食堂承包、食堂托管、食堂管理、团膳服务、食堂外包、餐饮服务、団膳、团餐、餐饮管理、上海食堂承包、上海食堂托管</br>
+						主要地区：北京、上海、福建、广东等
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</body>
+</html>

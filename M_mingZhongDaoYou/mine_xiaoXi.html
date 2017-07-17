@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">-
+		<title>名众导游</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="headerIn fix">
+				<a class="fl" href="javascript:;"><img class="logo" src="imgs/logo.png"/></a>
+				<ul class="nav fl fix">
+					<li><a href="fengJing.html" target="_blank">风景区</a></li>
+					<li><a href="javascript:;">游乐区</a></li>
+					<li><a href="javascript:;">旅游区</a></li>
+					<li><a href="javascript:;">美食区</a></li>
+					<li><a href="javascript:;">采摘区</a></li>
+					<li><a href="javascript:;">农家乐</a></li>
+					<li><a href="ziXun.html" target="_blank">导游</a></li>
+				</ul>
+				<div class="mine fl fix">
+					<a href="mine_xinXi.html" target="_blank">
+						<img class="headerPic fl" src="imgs/header.png"/>
+						<i>瞧瞧我</i>
+					</a>
+					<span class="phone">400-888-2563</span>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="mineCon fix">
+			<ul class="minCon_left fl">
+				<li><a href="mine_xinXi.html">我的信息</a></li>
+				<li><a href="mine_youJi.html">我的游记</a></li>
+				<li class="cut"><a href="mine_xiaoXi.html">我的消息</a></li>
+				<li><a href="mine_zhangHao.html">账号安全</a></li>
+			</ul>
+			<div class="minCon_right fl">
+				<span class="minTitle">
+					<i>我的消息</i>
+				</span>
+				<div class="mine_date">
+					<span>选择日期：</span>
+					<select name="">
+						<option value="">全部</option>
+						<option value="">全部</option>
+						<option value="">全部</option>
+						<option value="">全部</option>
+					</select>
+				</div>
+				<ul class="mineList">
+					<li>
+						<div class="mineTop fix">
+							<img class="fl" src="imgs/mineHeader01.jpg" width="60" height="60"/>
+							<span class="fl">
+								<i>飞奔的小蜗牛对游记《<a class="c00a" href="javascript:;">以梦为马，悠游泰国华欣</a>》发表了评论</i>
+								<i class="mineDate">2016-06-22&nbsp;&nbsp;16:10</i>
+							</span>
+						</div>
+						<div class="mine_txt">
+							等某人的心昭然若揭，美女矜持点儿，嘻嘻
+						</div>
+						<div class="mine_bottom fix">
+							<div class="txtCon"></div>
+							<div class="mineTxta fix">
+								<textarea name="" rows="6" cols=""></textarea>
+								<span class="fr mine_sub">发布</span>
+							</div>
+							<span class="db fr">
+								<i class="mine_meg">回复</i>
+								<i class="mine_del">删除</i>
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="mineTop fix">
+							<img class="fl" src="imgs/mineHeader02.jpg" width="60" height="60"/>
+							<span class="fl">
+								<i>飞奔的小蜗牛对游记《<a class="c00a" href="javascript:;">以梦为马，悠游泰国华欣</a>》发表了评论</i>
+								<i class="mineDate">2016-06-22&nbsp;&nbsp;16:10</i>
+							</span>
+						</div>
+						<div class="mine_txt">
+							等某人的心昭然若揭，美女矜持点儿，嘻嘻
+						</div>
+						<div class="mine_bottom fix">
+							<div class="txtCon"></div>
+							<div class="mineTxta fix">
+								<textarea name="" rows="6" cols=""></textarea>
+								<span class="fr mine_sub">发布</span>
+							</div>
+							<span class="db fr">
+								<i class="mine_meg">回复</i>
+								<i class="mine_del">删除</i>
+							</span>
+						</div>
+					</li>
+					<script type="text/javascript">
+						$('.mine_meg').click(function(){
+							$(this).closest('.mine_bottom').find('.mineTxta').stop().slideDown(300);
+						});
+						$('.mine_sub').click(function(){
+							var txt = $(this).siblings('textarea').val();
+							$(this).closest('.mine_bottom').find('.txtCon').show().text(txt);
+							$(this).closest('.mine_bottom').find('.mineTxta').hide();
+						})
+					</script>
+				</ul>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="foot">
+			<div class="footIn fix">
+				<div class="footIn_left fl">
+					<div class="footNav fix">
+						<a href="javascript:;">首页</a>
+						<a href="aboutus.html" target="_blank">关于我们</a>
+						<a href="help.html" target="_blank">帮助</a>
+					</div>
+					<div class="foot_txt">
+						北京市朝阳区北三环中路26号浙江大厦710<br />
+						Beijing jiahehongye Science and technology Co ,Ltd<br />
+						北京珈禾宏业科技有限公司 版权所有 2015 京ICP备15034426号-1
+					</div>
+				</div>
+				<div class="footIn_center tac fl">
+					<i class="foot_i01">全国热线</i>
+					<i class="foot_i02">400-111-1222</i>
+					<i class="foot_i03">周一至周日9:00-18:00（仅收市话费）</i>
+					<a href="javascript:;">在线客服</a>
+				</div>
+				<div class="footIn_right tac fr">
+					<span>微信扫二维码加关注</span>
+					<img src="imgs/erWeiMa.png" width="127" height="127"/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

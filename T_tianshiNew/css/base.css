@@ -1,0 +1,112 @@
+/*css reset*/
+body{min-width:1124px;}
+*{margin:0px;padding:0px;font-family:"微软雅黑",arial;font-size:14px;color:#333;}
+ol,ul{list-style:none;}
+em,i,b{font-style:normal;}
+b{font-weight:normal;}
+a,a:hover{text-decoration:none;}
+input{list-style:none;border:none;outline:none;}
+textarea{resize:none;}
+.fix{*zoom:1;}
+.fix:after,.fix:before{display:block;content:".";height:0;clear:both;overflow:hidden;visibility:hidden;}
+img{border:0;}
+h1,h2,h3,h4,h5,h6{font-style:normal;font-weight:normal;}
+
+.w100{width:100%;}
+.w1100{width:1100px;}
+.ma{margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.tar{text-align:right;}
+.tac{text-align:center;}
+.db{display:block;}
+.di{display:inline-block;}
+.prv{position:relative;}
+.cl{clear:both;}
+
+.last{margin-right:0 !important;} 
+
+.fs12{font-size:12px;}
+.c5{color:#555;}
+/*头尾样式*/
+/*头部*/
+.header{
+	width:100%;
+	background:#fff url(../imgs/bg.png) 0 0 repeat-x;
+	height:101px;
+	position:relative;
+	z-index:99;
+}
+.headerIn li{
+	float:left;
+}
+.nav01 li{
+	margin-right:66px;
+}
+.nav02 li{
+	margin-left:66px;
+}
+.headerIn li a{
+	font-size:18px;
+	color:#666666;
+	line-height:98px;
+}
+.headerIn li a:hover{
+	color:#30b8ab;
+}
+.headerIn .cur a{
+	color:#30b8ab;
+}
+.headerIn img{
+	margin-top:10px;
+}
+/*尾部*/
+.footer{
+	background-color:#282828;
+	padding:42px 0px 38px;
+	margin-top:65px;
+}
+.footer01{
+	margin-right:26px;
+}
+.footer01 a{
+	font-size:14px;
+	color:#9c9c9c;
+	line-height:50px;
+}
+.footer02{
+	margin-right:97px;
+}
+.footer03 li,.footer03 li span{
+	font-size:14px;
+	color:#555555;
+	line-height:50px;
+}
+.footer03 span{
+	margin-left:35px;
+}
+.footer03{
+	margin-right:110px;
+}
+.footImg{
+	padding-left:130px;
+	border-left:1px solid #393939;
+}
+.footbottom{
+	border-top:1px solid #393939;
+	padding-top:38px;
+	margin-top:30px;
+}
+.footbottom,.footbottom i{
+	font-size:12px;
+	color:#555555;
+	line-height:26px;
+}
+.footbottom span{
+	display:block;
+	color:#555555;
+	line-height:26px;
+}
+.footbottom .fr{
+	margin-top:5px;
+}

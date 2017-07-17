@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>北京中医疑难病脊柱侧弯治疗中心</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+</head>
+	<body>
+	<!--顶部-->
+	<div class="header w100 bgff di">
+			<div class="headerIN w1200 ma">
+				<div class="logo fl mt30">
+					<a href="javascript:;">
+						<img src="img/logo.png" />
+					</a>
+				</div>
+				<div class="headerR fr">
+					<div class="phone fr cf tac">
+						康复热线：<i>400-660-1865</i>
+					</div>
+					<div class="nav fix">
+						<ul>
+							<li>
+								<a href="index.html">首 页</a>
+							</li>
+							<li>
+								<a href="introduce.html">医院简介</a>
+							</li>
+							<li>
+								<a href="TD_team.html">专家团队</a>
+							</li>
+							<li class="nav_Special prv">
+								<a href="tese.html">特色技术</a>
+								<span></span>
+							</li>
+							<li>
+								<a href="ZL_good.html">治疗优势</a>
+							</li>
+							<li>
+								<a href="kangfu.html">康复案例</a>
+							</li>
+							<li>
+								<a href="question.html">有问必答</a>
+							</li>
+							<li class="nav_cur">
+								<a href="contact_address.html">联系我们</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--中医疑难脊椎侧弯治疗中心—脊柱侧弯病因列表-->
+	<div class="er_banner fix">
+		<img src="img/er_banner01.jpg" />
+	</div>
+	<!--tab-->
+	<div class="cureby_tab contact_tab w1200 ma fix tac prv">
+		<i class="fl"></i>
+		<i class="fr"></i>
+		<ul>
+			<li class="cureby_tab_cur">
+				<a href="javascript:;">地址简介</a>
+			</li>
+			<li>
+				<a href="contact_yuyue.html">在线预约</a>
+			</li>
+		</ul>
+		<a href="javascript:;" class="cureby_fan">
+			<img src="img/fan.jpg" width="71" height="28"/>
+		</a>
+	</div>
+	<!--联系我们  地址简介-->	
+	<div class="contadd_main w1000 ma fix">
+		<div class="cureby_mainTtit tac">
+			<img src="img/contact_img01.png" width="216" height="30"/>
+			<h2>联系我们</h2>
+		</div>
+		<div class="contadd_con tac">
+			<div class="contadd_bus">
+				<span class="fs18 c3 di">北京中医疑难病脊柱侧弯治疗中心</span>
+				<p class="c5">途径公交车：392路、398路、609路、490路、693路、355路公交做到马家沟下车</p>
+			</div>
+			<div class="contass_pic ma mt40">
+				<ul>
+					<li class="fl">
+						<img src="img/contact_img02.png" />
+						<h3>地址</h3>
+						<span>北京市海淀区学清路9号</span>
+					</li>
+					<li class="fr">
+						<img src="img/contact_img04.png" />
+						<h3>E-MAIL</h3>
+						<span>bjjzcw@163.com</span>
+					</li>
+					<li>
+						<img src="img/contact_img03.png" />
+						<h3>电话</h3>
+						<span>010-62533017<br/>4006601865</span>
+					</li>
+				</ul>
+			</div>
+			<div class="contact-map ma mt65 mb80">
+			<style type="text/css">
+              #allmap {width: 1000px;height: 436px;overflow: hidden;margin:0 auto; background-color:#ffffff;margin-top:8px;}
+              #l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+              #r-result{height:100%;width:20%;float:left;}
+            </style>
+          	<script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+          <!-------------地图坐标脚本结束-----------> 
+           	<div id="allmap"></div>
+          	<script type="text/javascript">
+                var map = new BMap.Map("allmap");            // 创建Map实例
+                map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
+                //map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
+                //map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
+                map.enableScrollWheelZoom();                            //启用滚轮放大缩小
+                //map.addControl(new BMap.MapTypeControl());          //添加地图类型控件
+                //map.centerAndZoom("山东",15);                     // 初始化地图,设置中心点坐标和地图级别。
+                
+                //var myEl = this.document.getElementById("mappoint").value;
+                var myEl = "116.35789,40.025469";
+                var myA=myEl.split(",");
+                var point = new BMap.Point(myA[0], myA[1]);
+                //alert(myEl);
+                map.centerAndZoom(point, 15);
+                var marker = new BMap.Marker(point);  // 创建标注
+                map.addOverlay(marker);              // 将标注添加到地图中
+                marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+            </script>    
+            <!--地图-->
+		</div>
+		</div>
+	</div>
+	<!--底部-->
+	<div class="footer w100 fix bgff8">
+		<div class="footerIN w1200 ma fix">
+			<div class="footerR fl">
+				<div class="footerR01 fix">
+					<ul class="footerR_ul fl">
+						<li>
+							<a href="introduce.html">医院简介 </a>
+						</li>
+						<li>
+							<a href="TD_team.html">专家团队</a>
+						</li>
+						<li>
+							<a href="tese.html">特色技术</a>
+						</li>
+						<li>
+							<a href="ZL_good.html">治疗优势</a>
+						</li>
+						<li>
+							<a href="kangfu.html">案例介绍</a>
+						</li>
+						<li>
+							<a href="question.html">有问必答</a>
+						</li>
+						<li>
+							<a href="contact_address.html">联系我们</a>
+						</li>
+					</ul>
+					<dl class="footerR_dl fl">
+						<dt>
+							<i class="footI1 di vam"></i>
+							<span>北京市海淀区学清路9号</span>
+						</dt>
+						<dt>
+							<i class="footI2 di vam"></i>
+							<span>zhongyijzcw@yahoo.com</span>
+						</dt>
+						<dt>
+							<i class="footI3 di"></i>
+							<span>400-660-1865</span>
+						</dt>
+					</dl>
+				</div>
+				<div class="footerR02 fix">
+					<div class="footer_logo fl">
+						<a href="javascript:;">
+							<img src="img/footer-logo.png" />
+						</a>
+					</div>
+					<div class="foot_p fl">
+						<p>北京市中医疑难病脊柱侧弯治疗中心  ®2010版权所有</p>
+						<p>★温馨提示：为了您的身心健康和确保生命财产安全，请一定要到专业、正规医疗机构就医！</p>
+					</div>
+				</div>
+			</div>
+			<div class="footerL fr tac mt15">
+				<img src="img/erweima.png" width="106" height="106"/>
+				<span class="db fs12">扫一扫 关注我们</span>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

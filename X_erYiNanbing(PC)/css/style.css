@@ -1,0 +1,340 @@
+.Csun{
+	width:96px;
+	height:76px;
+	background:url(../imgs/neiye/sun.png) no-repeat;
+	position:absolute;
+	left:-35px;
+	top:-26px;
+}
+.Te_con{
+	padding:34px 59px;
+}
+.Te_con h2{
+	font-size:18px;
+	color:#40e06d;
+	padding-bottom:30px;
+	background:url(../imgs/neiye/birdbg.png) no-repeat right
+	,url(../imgs/neiye/wline.png) no-repeat -15px bottom/contain;
+}
+.Te_con h2 i{
+	font-size:18px;
+	color:#ff9600;
+}
+.Te_con h2 span{
+	color:#a3a3a3;
+	font-size:12px;
+	margin-left:13px;
+	font-weight:normal;
+}
+.Te_txtB h3{
+	margin:20px auto 29px;
+	display:inline-block;
+	padding:18px 69px;
+	background:url(../imgs/neiye/T_quan.png) no-repeat;
+	font-size:18px;
+	color:#8b8b8b;
+}
+.Te_text{
+	font-size:14px;
+	color:#555555;
+	line-height:26px;
+}
+.Te_Img{
+	width:477px;
+	margin:45px auto 25px;
+}
+.Te_Img img{
+	margin:0px 12px;
+}
+.Te_Btbg{
+	margin-bottom:35px;
+}
+.Te_Btcon{
+	margin-bottom:37px;
+}
+.Te_Btcon li{
+	padding:25px 0px;
+	width:24.9%;
+	overflow:hidden;
+	float:left;
+	border-right:1px solid #f2f2f2;
+}
+.Te_BtconL{
+	width:38px;
+	text-align:center;
+	margin-right:18px;
+	margin-left:42px;
+}
+.Te_BtconR{
+	width:175px;
+}
+.Te_BtconR h5{
+	font-size:16px;
+	font-weight:bold;
+	color:#333333;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+.Te_BtconR dl{
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+}
+.Te_BtconR dl dd{
+	
+}
+.Te_BtconR dd a{
+	color:#888;
+	font-size:14px;
+	line-height:30px;
+}
+.Te_BtconR dd a:hover{
+	color:#44cf00;
+	text-decoration:underline;
+}
+/******医院简介******/
+.Yi_con{
+	padding:0px 59px;
+}
+.Yi_con .yi_h2{
+	font-size:18px;
+	color:#40e06d;
+	padding-bottom:30px;
+	background:url(../imgs/neiye/wline.png) no-repeat -15px bottom/contain;
+}
+
+.Yi01img{
+	width: 368px;
+	height: 272px;
+	border: 1px dashed #a2a2a2;
+	padding: 13px;
+}
+.Yi01img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.Yi01txt{
+	margin-left: 34px;
+}
+.Yi01txt p{
+	width: 580px;
+	font-size: 12px;
+	color: #555;
+	line-height:24px;
+	margin-left: 80px;
+	text-indent: 2em;
+}
+
+.Cmr_frUl {
+    width: 1000px;
+    margin: 0 auto;
+    height: 47px;
+}
+
+.Cmr_frUl ul {
+    height: 40px;
+}
+
+.Cmr_frUl li {
+    margin: 0 9px;
+    float: left;
+    width: 107px;
+    height: 42px;
+    display: inline-block;
+}
+
+.Cmr_frUl li a {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    color: #444;
+    text-align: center;
+    display: inline-block;
+    background: url(../imgs/neiye/yipng03.png) 0 0 no-repeat;
+}
+
+.Cmr_frUl .chanpin-cur a {
+    background: url(../imgs/neiye/yipng03_01.png) 0 0 no-repeat;
+    color: #fff;
+    height: 47px;
+}
+
+.Cmr_frBtnL {
+    width: 39px;
+    height: 39px;
+    top: 0;
+    background: url(../imgs/icon/y_chevr_left.png) no-repeat;
+    background-size: contain;
+}
+
+.Cmr_frBtnL:hover, .CPmr_frBtnL:hover {
+    background: url(../imgs/icon/y_chevr_lefton.png) no-repeat;
+    background-size: contain;
+}
+
+.Cmr_frBtnR {
+    width: 39px;
+    height: 39px;
+    top: 0;
+    right: 0px;
+    background: url(../imgs/icon/y_chevr_right.png) no-repeat;
+    background-size: contain;
+}
+
+.Cmr_frBtnR:hover, .CPmr_frBtnR:hover {
+    background: url(../imgs/icon/y_chevr_righton.png) no-repeat;
+    background-size: contain;
+}
+
+.chanpin-tab-con h2{
+	color: #8b8b8b;
+	font-size: 18px;
+	font-weight: bold;
+	background: url(../imgs/neiye/yi_04.png) 0 0 no-repeat;
+	padding: 25px 53px;
+	display: inline-block;
+	position: absolute;
+	top: -30px;
+	left: 40%;
+}
+.chanpin-tab-con h2 i{
+	color: #40e06d;
+	font-size: 18px;
+	font-weight: bold;
+}
+.chanpin-tab-con p{
+	background: url(../imgs/neiye/yi_05.png) 0 0 no-repeat;
+	line-height: 30px;
+	color: #555;
+	padding: 50px 60px;
+}
+
+#gallery{
+	position:relative;
+	width:688px;
+	margin:40px auto 0 auto;
+}
+#pictures{
+	position:relative;
+	height:440px;
+}
+
+#pictures ul li{
+	position:absolute;
+	top:0;left:0;
+}
+#pictures ul li span{
+	/*position: absolute;
+	bottom: 0px;
+	left: 45%;*/
+	display: none;
+}
+#prev a,#next a{
+	position: absolute;
+	top: 100px;
+	width: 88px;
+	height: 175px;
+	cursor: pointer;
+}
+#prev a{
+	background: url(../imgs/icon/y03_l.png);
+	left: -150px;
+}
+#prev a:hover{
+	background: url(../imgs/icon/y03_lon.png);
+}
+#next a{
+	background: url(../imgs/icon/y03_r.png);
+	right: -150px;
+}
+#next a:hover{
+	background: url(../imgs/icon/y03_ron.png);
+}
+
+
+
+.multipleColumn{
+	overflow:hidden;
+	position:relative;
+	width:1100px;
+}
+.multipleColumn .hd ul{
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+}
+.multipleColumn .hd ul li{
+	float: left;
+	width: 22px;
+	height: 22px;
+	background-color: #40e06d;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-right: 8px;
+	text-indent: -9999px;
+}
+.multipleColumn .hd ul .on{
+	border:3px solid #40e06d;
+	background-color: #fff;
+}
+.multipleColumn .bd li{
+	float: left;
+	list-style: none;
+	margin: 0 10px 35px;
+}
+.multipleColumn .bd li .title{
+	line-height: 30px;
+}		
+
+
+
+
+.bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.rongyu {
+    display: none;
+	width: 787px;
+    height: 554px;
+    position: fixed;
+    left: 50%;
+    margin-left: -393px;
+    top: 50%;
+    margin-top: -277px;
+    background-color: #fff;
+    z-index: 1002;
+    text-align: center;
+    padding-bottom: 0px;
+    padding:27px;
+}
+.rongyu dt img {
+    width: 100%;
+    height: 100%;
+}
+.rongyu dd {
+    margin: 26px 0px;
+    text-align: left;
+    font-size: 18px;
+}
+.close {
+    display: block;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    bottom: 24px;
+    right:23px;
+}
+
+
+

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>赛诺金</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/site.css"/>
+		<link rel="shortcut icon" href="snj.ico" />
+		<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//左侧导航点击切换事件
+				$('.shu_navin .list1 a').css({'margin-top':'0px','margin-bottom':'0px'});
+				$('.shu_navin .list1 a').css({'background-image':'none'});
+				$('.shu_navin li.current a').css({'background-image':'url(imgs/icon.png)'});
+				$('.mt80').css({'margin-top':'50px'});
+				
+				$('.nav .li1').hover(function(){
+					$(this).children('ul').css('display','block');
+					$(this).addClass('nav-cur').siblings().removeclass('nav-cur');
+				},function(){
+					$(this).removeClass('nav-cur');
+					$(this).children('ul').css('display','none');
+				});			
+				//竖导航
+	$(window).scroll(function(e) {
+		var wT = $(window).scrollTop();
+		if (wT > 500){
+			$('.rig_nav').stop().slideDown(200);	
+		}else{
+			$('.rig_nav').stop().slideUp(300);	
+		}
+	});	
+	$('.rig_nav .list04').click(function(e) {
+		$('body,html').animate({'scrollTop':'0'},500);
+	});
+	
+	//竖导航经过时
+	$('.rig_nav .rig_list01').mouseenter(function(){
+		$(".rig_nav .rig_list01 .list_content").css("display","block");
+	});
+	$('.rig_nav .rig_list01').mouseleave(function(){
+		$('.rig_nav .rig_list01 .list_content').css('display','none');
+	});
+			})
+			
+		</script>
+	</head>
+	<body>
+<!---头部开始--->	
+<div class="header">
+	<div class="headin max1200 ma ">
+		<div class="logo fl">
+			<a href="javascript:;"><img src="imgs/logo.png"/></a>
+		</div>
+		<div class="headright fr">
+			<div class="headright-top fr">
+				<a href="#" class="color-cur">中文</a>&nbsp;丨&nbsp;
+				<a href="English/index.html">English</a>
+				<span class="di"><i class="phone-con"></i>010-82873936</span>
+				<dl class="di">
+					<dt class="head-dt1"></dt>
+					<dt class="head-dt2"></dt>
+				</dl>
+			</div>
+			<div class="nav fix">
+				<ul>
+					<li class="li1"><a href="index.html">首&nbsp;&nbsp;页</a></li>
+					<li class="li1"><a href="aboutUS_introduction.html">关于我们</a>
+						<ul class="nav2">
+							<li class="li2"><a href="aboutUS_introduction.html">企业简介</a></li>
+							<li class="li2"><a href="aboutUS_value.html">价值体系</a></li>
+							<li class="li2"><a href="aboutUS_service.html">服务优势</a></li>
+							<li class="li2"><a href="aboutUS_linian.html">公司理念</a></li>
+						</ul>
+					</li>
+					<li class="li1"><a href="product_standard.html">产品展示</a>
+						<ul class="nav2">
+							<li class="li2"><a href="product_standard.html">标准件</a></li>
+							<li class="li2"><a href="product_nostandard.html">非标准定制件</a></li>
+							<li class="li2"><a href="javascript:;">机加工零部件</a></li>
+							<li class="li2 erhang"><a href="javascript:;">表面处理&二次加工</a></li>
+						</ul>
+					</li>
+					<li class="li1"><a href="contactUS_lianxi.html">联系我们</a></li>
+					<li class="par0 li1"><a href="job_rec.html" class="nav-cur">招贤纳士</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!---头部结束--->		
+					<!------------------------改变区域------------------------------->
+		<!--banner开始-->
+		<div class="banner_nei">
+			<img src="imgs/neiye/banner4.jpg"/>
+		</div>
+		<!--banner结束-->
+		
+		<!--内容begin-->
+		<div class="pcon">
+			<div class="pconin w1200 ma oh">
+				<div class="fr ">
+					<div class="rig_title oh">
+						<h2 class="fl"><span>招</span>贤纳士</h2>
+						<p class="fr"><a class="home" href="index.html" target="_blank">首页</a> > 招贤纳士</p>
+					</div>
+					<div class="pcontent oh">
+						<div class="recin">
+							<h5>销售代表<span>发布时间:2015-09-09</span></h5>
+							<em>工作地点：中国-北京</em>
+							<em>职位类别：营销</em>
+							<h6>岗位职责：</h6>
+							<p>1、开拓新客户，建立客户良好合作关系<br />2、分析目标市场，发展销售商体系<br />3、根据市场规划，完成公司销售体系目标及个人目标</p>
+							<h6>岗位要求：</h6>
+							<p>1、乐于从事销售服务行业；<br />2、具有良好的沟通表达能力<br />3、专注执行及团队精神，责任心强<br />4、大专及以上学历，1年以上销售经验<br />5、五金行业从业经验优先<br />6、熟练使用常用办公软件</p>
+							<h6 class="cRed recin_h6">招贤邮箱</h6>
+							<p class="cRed">jobs@synoken.com</p>
+							<!--<ul>
+								<li><a href="javascript:;">申请职位</a></li>
+								<li><a href="javascript:;">收藏职位</a></li>
+							</ul>-->
+						</div>
+					</div>
+				</div>
+				<!--左边导航start-->
+				<div class="shu_nav fr">
+					<div class="shu_title tac">
+						<h1>联系我们</h1>
+					</div>
+					<div class="shu_navin">
+						<ul>
+							<li class="list1"><a href="contactUS_lianxi.html" target="_blank">联系方式</a></li>
+							<li class="list1 current"><a href="job_rec.html" target="_blank">招贤纳士</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--左边导航over-->
+				
+			</div>
+		</div>
+		<!--内容end-->
+		
+		<!---底部内容--->
+<div class="foot mt80">
+	<div class="foot-list fix">
+		<ul class="list-a">
+			<li class="list-tou"><a href="aboutUS_introduction.html">关于我们</a></li>
+			<li><a href="aboutUS_introduction.html">企业简介</a></li>
+			<li><a href="aboutUS_value.html">价值体系</a></li>
+			<li><a href="aboutUS_service.html">服务优势</a></li>
+			<li><a href="aboutUS_linian.html">公司理念</a></li>
+		</ul>
+		<ul class="list-b">
+			<li class="list-tou"><a href="product_standard.html">产品展示</a></li>
+			<li><a href="product_standard.html">标准件</a></li>
+			<li><a href="product_nostandard.html">非标准定制件</a></li>
+		</ul>
+		<ul class="list-c">
+			<li class="list-tou"><a href="contactUS_lianxi.html">联系我们</a></li>
+			<li><a href="contactUS_lianxi.html">联系方式</a></li>
+			<li><a href="job_rec.html">招贤纳士</a></li>
+		</ul>
+		<ul class="list-d">
+			<li class="list-tou"><a href="javascript:;">友情链接</a></li>
+			<li><a href="index.html">赛诺金</a></li>
+			<li><a href="javascript:;">天猫</a></li>
+			<li><a href="javascript:;">京东</a></li>
+			<li><a href="javascript:;">五金网</a></li>
+			<li><a href="javascript:;">制造网</a></li>
+		</ul>
+		<ul class="list-e">
+			<li class="list-tou"><a href="javascript:;">联系方式</a></li>
+			<li><a href="javascript:;">地址：北京市通州区永乐经济开发区恒业八街6号院22号楼</a></li>
+			<li><a href="javascript:;">电话：8610-82873936</a></li>
+			<li><a href="javascript:;">官方微信：</a><img src="imgs/in_con21.png"/></li>
+		</ul>
+
+	</div>
+	<div class="foot-bottom fix">
+		<div class="foot-bottom-con">
+			<ul>
+				<li class="fl">北京赛诺金科技发展有限公司  本公司或版权所有人授权发布，侵权必究京ICP备06049229号 京公海网安备110108000142号</li>
+				<li class="fr li2">
+					<dl>
+						<dt><a href="javascript:;">网站地图</a></dt>
+						<dt><a href="javascript:;">人才招聘</a></dt>
+						<dt><a href="javascript:;">法律声明</a></dt>
+					</dl>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!---底部内容结束--->
+<!--竖导航开始-->
+		<div class="rig_nav">
+			<div class="rig_list"><a class="list01" href="javascript:;" target="_blank">QQ</a></div>
+			<div class="rig_list01">
+				<a class="list02" href="javascript:;" target="_blank">电话</a>
+				<div class="list_content">
+					<a href="javascript:;">010-85795623</a>
+				</div>
+			</div>
+			<div class="rig_list"><a class="list03" href="javascript:;" target="_blank">商桥</a></div>
+			<div class="rig_list"><a class="list04" href="#head">回顶部</a></div>
+		</div>
+		<!--竖导航结束-->
+	</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>龙泉春商城双12</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/com.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/awardRotate.js"></script>
+		<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body class="bgffe">
+		<!--头部-->
+		<div class="header w100">
+			<div class="headIn w1000 ma">
+				<h1 class="logo fl">
+					<a href="javascript:;">
+						<img src="imgs/logo.png" />
+					</a>
+				</h1>
+				<ul class="nav fl">
+					<li>
+						<a href="javascript:;">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">洞藏产品</a>
+					</li>
+					<li>
+						<a href="javascript:;">酒庄洞藏</a>
+					</li>
+					<li>
+						<a href="javascript:;">金猴宝</a>
+					</li>
+					<li class="last">
+						<a href="javascript:;">龙泉旅游</a>
+					</li>
+				</ul>
+				<dl class="loginbut fr">
+					<dt>
+						<a href="javascript:;">立即登录</a>
+					</dt>
+					<dt>
+						<a href="javascript:;">立即注册</a>
+					</dt>
+				</dl>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="ZP_banner w100 ma bgffe">
+			<img src="imgs/bigbg01.jpg"/>
+		</div>
+		<!--活动产品-->
+		<div class="ZP_activebg ma w100 bgffe">
+			<div class="ZP_title ma">
+				<h2>活动产品</h2>
+			</div>
+			<div class="ZP_active w1200 ma">
+				<div class="active_con prv di">
+					<a href="javascript:;">
+						<img src="imgs/zp_img01.png" />
+						<span class="act_data ma">锁龙井珍品  20年</span>
+					</a>
+					<dl class="act_laba tac">
+						<dt class="laba_01">剩余19瓶</dt>
+						<dt class="laba_02">￥<i>444</i></dt>
+						<dt class="laba_03">【 限50瓶 】</dt>
+					</dl>
+				</div>
+				<div class="active_con prv di">
+					<a href="javascript:;">
+						<img src="imgs/zp_img02.png" />
+						<span class="act_data ma">锁龙井妙品  30年</span>
+					</a>
+					<dl class="act_laba tac">
+						<dt class="laba_01">剩余19瓶</dt>
+						<dt class="laba_02">￥<i>794</i></dt>
+						<dt class="laba_03">【 限50瓶 】</dt>
+					</dl>
+				</div>
+				<div class="active_con prv di last">
+					<a href="javascript:;">
+						<img src="imgs/zp_img03.png" />
+						<span class="act_data ma">锁龙井御品  50年</span>
+					</a>
+					<dl class="act_laba tac">
+						<dt class="laba_01">剩余19瓶</dt>
+						<dt class="laba_02">￥<i>999</i></dt>
+						<dt class="laba_03">【 限50瓶 】</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<!--购买名单-->
+		<div class="ZP_buybg fix ma w100 bgffe">
+			<div class="ZP_buy ma prv">
+				<div class="ZP_title ma">
+					<h2>购买名单</h2>
+				</div>
+				<div class="topRec_List w100">
+					<div class="record_Top"><p>【荣幸有你 感恩陪伴】</p></div>
+			        <div class="maquee">
+			            <ul>
+			                <li>
+			                    <div><i>张晓清1</i>买了<em>锁龙井妙品 X3</em></div>
+			                    <div>￥2382</div>
+			                    <div>2015-12-12  15：32</div>
+			                    <div>剩余13瓶</div>
+			                </li>
+			                <li>
+			                    <div><i>张晓清2</i>买了<em>锁龙井妙品 X3</em></div>
+			                    <div>￥2382</div>
+			                    <div>2015-12-12  15：32</div>
+			                    <div>剩余13瓶</div>
+			                </li>
+			                <li>
+			                    <div><i>张晓清3</i>买了<em>锁龙井妙品 X3</em></div>
+			                    <div>￥2382</div>
+			                    <div>2015-12-12  15：32</div>
+			                    <div>剩余13瓶</div>
+			                </li>
+			                <li>
+			                    <div><i>张晓清4</i>买了<em>锁龙井妙品 X3</em></div>
+			                    <div>￥2382</div>
+			                    <div>2015-12-12  15：32</div>
+			                    <div>剩余13瓶</div>
+			                </li>
+			                <li>
+			                    <div><i>张晓清5</i>买了<em>锁龙井妙品 X3</em></div>
+			                    <div>￥2382</div>
+			                    <div>2015-12-12  15：32</div>
+			                    <div>剩余13瓶</div>
+			                </li>
+			            </ul>
+			        </div>
+				</div>
+				<div class="ZP_qiang_b tac di w1000">
+    				<a href="javascript:;" class="ZP_qiang di tac cf fs24">立即抢购</a>
+    			</div>
+			</div>
+		</div>
+		<script type="text/javascript"> 
+			  function autoScroll(obj){  
+					$(obj).find("ul").animate({  
+						marginTop : "-39px"  
+					},500,function(){  
+						$(this).css({marginTop : "0px"}).find("li:first").appendTo(this);  
+					})  
+				}  
+				$(function(){  
+					setInterval('autoScroll(".maquee")',3000);
+				}) 		
+		</script>
+		<!--抽奖专区-->
+		<div class="ZP_money fix ma w100 bgffe prv">
+			<div class="ZP_title ma">
+				<h2>抽奖专区</h2>
+			</div>
+				<div class="turntable-bg prv">
+			        <div class="pointer"><img src="imgs/pointer.png" alt="pointer"/></div>
+			        <div class="rotate" ><img id="rotate" src="imgs/turntable.png" alt="turntable"/></div>
+		    	<div class="ZP_money_give">
+		    		<ul class="di tac">
+		    			<li class="li1">剩余</li>
+		    			<li class="li2">2</li>
+		    			<li class="li3">次抽奖机会</li>
+		    		</ul>
+		    	</div>
+		    	<div class="ZP_money_list di">
+		    		<img src="imgs/zp_img10.png" class="vam"/>
+		    		<div class="txtMarquee-top">
+		    			<div class="bd">
+		    				<h3 class="ZP_money_h3 tac">幸运中奖用户</h3>
+		    				<div class="tempWrap">
+		    					<ul class="infoList">
+		    						<li>
+		    							<span>恭喜幸运用户<i>张晓清</i>获得了三等奖</span>
+		    						</li>
+		    						<li>
+		    							<span>恭喜幸运用户<i>张晓清</i>获得了三等奖</span>
+		    						</li>
+		    						<li>
+		    							<span>恭喜幸运用户<i>张晓清</i>获得了三等奖</span>
+		    						</li>
+		    						<li>
+		    							<span>恭喜幸运用户<i>张晓清</i>获得了三等奖</span>
+		    						</li>
+		    						<li>
+		    							<span>恭喜幸运用户<i>张晓清</i>获得了三等奖</span>
+		    						</li>
+		    						<li>
+		    							<span>恭喜幸运用户<i>张晓清</i>获得了三等奖</span>
+		    						</li>
+		    						<li>
+		    							<span>恭喜幸运用户<i>张晓清</i>获得了三等奖</span>
+		    						</li>
+		    					</ul>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+    		</div>
+		</div>
+    	<script type="text/javascript">
+			$(function (){
+			
+				var rotateTimeOut = function (){
+					$('#rotate').rotate({
+						angle:0,
+						animateTo:2160,
+						duration:8000,
+						callback:function (){
+							alert('网络超时，请检查您的网络设置！');
+						}
+					});
+				};
+				var bRotate = false;
+			
+				var rotateFn = function (awards, angles, txt){
+					bRotate = !bRotate;
+					$('#rotate').stopRotate();
+					$('#rotate').rotate({
+						angle:0,
+						animateTo:angles+3600,
+						duration:8000,
+						callback:function (){
+							alert(txt);
+							bRotate = !bRotate;
+						}
+					})
+				};
+			
+				$('.pointer').click(function (){
+			
+					if(bRotate)return;
+					var item = rnd(0,6);
+					switch (item) {
+						case 0:
+							//var angle = [26, 88, 137, 185, 235, 287];
+							rotateFn(0,360, '一等奖');
+							break;
+						case 1:
+							//var angle = [88, 137, 185, 235, 287];
+							rotateFn(1, 300, '谢谢惠顾');
+							break;
+						case 2:
+							//var angle = [137, 185, 235, 287];
+							rotateFn(2, 240, '二等奖');
+							break;
+						case 3:
+							//var angle = [137, 185, 235, 287];
+							rotateFn(3,180, '谢谢惠顾');
+							break;
+						case 4:
+							//var angle = [185, 235, 287];
+							rotateFn(4, 120, '三等奖');
+							break;
+						case 5:
+							//var angle = [185, 235, 287];
+							rotateFn(5,60, '谢谢惠顾');
+							break;
+						
+					}
+			
+					console.log(item);
+				});
+			});
+			function rnd(n, m){
+				return Math.floor(Math.random()*(m-n+1)+n)
+			}
+		</script>
+		<!--活动规则-->
+		<div class="ZP_rulebg fix ma w100 bgffe">
+			<div class="ZP_rule ma prv">
+				<div class="ZP_title ma">
+					<h2>活动规则</h2>
+				</div>
+				<div class="ZP_ruleP ma">
+					<p>
+						一、 抽奖活动基本情况说明：  本次晚会设幸运奖400名，奖金100元/名，由集团各单位共选派10名员工抽取，每人抽取40名；三等奖300名，奖金300元/名，由集团各单位共选派10名员工抽取，每人抽取30名；二等奖100名，奖金500元/名，由集团各单位选派10名员工抽取，每人抽取10名；一等奖2 0名，奖金2000元/名，由集团部分单位共选派5名员工抽取，每人抽取4名；特等奖1名，奖金5000元，由集团董事长刘东风抽取。 						
+					</p>
+					<p>
+						二、抽奖活动规则说明：  为保证本次抽奖活动的公开、公平、公正，现将抽奖有关规则说明如下：  1、抽奖券为本次晚会入场券副券，组委会按照集团各单位截止2012年12月27日在册员工每人1张的原则发放，实际发放抽奖券1550张，本次活动中奖率为53%。  2、组委会设抽奖活动监督员2名，对抽奖券的发放、回收、装箱、现场抽奖、中奖号码公布及兑奖等环节进行全程监督。  3、幸运奖、三等奖产生后，主持人当场宣布部分中奖号码，二等奖、一等奖、特等奖产生后，主持人当场宣布全部中奖号码；所有中奖号码也将同时公布于活动现场公示栏内（中奖号码只公布后4位数，中奖标识为：幸运奖“√” 、三等奖“3” 、 二等奖“2”、一等奖“1”、特等奖“特”
+					</p>
+					<p>
+						三、抽奖活动规则说明：  为保证本次抽奖活动的公开、公平、公正，现将抽奖有关规则说明如下：  1、抽奖券为本次晚会入场券副券，组委会按照集团各单位截止2012年12月27日在册员工每人1张的原则发放，实际发放抽奖券1550张，本次活动中奖率为53%。  2、组委会设抽奖活动监督员2名，对抽奖券的发放、回收、装箱、现场抽奖、中奖号码公布及兑奖等环节进行全程监督。
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- 底部保障 -->
+		<div class="security fix">
+			<div class="Csection">
+				<div>
+					<img src="imgs/footer_ico.jpg" />
+					<i>天下第一洞藏</i>
+				</div>
+				<div>
+					<img src="imgs/footer_ico2.jpg" />
+					<i>7天无条件退货</i>
+				</div>
+				<div>
+					<img src="imgs/footer_ico3.jpg" />
+					<i>正品保障</i>
+				</div>
+				<div>
+					<img src="imgs/footer_ico4.jpg" />
+					<i>媒体报道</i>
+				</div>
+				<div>
+					<img src="imgs/footer_ico5.jpg" />
+					<i class="di">7*24小时<br />售后服务</i>
+				</div>
+			</div>
+		</div>
+		<!-- 底部导航 -->
+		<div class="nav-footer">
+			<div class="Csection section">
+				<dl>
+					<dd>订单服务</dd>
+					<dd><a>购买指南</a></dd>
+					<dd><a>支付方式</a></dd>
+					<dd><a>送货政策</a></dd>
+				</dl>
+				<dl>
+					<dd>服务与支持</dd>
+					<dd><a>售后服务</a></dd>
+					<dd><a>常见问题</a></dd>
+					<dd><a>联系客服</a></dd>
+				</dl>
+				<dl>
+					<dd>关于公司</dd>
+					<dd><a>公司简介</a></dd>
+					<dd><a>品牌介绍</a></dd>
+					<dd><a>加入我们</a></dd>
+				</dl>
+				<dl>
+					<dd>配送方式</dd>
+					<dd><a>包邮政策</a></dd>
+					<dd><a>配送声明</a></dd>
+					<dd><a>发货时间</a></dd>
+					<dd><a>验收签收</a></dd>
+				</dl>
+				<dl>
+					<dd>售后服务</dd>
+					<dd><a>正品承诺</a></dd>
+					<dd><a>售后咨询</a></dd>
+					<dd><a>退货政策</a></dd>
+					<dd><a>退货流程</a></dd>
+					<dd><a>退款方式</a></dd>
+				</dl>
+				<div class="right">
+					<div class="title">关注龙泉春微信</div>
+					<div class="info">
+						<i><img src="imgs/app_logo.jpg" /></i>
+						<div>
+							<i class="red red-big">400</i>
+							<i class="red db">605-2519</i>
+							<i class="grey db">周一至周日<br />0:00~24:00</i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

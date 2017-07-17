@@ -1,0 +1,15 @@
+/**********Englishi**********/
+/*导航*/
+.nav .li1 { line-height: 22px; }
+.nav .nav2 li a { padding-top: 5px; line-height: 22px;  } 
+.nav .li1_E03 .nav2 .li2 a { width: 150px; }
+.nav .li1_E03 .nav2 { left: -27px; }
+.nav .li1_E03 .nav2 .li2_E_01 a { line-height: 55px; }
+
+
+/*底部导航*/
+.foot .foot-list .list-a{margin-right: 3%;}
+.foot .foot-list .list-b{margin-right: 2%;}
+.foot .foot-list .list-c{margin-right: 3%;}
+.foot .foot-list .list-d{margin-right: 1%;}
+

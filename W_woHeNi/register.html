@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我和你</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/w.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			window.onload = function(){oLoadjs();}
+			window.onresize = function(){oLoadjs();}
+			function oLoadjs(){
+				//背景图
+				$('html,body,.R_con').height($(window).height()-34);
+				
+				//文字出现
+				if($('.R_gister li').find('span').hasClass('R_rein')){
+					var num = $(this).index()+2;
+					$('.R_gister li').eq(num).css('margin-top','5px');
+				}else{
+					$('.R_gister li').css('margin-top','20px');
+				}
+				
+				//导航边框
+				$('.R_header .nav_m').eq(0).css('border-left','none');
+				
+				//协议选中选不中
+				$('.H_text').click(function(){
+					if($('.H_text').find('i').hasClass('choose')){
+						$('.H_text').find('i').removeClass('choose');
+						$('.H_text').find('i').addClass('nochoose');
+					}else{
+						$('.H_text').find('i').addClass('choose');
+						$('.H_text').find('i').removeClass('nochoose');
+					}
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<div class="R_headerT">
+			<div class="R_header fix">
+				<a href="index.html" class="fl fix R-homeT"><i class="home fl"></i>我和你首页</a>
+				<div class="navBar">
+					<ul class="nav fix">
+						<li class="nav_m on">
+							<a target="_blank" href="100teamList.html">团体活动</a>
+						</li>
+						<li class="nav_m">
+							<a target="_blank" href="200salonList.html">兴趣沙龙</a>
+						</li>
+						<li class="nav_m">
+							<a target="_blank" href="300huoDongList.html">活动日历</a>
+						</li>
+						<li class="nav_m">
+							<a target="_blank" href="javascript:;">心理咨询</a>
+						</li>
+						<li class="nav_m">
+							<a target="_blank" href="500activity.html">活动墙</a>
+						</li>
+					</ul>
+					<ul class="subNav">
+						<li class="dn">
+							<div class="subNav_li1">
+								<div class="nav_img fl">
+									<img src="imgs/index-01.png" width="139" height="75"/>
+								</div>
+								<div class="nav_mainLI fl">
+									<ul>
+										<li>
+											<a href="javascript:;" target="_blank">亚隆人际</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">职业生涯</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">亲子关系</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">深度交友</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">情感婚姻</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">自我心灵探索</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">舞动团体</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">其他活动</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="dn">
+							<div class="subNav_li1">
+								<div class="nav_img fl">
+									<img src="imgs/index-01.png" width="139" height="75"/>
+								</div>
+								<div class="nav_mainLI fl">
+									<ul>
+										<li>
+											<a href="javascript:;" target="_blank">兴趣沙龙</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">职业生涯</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">亲子关系</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">深度交友</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">情感婚姻</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">自我心灵探索</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">舞动团体</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">其他活动</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="dn">
+							<div class="subNav_li2">
+								<div class="li2_data">
+									<dl class="fix li2_data_bor">
+										<dd class="first_li"><a href="javascript:;"><i class="nav-icon"></i>按时间</a></dd>
+										<dd><a href="javascript:;">全部</a></dd>
+										<dd><a href="javascript:;">最近一周</a></dd>
+										<dd><a href="javascript:;">今天</a></dd>
+										<dd><a href="javascript:;">明天</a></dd>
+										<dd><a href="javascript:;">周末</a></dd>
+									</dl>
+									<dl class="fix">
+										<dd class="first_li"><a href="javascript:;"><i class="nav-icon nav-icon1"></i>按地区</a></dd>
+										<dd><a href="javascript:;">全部</a></dd>
+										<dd><a href="javascript:;">北京</a></dd>
+										<dd><a href="javascript:;">上海</a></dd>
+										<dd><a href="javascript:;">广州</a></dd>
+										<dd><a href="javascript:;">深圳</a></dd>
+										<dd><a href="javascript:;">杭州</a></dd>
+										<dd><a href="javascript:;">天津</a></dd>
+										<dd><a href="javascript:;">南京</a></dd>
+										<dd><a href="javascript:;">成都</a></dd>
+										<dd><a href="javascript:;">厦门</a></dd>
+										<dd><a href="javascript:;">宁波</a></dd>
+										<dd><a href="javascript:;">苏州</a></dd>
+										<dd><a href="javascript:;">武汉</a></dd>
+										<dd><a href="javascript:;">西安</a></dd>
+									</dl>
+								</div>
+								<!--<div class="li2_quyu">
+									
+								</div>-->
+							</div>
+						</li>
+						<li class="dn">
+							<div class="subNav_li1">
+								<div class="nav_img fl">
+									<img src="imgs/index-01.png" width="139" height="75"/>
+								</div>
+								<div class="nav_mainLI fl">
+									<ul>
+										<li>
+											<a href="javascript:;" target="_blank">心理咨询</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">职业生涯</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">亲子关系</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">深度交友</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">情感婚姻</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">自我心灵探索</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">舞动团体</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">其他活动</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="dn">
+							<div class="subNav_li1">
+								<div class="nav_img fl">
+									<img src="imgs/index-01.png" width="139" height="75"/>
+								</div>
+								<div class="nav_mainLI fl">
+									<ul>
+										<li>
+											<a href="javascript:;" target="_blank">活动墙</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">职业生涯</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">亲子关系</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">深度交友</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">情感婚姻</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">自我心灵探索</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">舞动团体</a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank">其他活动</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="R_con tac">
+			<div class="fix w1000 ma">
+				<a href="index.html">
+					<img src="imgs/logo.png" width="224" height="66"/>
+				</a>
+				<div class="R_gister fr tar">
+					<span class="R_gisterTop">已有账号，<a href="javascript:;">去登录>></a></span>
+					<form>
+						<h2>注册</h2>
+						<ul>
+							<li>
+								<label class="R-input01"></label>
+								<input type="text" placeholder="用您的手机号注册"/>
+								<i class="false"></i>
+								<span class="R_rein db">您已注册</span>
+							</li>
+							<li>
+								<label class="R-input01"></label>
+								<input type="text" placeholder="给自己取个昵称"/>
+								<i class="true"></i>
+							</li>
+							<li>
+								<label class="R-input02"></label>
+								<input type="password" placeholder="请设置您的密码"/>
+							</li>
+							<li>
+								<label class="R-input03"></label>
+								<input type="text" placeholder="验证码"/>
+								<a href="javascript:;" class="identify">获取验证码</a>
+							</li>
+						</ul>
+						<span class="H_text"><i class="choose"></i>我已阅读并同意<b class="R_text">服务条款</b>及<b class="R_text">隐私权政策</b></span>
+						<input type="submit" value="确定" class="T_sure"/>
+					</form>
+				</div>
+			</div>
+			<p>地址：北京市海淀区中关村南大街1号 友谊宾馆苏园14单元3层<br />Copyright © 2000-2015 All Rights Reserved  京ICP备08100020号</p>
+		</div>
+	</body>
+</html>

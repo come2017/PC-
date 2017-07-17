@@ -1,0 +1,1111 @@
+/*资讯*/
+.nCon a:hover{color:#289FF3;}
+.nConin{box-shadow:0 0 16px 4px rgba(191,191,191,0.35);}
+.nConin li{background-color:#fff;}
+.nConin li div{padding:26px 0;margin:0 29px 0px 27px;border-bottom:1px solid #dfdfdf;}
+.nConin .ncon_left{width:205px;height:125px;}
+.nConin .ncon_left img{width:100%;}
+.nConin .ncon_right{width:913px;}
+.nConin .ncon_right p{letter-spacing:0.6px;}
+.nConin .ncon_right h2{display:inline-block;}
+.nConin .ncon_right h2:hover,.nConin .ncon_right p:hover,.nConin .ncon_right em:hover{color:#289ff3;}
+
+/*资料库*/
+.zikunav{margin:29px auto 15px;width:1197px;}
+.zikunav li a{display:inline-block;width:171px;height:50px;float:left;text-align:center;line-height:50px;background-color:#289ff3;color:#fff;}
+.lanren_box{width:1152px;margin-left:25px;display:inline-block;}
+.lanren{margin:26px 13px 0px 13px;position:relative;float:left;}
+.lanren dl{border:1px solid #d2d2d2;width:100px;}
+.lanren dl dt{width:100px;height:100px;}
+.lanren dl dd{border-top:1px solid #d2d2d2;font-size:14px;color:#333;width:100px;height:25px;line-height:25px;}
+.lanren dl dd span{display:inline-block;width:79px;text-align:center;float:left;}
+.lanren dl dd em{display:inline-block;float:left;border-left:1px solid #d2d2d2;width:20px;height:25px;overflow:hidden;line-height:25px;text-align:center;background-color:#f0f0f0;/*background-image:url(img/icon.png);background-repeat:no-repeat;background-position:128px 120px;*/}
+.lanren dl dd em img{margin-top:10px;}
+.lanren ul a{display:inline-block;color:#0090ff;text-decoration: none;width: 100px;height: 35px;line-height: 35px;background-color:#fff;}
+.lanren ul a:hover{color:#fff;background-color:#289ff3;}
+.lanren ul li{position:relative;}
+.lanren ul li i{font-size:12px;letter-spacing:-2px;margin-left:2px;color:inherit;}
+.lanren ul{width:100px;height:auto;position:absolute;list-style:none;border:1px solid #d2d2d2;z-index:2;}
+/*二级导航开始*/
+.lanren ul.nav2{left:100px;top:0;display:none;}
+.lanren ul.nav2 li{text-align:center;}
+.lanren ul.nav1 li a{text-align:left;padding-left:13px;}
+.lanren ul.nav1 li a{width:87px;}
+.lanren ul.nav1{left:0px;top:127px;display:none;}
+.lanren dd:hover ul.nav1{display: block;}
+.lanren .nav1 .li1:hover ul.nav2{display:block;}
+/*二级导航结束*/
+
+/*国家图片*/
+.country01 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic01.png) no-repeat center;}
+.country02 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic02.png) no-repeat center;}
+.country03 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic03.png) no-repeat center;}
+.country04 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic04.png) no-repeat center;}
+.country05 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic05.png) no-repeat center;}
+.country06 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic06.png) no-repeat center;}
+.country07 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic07.png) no-repeat center;}
+.country08 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic08.png) no-repeat center;}
+.country09 dl dt{width:100px;height:100px;background:url(../img/neiye/ziliaopic09.png) no-repeat center;}
+
+/******资讯详情页*******/
+.newin{border-top:1px solid #dddddd;
+		border-bottom:1px solid #dddddd;
+		margin:25px auto 30px;width:1140px;
+		padding:40px 0 45px;}
+.newin_table{text-align:center;width:530px;margin:0 auto;}
+.newin_table td{height:49px;line-height:49px;}
+
+/*********战绩排行************/
+.zhanjinav li a{display:inline-block;width:149.5px;}
+.w_table_55px tr{height:55px;line-height:55px;border-bottom:1px #dfdfdf solid;}
+.w_table_55px td{text-align:center;}
+.w_table_55px tr:nth-child(n+2) td:nth-child(2){color:#ff4e00;}
+.w_table_55px i{display:inline-block;width:16px;height:11px;background-color:#ffde00;margin-right:5px;}
+.w_table_55px span{display:inline-block;width:25px;height:14px;background:url(../img/icon.png) no-repeat -310px -82px;}
+.w_table_55px01 tr:nth-child(n+2) td:last-child{color:#289ff3;}
+.w_table_55px input{width:14px;height:14px;}
+
+/**********即时比分***********/
+.jishibifen{
+	height:86px;
+	line-height:86px;
+	margin:28px auto;
+}
+.L_jishibifen{
+	font-size:16px;
+	margin-left:32px;
+}
+.choose b{
+	width:14px;height:14px;
+	border:1px solid #858585;
+	display:inline-block;
+	margin-right:9px;
+	vertical-align: text-bottom;
+}
+.choose .ture{
+	border:1px solid #3399cc;
+	background:url(../img/icon.png) no-repeat -372px -84px;
+}
+.L_jishibifen em{
+	margin-right:30px;
+}
+.R_jishibifen{
+	color:#333;
+	font-size:12px;
+	margin-right:32px;
+}
+.R_jishibifen span{
+	color:#ff6c00;
+}
+.R_jishibifen a{
+	display:inline-block;
+	width:70px;
+	height:21px;
+	text-align:center;
+	line-height:22px;
+	background-color:#299aea;
+	color:#fff;
+	margin-left:10px;
+}
+/*******赛事选择弹出层******/
+.bg{
+	display:none;
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	background-color:rgba(0,0,0,0.5);
+}
+.saishi_con{
+	position:absolute;
+	top:343px;
+	right:357px;
+	width:746px;height:264px;
+	border:#959595 solid 12px;
+	background-color:#fff;
+}
+.saishi_top{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	background-color:#cfe3f2;
+}
+.saishi_top ul{
+	overflow:hidden;
+	margin:0 auto;
+	width:376px;
+}
+.saishi_top li{
+	float:left;
+	margin-right:20px;
+	font-size:16px;
+	color:#1671d8;
+	line-height:50px;
+}
+.saishi_top i{
+	display:inline-block;
+	width:9px;height:9px;
+	border-radius:50%;
+	border:4px solid #fff;
+	box-shadow:0 0 1px #299aea;
+	background-color:#fff;
+	margin-right:5px;
+	vertical-align:text-bottom;
+}
+.saishi_top li:first-child i{background-color:#0095FF;}
+.saishi_center{overflow:hidden;}
+.saishi_center ul{
+	float:left;
+	margin:20px;
+}
+.saishi_center li{
+	margin-bottom:25px;
+}
+.saishi_bottom{text-align:center;margin-top:-10px;}
+.saishi_bottom p{
+	overflow:hidden;
+}
+.saishi_bottom a{
+	display:inline-block;
+	width:70px;height:21px;
+	background-color:#299aea;
+	text-align:center;
+	line-height:21px;
+	color:#fff;
+	margin-right:10px;
+}
+.close{
+	width:49px;height:49px;
+	background-color:#dcdcdc;
+	text-align:center;
+	line-height:49px;
+	color:#222;
+	position:absolute;
+	top:-49px;
+	right:0px;
+	cursor:pointer;
+}
+/*******水心发布-篮球/赛事推荐***********/
+.shui_nav{
+	width:1200px;
+	height:47px;
+	line-height:47px;
+	background-color:#e5f4ff;
+	margin:30px auto 0px;
+}
+.shui_nav ul{
+	float:left;
+}
+.shui_nav li{
+	float:left;
+}
+.shui_nav li a{
+	display:inline-block;
+	width:193px;
+	height:47px;
+	text-align:center;
+	line-height:47px;
+	color:#333;
+	font-size:18px;
+}
+.shui_nav .current a{background-color:#299aea;color:#fff;}
+.shui_nav span{
+	float:right;
+	font-size:14px;
+	color:#299aea;
+	margin-right:15px;
+}
+.shui_con{padding:10px;box-sizing:border-box;}
+.shui_con ul{
+	overflow:hidden;
+	padding:15px;
+	border-bottom:1px dotted #c7c7c7;
+	background-color:#f6f6f6;
+}
+.shui_con ul:last-child{border:none;}
+.shui_con li{float:left;margin-right:20px;}
+.shui_con li a{
+	font-size:14px;
+	color:#1671d8;
+	line-height:30px;
+}
+.shui_con li:first-child a{font-size:16px;color:#333;}
+.shui_con li:nth-child(2) a{
+	display:inline-block;
+	width:47px;height:21px;
+	line-height:21px;color:#fff;
+	background-color:#299aea;
+	text-align:center;
+	margin-top:4px;
+}
+.shui_con ul li input{
+	width:553px;height:31px;
+	line-height:31px;
+	border:1px solid #c7c7c7;
+	background-color:#fff;
+	padding-left:10px;
+}
+.shui_con .cha{
+	display:inline-block;
+	width:71px;
+	height:31px;
+	text-align:center;
+	line-height:31px;
+	color:#fff;
+	background-color:#299aea;
+}
+
+.tuijian{margin-bottom:20px;padding:0px;margin-top:30px;height:265px;}
+.tuijian ul{padding:0px;}
+
+.tuijian > ul{
+	background-color:#fff;
+	padding:30px 15px;
+	overflow:hidden;
+}
+.tuijian > ul:nth-child(n+3){
+	padding-bottom:15px;
+	display:inline-block;
+	overflow: visible;
+	border-bottom:none;
+}
+.tuijian ul li{
+	font-size:16px;
+	color:#333;
+}
+.tuijian > ul:nth-child(n+3) li{margin-right:5px;}
+.tuijian > ul:nth-child(1) li:first-child,.tuijian > ul:nth-child(2) li:first-child{color:#289ff3;}
+.tuijian ul li input{
+	width:245px;
+	height:47px;
+	line-height:47px;
+	font-size:16px;
+	color:#333;
+}
+.tuijian .cha{
+	width:134px;
+	height:49px;
+	line-height:49px;
+	background-color:#3399cc;
+	font-size:16px;
+}
+.tuijian span{
+	font-size:16px;
+	line-height:47px;
+	margin-right:5px;
+}
+.w_table_40px{
+	margin-top:20px;
+}
+.w_table_40px table tr{
+	text-align:center;
+}
+.w_table_40px table tr{background-color:#f6f6f6;}
+.first_tr{
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+}
+.first_tr td{
+	border:1px solid #c7c7c7;
+}
+.first_tr .bor_no{
+	border-right:1px solid #f6f6f6;
+}
+.w_table_40px table tr:nth-child(n+3){
+	height:75px;
+	border-bottom:1px solid #dfdfdf;
+	background-color:#fff;
+}
+.w_table_40px i{
+	display:block;
+	width:47px;
+	height:21px;
+	line-height:21px;
+	text-align:center;
+	color:#fff;
+	background-color:#299aea;
+	margin:5px auto 0px;
+}
+.w_table_40px i:hover{background-color:#f39800;cursor:pointer;}
+.w_table_40px tr:nth-child(n+3) td:nth-child(1),.w_table_40px tr:nth-child(n+3) td:nth-child(6),.w_table_40px tr:nth-child(n+3) td:nth-child(9){
+	color:#ff4e00;
+}
+/*心水发布弹出层*/
+.xinshui_con{
+	position:absolute;
+	left:50%;
+	margin-left:-307.5px;
+	top:50%;
+	margin-top:-257px;
+	right:357px;
+	width:585px;height:484px;
+	border:#959595 solid 12px;
+	background-color:#fff;
+	padding:30px;
+}
+.xinshui_con h2{
+	font-size:18px;
+	color:#00b4ff;
+	line-height:36px;
+}
+.xinshui_con p{
+	font-size:14px;
+	color:#333333;
+	line-height:24px;
+}
+.xinshui_con p i{
+	color:#666666;
+}
+
+/*******赛事推荐-比赛详情********/
+.sCon{
+	margin:28px auto 0px;
+}
+.sCon_left_one{
+	width:209px;
+	height:231px;
+	padding-top:10px;
+}
+.tou{
+	width:141px;
+	height:141px;
+	margin:0 auto;
+	background-color:#f8f8f8;
+	background-image:url(../img/neiye/logo02.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-23px auto 0px;
+	border:6px solid #fff;
+}
+.sCon_left_one h3{
+	font-size:16px;
+	color:#333;
+	line-height:52px;
+}
+.sCon_left_one a{
+	font-size:14px;
+	display:inline-block;
+	width:143px;
+	height:34px;
+	line-height:34px;
+	text-align:center;
+	color:#fff;
+	background-color:#299aea;
+}
+.sCon_left_two h4{
+	width:199px;
+	height:47px;
+	line-height:47px;
+	background-color:#e5f4ff;
+	padding-left:10px;
+}
+.shuju{
+	width:189px;
+	padding:15px 10px;
+}
+.sCon_left_two ul{
+	overflow:hidden;
+	line-height:35px;
+}
+.sCon_left_two li{
+	float:left;
+	margin-left:10px;
+}
+.sCon_left_two li:first-child{
+	margin-bottom:1px;
+}
+.sCon_right{
+	width:964px;
+}
+.sCon_right ul{
+	overflow:hidden;
+	width:100%;
+}
+.sCon_right li{
+	width:20%;
+	float:left;
+}
+.sCon_right li a{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	height:47px;
+	line-height:47px;
+	color:#333;
+	background-color:#e5f4ff;
+	font-size:18px;
+}
+.sCon_right .cut a{
+	background-color:#299aea;
+	color:#fff;
+}
+.sai_table{
+	padding:15px 15px 60px;
+}
+.sai_table01 table tr{
+	height:45px;
+	line-height:45px;
+	border:1px solid #e2e2e2;
+}
+.sai_table01 table tr td{
+	padding:0 10px;
+}
+.sai_table01 table tr td:nth-child(1),.sai_table01 table tr td:nth-child(3){
+	background-color:#f6f6f6;
+	text-align:right;
+}
+.sai_table01 a{
+	float:left;
+	display:inline-block;
+	width:71px;
+	height:34px;
+	line-height:34px;
+	text-align:center;
+}
+.sai_table01 .chong{
+	background-color:#f39800;
+}
+.sai_table01 .mai{
+	background-color:#ea2e29;
+}
+.title_blue{
+	font-size:18px;
+	line-height:0px;
+	margin:48px 0 20px;
+}
+.title_blue b{
+	vertical-align:text-bottom;
+	display:inline-block;
+	width:5px;
+	height:20px;
+	background-color:#299aea;
+	margin-right:8px;
+}
+.sai_table02 table tr{
+	border-bottom:1px solid #e2e2e2;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+}
+.sai_table02 table tr:nth-child(1){
+	background-color:#f6f6f6!important;
+	border-bottom:none;
+}
+.sai_table_lishi{
+	padding:15px 15px 0px;
+}
+.sai_table_lishi .sai_table02 table tr{
+	height:58px;
+	line-height:58px;
+}
+.sai_table_lishi em{
+	font-size:18px;
+}
+.sai_table_lishi h6{
+	font-size:14px;
+	color:#666;
+	margin:32px 0px;
+}
+
+/****战绩统计*****/
+.w_tou{
+	width:677px;
+	/*height:112px;*/
+	background-color:#fffad6;
+	background-image:url(../img/neiye/mine_bg01.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	margin:12px auto 17px;
+	padding:19px 0px 19px 265px;
+}
+.w_tou div{
+	font-size:14px;
+	color:#696868;
+	line-height:30px;
+}
+.w_tou >div{
+	margin-bottom:5px;
+}
+.w_tou span{
+	color:#299aea;
+}
+.w_tou em{
+	color:#f39800;
+	font-size:30px;
+	margin-right:25px;
+}
+
+/********即时比分*********/
+.jishi_con{
+	padding:15px;box-sizing:border-box;
+	margin:25px auto 20px;
+}
+.jishi_con ul{
+	overflow:hidden;
+}
+.jishi_con li{
+	float:left;
+}
+.jishi_con li a{
+	font-size:12px;
+	line-height:30px;
+	color:#333333;
+	padding:0px 17px;
+	border-right:1px solid #bab8b8;
+}
+.jishi_con li:nth-child(1) a{
+	color:#289FF3;
+	border-right:none;
+	padding:0px;
+}
+.jishi_con li:last-child a{
+	border-right:none;
+}
+.js_qiu01_left{
+	height:113px;
+	padding:30px 5px;
+	margin-right:8px;
+}
+.js_qiu01_left dl{
+	overflow:hidden;
+}
+.js_qiu01_left a{
+	display:inline-block;
+	text-align:center;
+	margin-right:5px;
+}
+.js_qiu01_left dt{
+	width:74px;
+	height:65px;
+	border-right:1px solid #ff6600;
+}
+.js_qiu01_left dd{
+	font-size:12px;
+	color:#333;
+	line-height:52px;
+}
+.js_qiu01_left a:hover dd{
+	color:#289FF3;
+	text-decoration:underline;
+}
+.js_qiu01_center{
+	background-color:#e3f3ff;
+	height:173px;
+}
+.js_qiu01_center h1{
+	font-size:19px;
+	color:#289ff3;
+	margin:20px 20px 10px 20px;
+}
+.js_qiu01_center span{
+	font-size:18px;
+	color:#585858;
+	margin:0px 20px;
+}
+.js_qiu01_center h2{
+	font-size:86px;
+	color:#289ff3;
+	margin:0px 20px;
+	line-height:85px;
+}
+.js_qiu01_right{
+	width:421px;
+	height:173px;
+}
+.js_qiu02{
+	margin:20px auto 0px;
+}
+.js_qiu02_left{
+	width:233px;
+}
+.js_qiu02_left h3{
+	width:218px;
+	height:52px;
+	line-height:52px;
+	padding-left:15px;
+	background-color:#e5f4ff;
+}
+.js_qiu02_left li{
+	border-bottom:1px solid #f2f2f2;
+
+}
+.js_qiu02_left a{
+	display:block;
+	width:218px;
+	height:52px;
+	line-height:52px;
+	font-size:14px;
+	color:#5b5b5b;
+	background-color:#fff;
+	padding-left:15px;
+}
+.js_qiu02_left a:hover{
+	color:#289FF3;
+}
+.js_qiu02_right{
+	width:958px;
+}
+.js_qiu02_right > ul{
+	height:52px;
+	width:100%;
+	background-color:#e5f4ff;
+}
+.js_qiu02_right > ul li{
+	float:left;
+}
+.js_qiu02_right > ul li a{
+	font-size:18px;
+	display:inline-block;
+	padding:0px 25px;
+	height:52px;
+	line-height:52px;
+	color:#289ff3;
+}
+.js_qiu02_right .cblue a{
+	color:#fff;
+	background-color:#299aea;
+}
+.js_table02 table tr{
+	text-align:left;
+}
+.js_table02 table tr td{
+	padding-left:20px;
+}
+.js_table02 table tr td:nth-child(2){
+	text-align:center;
+}
+.cf3{color:#f39800;}
+.js_table03 .qiu_a{
+	text-decoration:underline;
+}
+.js_table03 .qiu_a:hover{
+	color:#f39800;
+	text-decoration:underline;
+}
+.qiu_text01{
+	font-size:14px;
+	color:#666;
+	line-height:30px;
+	padding:0px 15px;
+}
+.js_table01{
+	border-bottom:1px solid #ededed;
+}
+.js_table01 table { table-layout:fixed; }
+/*.St-table table td {word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }*/
+.js_table01 table td {text-overflow: ellipsis;
+					word-berak:break-all; 
+					word-wrap:break-word; 
+					-o-text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+					/*padding: 2px;*/
+}
+/*.js_table01 table td:hover { overflow:visible; white-space:normal; word-wrap: break-word;}*/ 
+.bdr-f2{
+	border-right:1px solid #F2F2F2;
+}
+.C-ming{
+	font-size:16px;
+	color:#333;
+	line-height:24px;
+}
+.E-ming{
+	font-size:12px;
+	color:#a9a9a9;
+	line-height:24px;
+}
+.C-enter{
+	letter-spacing:0.2px;
+}
+.C-enter01{
+	font-size:14px;
+	color:#7f7f7f;
+	line-height:48px;
+	padding-left:30px;
+	box-sizing:border-box;
+}
+.C-enter02{
+	font-size:14px;
+	color:#3a3a3a;
+	line-height:48px;
+}
+.B-ehind{
+	width:76px;
+	border:1px solid #e4e1e1;
+	border-top:3px solid #3399cc;
+	text-align:center;
+}
+.B-ehind h6{
+	font-size:40px;
+	line-height:60px;
+	color:#3399cc;
+}
+.B-ehind span,.B-ehind b{
+	display:block;
+	border-top:1px solid #e4e1e1;
+	font-size:12px;
+	line-height:24px;
+	color:#3399cc;
+}
+.B-ehind b{
+	font-weight:normal;
+	border-top:none;
+}
+.R-first .B-ehind{
+	margin-left:40px;
+}
+.R-second .B-ehind{
+	margin:0 auto;
+}
+/******彩出未来—赛事-希腊杯******/
+.S-tou{
+	width:100%;
+	padding:20px 0px;
+	line-height:56px;
+}
+.S-tou img{
+	margin:0px 20px;
+	float:left;
+}
+.S-tou span{
+	float:left;
+}
+.ti24{text-indent:24px;}
+.TF-ao{margin:24px 0px 34px;}
+.TF-ao a{
+	display:inline-block;
+	width:133px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border:1px solid #c8e5f8;
+	background-color:#f3fbff;
+	color:#299aea;
+	margin-right:8px;
+}
+.TF-ao .dang{
+	border:1px solid #3399cc;
+	background-color:#3399cc;
+	color:#fff;
+}
+.J-sai{
+	width:100%;
+	border-bottom:2px solid #c9c9c9;
+}
+.J-sai a{
+	display:block;
+	float:left;
+	width:83px;
+	height:29px;
+	border:2px solid #c9c9c9;
+	border-bottom:none;
+	line-height:29px;
+	text-align:center;
+	color:#7b7b7b;
+	font-size:14px;
+	margin-right:-1px;
+}
+.J-sai .current{
+	background-color:#e5f4ff;
+	color:#299aea;
+}
+.Xin{
+	text-decoration:underline;
+}
+.Xin:hover{
+	color:#289FF3;
+	text-decoration:underline;
+}
+.S-table01{
+	margin:0px;
+	
+}
+.S-table01 tr td{
+	font-size:16px;
+}
+
+.W_sai_show{
+	background:url(../img/neiye/sai-sanjiao02.png) 185px center no-repeat;
+}
+.W_sai_hide{
+	background:url(../img/neiye/sai-sanjiao01.png) 185px center no-repeat;
+}
+.W_sai_L{
+	width: 233px;
+}
+.W_sai_L dl {
+	
+}
+.W_sai_L dl dt{
+	line-height: 52px;
+	background-color: #e5f4ff;
+	padding-left: 14px;
+	font-size: 18px;
+	color: #289ff3;
+}
+.W_sai_L dl dt.Cfoot-click{
+	cursor:pointer;
+}
+
+.W_sai_L dl dd ul{
+	background-color: #fff;
+}
+.W_sai_L dl dd ul li a{
+	line-height:52px;
+	border-bottom: 1px solid #efefef;
+	padding-left: 14px;
+	display:block;
+	color: #5b5b5b;
+}
+.W_sai_L dl dd ul li a:hover{
+	color: #289ff3;
+}
+.W_sai_L dl dd ul li .Cfooter-cur{
+	color: #289ff3;
+}
+/**********即时比分-析************/
+.js_xin01{
+	margin:10px auto 40px;
+	padding:10px 0px;
+}
+.js_xin01 table{
+	text-align:center;
+}
+.js_xin01 table { table-layout:fixed; }
+/*.St-table table td {word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }*/
+.js_xin01 table td.js_text02 {text-overflow: ellipsis;
+					word-berak:break-all; 
+					word-wrap:break-word; 
+					-o-text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+}
+.js_xin01 img{
+	margin:10px auto;
+}
+.js_xin01 span{
+	color:#ff4600;
+	line-height:25px;
+}
+.js_xin01 em{
+	color:#4d4d4d;
+	line-height:25px;
+}
+
+.js_text01{
+	border-left:1px solid #efefef;
+	color:#7f7f7f;
+	font-size:14px;
+	line-height:40px;
+	text-align:right;
+}
+.js_text02{
+	border-right:1px solid #efefef;
+	text-align:left;
+	font-size:14px;
+	line-height:40px;
+	color:#3a3a3a;
+}
+.js_xinav{
+	width:1200px;
+	margin:0 auto 10px;
+}
+.js_xinav li{
+	float:left;
+	width:16.667%;
+}
+.js_xinav li a{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	background-color:#e5f4ff;
+	color:#289ff3;
+	line-height:52px;
+	font-size:18px;
+}
+.js_xinav .dang a{
+	background-color:#289FF3;
+	color:#fff;
+}
+.js_xincon h3{
+	width:100%;
+	text-align:center;
+	line-height:52px;
+	font-size:18px;
+	background-color:#e9e9e9;
+	margin-top:10px;
+}
+.js_xintab01 td{
+	line-height:38px;
+	border:1px solid #e0e0e0;
+	border-top:none;
+	text-align:center;
+}
+.js_xintab01 table{
+	color:#7d7d7d;
+	border:none;
+}
+.js_xintab01 .dashed{
+	border-bottom:1px dashed #e0e0e0;
+}
+.js_xintab01 span{
+	width:17px;
+	height:17px;
+	margin:0 auto;
+	display:block;
+}
+.js_xintab01 a{
+	margin:0 5px;
+}
+.js_xintab02{
+	margin-bottom:30px;
+}
+.js_xintab02 table{
+	text-align:center;
+}
+.js_xintab02 thead{
+	line-height:52px;
+}
+.js_xintab02 thead tr:nth-child(2) td{
+	border:1px solid #cccccc;
+	border-top:1px solid #999999;
+}
+.js_xintab02 tbody{
+	color:#7d7d7d;
+	line-height:36px;
+}
+.js_xintab02 tbody td{
+	border:1px solid #cccccc;
+	border-bottom:none;
+}
+.js_xintab02 td:first-child,.js_xintab02 thead tr:nth-child(2) td:first-child{
+	border-left:none;
+}
+.js_xintab02 td:last-child,.js_xintab02 thead tr:nth-child(2) td:last-child{
+	border-right:none;
+}
+
+.js_fnav{
+	padding-top:20px;
+	padding-bottom:17px;
+}
+.js_f01{
+	margin-left:15px;
+	margin-right:25px;
+}
+.js_f01 li,.js_f02 li{
+	float:left;
+	margin-right:10px;
+}
+.js_f01 li a{
+	display:block;
+	width:134px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	background-color:#f3fbff;
+	color:#289FF3;
+	border:1px solid #c8e5f8;
+}
+.js_f01 .dang a{
+	background-color:#3399cc;
+	color:#fff;
+	border:1px solid #3399cc;
+}
+.js_f02 li span{
+	line-height:32px;
+}
+.js_f02 li em{
+	color:#ff0000;
+	line-height:32px;
+}
+.js_xintab03 table{
+	text-align:center;
+}
+.js_xintab03 td{
+	line-height:37px;
+	border:1px solid #e5e5e5;
+}
+.js_xintab03 td:first-child{
+	border-left:none;
+}
+.js_xintab03 td:last-child{
+	border-right:none;
+}
+.js_xintab03 .js_xinul{
+	width:222px;
+	margin:6px auto;
+}
+.js_xintab03 span{
+	display:block;
+	width:17px;
+	margin:0 auto;
+	height:17px;
+	line-height:17px;
+	text-align:center;
+	color:#fff;
+}
+.js_xintab04{
+	margin-top:10px;
+	padding-top:20px;
+	padding-bottom:1px;
+}
+.js_xintab04 table{
+	margin-bottom:30px;
+}
+.js_xintab04 table tr td:first-child{
+	text-align:center;
+}
+.js_xintab04 span{
+	margin-right:20px;
+}
+.js_xintab05{
+	margin-top:10px;
+	padding-top:25px;
+}
+.js_xintab06{
+	margin-bottom:0px;
+}
+.js_xintab07{
+	padding:15px 0px;
+}
+.js_xintab08 table{
+	text-align:center;
+	background-color:#fff;
+}
+.js_xintab08 td{
+	line-height:37px;
+	border:1px solid #e5e5e5;
+}
+.js_xintab08 td:first-child{
+	border-left:none;
+}
+.js_xintab08 td:last-child{
+	border-right:none;
+}
+.js_xintab08 table tr:nth-child(1) td,.js_xintab08 table tr:nth-child(2) td{
+	color:#333;
+}
+.js_xintab09 table{
+	text-align:center;
+	background-color:#fff;
+}
+.js_xintab09 td{
+	line-height:37px;
+	border:1px solid #e5e5e5;
+	color:#333;
+}
+.js_xintab09 td:first-child,.js_xintab01 td:first-child{
+	border-left:none;
+}
+.js_xintab09 td:last-child,.js_xintab01 td:last-child{
+	border-right:none;
+}
+.js_xintab09 tr:last-child td{
+	border-bottom:none;
+}
+
+

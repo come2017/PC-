@@ -1,0 +1,330 @@
+/***************首页************************/
+/******banner*****/
+.index-banner {
+	margin-top: -10px;
+}
+.banner {
+	width: 100%;
+	height: 592px;
+	overflow: hidden;
+	position: relative;
+}
+.banner ul {
+	width: 100%;
+	z-index: 1;
+	height: 592px;
+}
+.banner ul li {
+	position: absolute;
+	margin-left: 50%;
+}
+.banner ul li img {
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	width: 1920px;
+}
+.banner ol {
+	position: absolute;
+	bottom: 46px;
+	margin-left: 50%;
+	z-index: 999;
+}
+.banner ol li {
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/index-cur.png) 0 0 no-repeat;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.banner ol .current {
+	background: url(../imgs/index-cur-on.png) 0 0 no-repeat;
+	float: left;
+	margin-right: 10px;
+}
+
+
+/******主要业务*****/
+.index-er-tit{
+	width:400px;
+}
+.index-business{
+	padding: 63px 0 59px 0;
+}
+.Cbusin-main ul li{
+	width: 264px;
+	border: 1px solid #e9e9e9;	
+	float: left;
+	margin-right: 45px;
+}
+.Cbusin-main ul li .li-top{
+	text-align: center;
+	background-color: #f9f9f9;
+	padding: 57px 0 38px 0;
+	border-bottom: 1px #e9e9e9 solid;
+}
+.Cbusin-main ul li .li-top em{
+	color:#a6a2a2;
+	display: block;
+	margin: 25px 0 3px 0;
+}
+.Cbusin-main ul li .li-top p{
+	color: #67abe7;
+	font-weight: bold;
+	font-size: 18px;
+}
+.Cbusin-main ul li .li-top img{
+	height: 100px;
+}
+.Cbusin-main ul li dl{
+	text-align: center;
+	background-color: #f9f9f9;
+	padding: 22px 0 17px 0;
+}
+.Cbusin-main ul li dl dt{
+	line-height: 24px;
+}
+.Cbusin-main ul li dl dt a{
+	color: #888;
+}
+.Cbusin-main ul li dl dt a:hover{
+	text-decoration: underline;
+	color: #ff7200;
+}
+.busin-more{
+	color: #fff;
+	font-size: 12px;
+	background:#67abe7 url(../imgs/Cimg05.png) 160px center no-repeat;
+	width:266px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	margin-left: -1px;
+}
+.busin-more:hover{
+	background-color:#ff7200;
+}
+
+/******项目展示*****/
+.itemsBG{
+	background-color: #f3f2f7;
+}
+.items{
+	padding: 60px 0;
+}
+.items-A{
+	width: 81px;
+	height: 25px;
+	text-align: center;
+	background-color:#ff7200;
+	line-height: 27px;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+    margin-left: 252px;
+    margin-top: 10px;
+}
+#multipleColumn{
+	position: relative;
+	width:1200px;
+}
+.items .next{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: url(../imgs/chevron-small-left.png) 0 0 no-repeat;
+	cursor: pointer;
+	position: absolute;
+    top: 292px;
+    left:0px;
+}
+.items .next:hover{
+	background: url(../imgs/chevron-red-left.png) 0 0 no-repeat;
+}
+.items .prev{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: url(../imgs/chevron-small-right.png) 0 0 no-repeat;
+	cursor: pointer;
+	position: absolute;
+    top: 292px;
+    right: 0px;
+}
+.items .prev:hover{
+	background: url(../imgs/chevron-red-right.png) 0 0 no-repeat;
+}
+.items .bd{
+	width: 1110px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.items .bd dl{
+	margin:45px 20px 0px;;
+}
+
+.picList dd{
+	margin:0;
+	background-color: #fff;
+	padding: 5px 0;
+	
+}
+
+
+/*******************指挥中心***********************/
+.zhihui-one{
+	margin: 0 auto;
+	margin-top: 68px;
+}
+.zhihui-one ul li{
+	float: left;
+	margin-right: 82px;
+}
+.zhihui-one ul li a{
+	width: 191px;
+	height: 52px;
+	display: inline-block;
+	line-height: 52px;
+	text-align: center;
+	background-color: #ffae00;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+
+/*******************城市规划***********************/
+.guihua-con1{
+	background-color: #f2f2f2;
+	width: 1132px;
+	text-align: center;
+	padding: 30px 0;
+}
+.guihua-con1 h3{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+.guihua-con1 dl dt{
+	float: left;
+	margin-right: 75px;
+}
+.guihua-con1 dl dt a{
+	width: 102px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	background-color: #2b2883;
+	color: #fff;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.guihua-con1 ul li{
+	float: left;
+	margin-right: 40px;
+}
+.guihua-con1 ul li a{
+	min-width: 56px;
+	padding: 6px 8px;
+	min-height: 38px;
+	display: inline-block;
+	text-align: center;
+	background-color: #ffffff;
+	color: #181819;
+	font-size: 14px;
+}
+.guihua-con1 ol li{
+	float: left;
+	margin-right: 40px;
+}
+.guihua-con1 ol li a{
+	width: 110px;
+	height:40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	background-color: #ffffff;
+	color: #181819;
+	font-size: 14px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.guihua-con2 ul li{
+	float: left;
+	margin-right: 90px;
+}
+.guihua-con2 ul li a{
+	width:250px;
+	height: 73px;
+	line-height: 73px;
+	display: inline-block;
+	text-align: center;
+	background-color: #ffae00;
+	color: #fff;
+	font-size: 14px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.guihua-con2 ul li:nth-child(2) a{
+	background-color: #00c0ff;
+}
+.guihua-con3 dl dt a{
+	width: 122px;
+	height: 55px;
+	display: inline-block;
+	color: #fff;
+	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius:0;
+	line-height: 65px;
+}
+.guihua-con3 dl dt{
+	margin-right: 50px;
+}
+.guihua-con3 dl .zh-dt1 a{
+	background: url(../imgs/neiye/zhihui-imga.png) 0 0 no-repeat;
+}
+.guihua-con3 dl .zh-dt2 a{
+	background: url(../imgs/neiye/zhihui-imgb.png) 0 0 no-repeat;
+}
+.guihua-con3 dl .zh-dt3 a{
+	background: url(../imgs/neiye/zhihui-imgc.png) 0 0 no-repeat;
+}
+.guihua-con3 dl .zh-dt4 a{
+	background: url(../imgs/neiye/zhihui-imgd.png) 0 0 no-repeat;
+}
+.guihua-con4{
+	background-color: #f2f2f2;
+	width: 1132px;
+	text-align: center;
+	padding: 30px 0;
+}
+.guihua-con4 h3{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+.guihua-con4 ul li{
+	float: left;
+	margin: 0 25px;
+}
+.guihua-con4 ul li img{
+	margin: 0 auto;
+}
+.guihua-con4 ul li p{
+	color: #181819;
+	margin-top: 10px;
+}
+
+
+
+
